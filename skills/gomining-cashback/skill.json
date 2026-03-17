@@ -1,0 +1,24 @@
+{
+  "name": "gomining-cashback",
+  "description": "Cashback system — TH/s mining power rewards from Card spending and Travel bookings by VIP tier",
+  "triggers": [
+    "cashback",
+    "cashback rates",
+    "cashback percentage",
+    "card cashback",
+    "cashback in th",
+    "th cashback",
+    "th reward",
+    "earn th",
+    "mining power reward",
+    "mining power cashback",
+    "cashback miner",
+    "cashback formula",
+    "travel cashback",
+    "hotel cashback",
+    "booking cashback",
+    "card spending reward"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

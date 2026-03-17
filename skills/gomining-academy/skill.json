@@ -1,0 +1,23 @@
+{
+  "name": "gomining-academy",
+  "description": "Educational platform, courses (GoMining Basics, Bitcoin & Mining), 79+ articles, product guides, certificates",
+  "triggers": [
+    "gomining academy",
+    "courses",
+    "learn about mining",
+    "education",
+    "articles",
+    "certificates",
+    "bitcoin course",
+    "mining course",
+    "how bitcoin works",
+    "mining basics",
+    "crypto education",
+    "gomining course",
+    "mining tutorial",
+    "learn gomining",
+    "certificate"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

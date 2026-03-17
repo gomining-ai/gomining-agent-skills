@@ -1,0 +1,33 @@
+{
+  "name": "gomining-card",
+  "description": "GoMining Card — virtual debit card, supported crypto (GOMINING/BTC/USDT/USDC), KYC Level 1+2, eligibility by region, ATM usage, exchange rates, card issuance",
+  "triggers": [
+    "gomining card",
+    "crypto card",
+    "debit card",
+    "kyc requirements",
+    "card eligibility",
+    "crypto payments",
+    "card issuance",
+    "card activation",
+    "card balance",
+    "card top up",
+    "pin code",
+    "set pin",
+    "my pin",
+    "own pin",
+    "card pin",
+    "change pin",
+    "card payment",
+    "virtual card",
+    "physical card",
+    "apple pay",
+    "google pay card",
+    "atm withdrawal",
+    "3ds password",
+    "card fees",
+    "card security"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

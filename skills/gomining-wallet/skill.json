@@ -1,0 +1,33 @@
+{
+  "name": "gomining-wallet",
+  "description": "Crypto wallet — supported assets (BTC/GMT/USDT/USDC/ETH/BNB/SOL/TON), deposits, withdrawals, Fireblocks, limits",
+  "triggers": [
+    "wallet",
+    "virtual wallet",
+    "deposit",
+    "deposit crypto",
+    "withdrawal",
+    "withdraw",
+    "send crypto",
+    "receive crypto",
+    "wallet balance",
+    "crypto transfer",
+    "transfer crypto",
+    "supported assets",
+    "network fees",
+    "withdrawal fee",
+    "minimum deposit",
+    "minimum withdrawal",
+    "withdrawal limits",
+    "processing time",
+    "btc withdrawal",
+    "usdt withdrawal",
+    "usdc withdrawal",
+    "eth withdrawal",
+    "sol withdrawal",
+    "ton withdrawal",
+    "fireblocks"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

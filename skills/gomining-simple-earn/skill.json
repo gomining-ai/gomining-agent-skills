@@ -1,0 +1,28 @@
+{
+  "name": "gomining-simple-earn",
+  "description": "Simple Earn — passive BTC interest on crypto balances, snapshot-based rewards, no lockup, yield sources",
+  "triggers": [
+    "simple earn",
+    "earn interest",
+    "passive income",
+    "yield",
+    "earn BTC",
+    "btc interest",
+    "bitcoin interest",
+    "earn on crypto",
+    "earn apr",
+    "simple earn apr",
+    "simple earn rewards",
+    "earn usdt",
+    "earn usdc",
+    "no lockup",
+    "flexible earn",
+    "auto compound",
+    "simple earn eligibility",
+    "simple earn minimum",
+    "snapshot time",
+    "reward cycle simple earn"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

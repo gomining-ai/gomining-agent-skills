@@ -1,0 +1,25 @@
+{
+  "name": "gomining-vip",
+  "description": "VIP loyalty program — tiers (Bronze to Elite), hashrate/veGOMINING thresholds, maintenance discounts, Launchpad access, cashback rates, Platinum+ subscription",
+  "triggers": [
+    "vip program",
+    "vip tiers",
+    "vip benefits",
+    "vip level",
+    "vip status",
+    "vip tier",
+    "maintenance discount",
+    "launchpad access",
+    "platinum+",
+    "platinum subscription",
+    "vip subscription",
+    "vip upgrade",
+    "bronze",
+    "silver tier",
+    "gold tier",
+    "platinum tier",
+    "diamond tier"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

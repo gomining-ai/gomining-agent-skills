@@ -1,0 +1,28 @@
+{
+  "name": "gomining-avatars",
+  "description": "Avatar collections (Humans/Sentinels/Cryptiles/Luminars), Luminar VIP boost rules, secondary marketplace for miners and avatars, merch",
+  "triggers": [
+    "avatars",
+    "avatar collection",
+    "avatar races",
+    "avatar marketplace",
+    "nft avatar",
+    "buy avatar",
+    "sell avatar",
+    "avatar boost",
+    "avatar vip",
+    "luminar",
+    "luminars",
+    "luminar boost",
+    "luminar vip",
+    "sentinels",
+    "cryptiles",
+    "gomining merch",
+    "merchandise",
+    "merch",
+    "cosmetic nft",
+    "vip boost avatar"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

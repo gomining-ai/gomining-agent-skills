@@ -1,0 +1,27 @@
+{
+  "name": "gomining-token",
+  "description": "GOMINING token utility, use cases (marketplace, maintenance discounts, rewards, game boosts)",
+  "triggers": [
+    "gomining token",
+    "gmt token",
+    "gmt",
+    "token use cases",
+    "token utility",
+    "token price",
+    "buy gmt",
+    "buy gomining token",
+    "token payment",
+    "token purchase",
+    "token marketplace",
+    "maintenance discount",
+    "token rewards",
+    "token discount",
+    "token burn",
+    "token royalty",
+    "game boost",
+    "miner wars boost",
+    "gomining coin"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

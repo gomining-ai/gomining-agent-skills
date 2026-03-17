@@ -1,0 +1,21 @@
+{
+  "name": "gomining-promos",
+  "description": "Promotional system — promo codes (general/individual/referral), GoBoxes, bonus miners, discount and cashback bonuses, referral program, raffles, bounty",
+  "triggers": [
+    "promo code",
+    "promocode",
+    "gobox",
+    "referral code",
+    "referral program",
+    "referral",
+    "bonus miner",
+    "discount code",
+    "raffle",
+    "bounty",
+    "bounty program",
+    "invite friend",
+    "refer a friend"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "gomining-overview",
+  "description": "Platform introduction, ecosystem basics, product overview, official resources",
+  "triggers": [
+    "what is gomining",
+    "gomining overview",
+    "ecosystem basics",
+    "platform introduction",
+    "how does gomining work",
+    "how gomining works",
+    "getting started",
+    "gomining products",
+    "about gomining",
+    "tell me about gomining",
+    "new to gomining",
+    "start with gomining"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

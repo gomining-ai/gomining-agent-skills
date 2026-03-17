@@ -1,0 +1,249 @@
+{
+  "$schema": "https://agentskills.io/schema/v1/skills-manifest.json",
+  "name": "gomining-agent-skills",
+  "version": "3.0.0",
+  "description": "Agent skills for GoMining — a blockchain platform democratizing Bitcoin mining through Digital Miners NFTs, the GOMINING utility token, crypto-powered Visa cards, DeFi products, travel integrations, and avatar collections.",
+  "author": "gomining",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/gomining-ai/gomining-agent-skills",
+  "homepage": "https://gomining.com/",
+  "skills": [
+    {
+      "name": "gomining-overview",
+      "path": "skills/gomining-overview",
+      "description": "Platform introduction, ecosystem basics, product overview, official resources",
+      "tags": ["overview", "introduction", "ecosystem", "products"],
+      "triggers": [
+        "what is gomining",
+        "gomining overview",
+        "ecosystem basics",
+        "platform introduction"
+      ]
+    },
+    {
+      "name": "gomining-miners",
+      "path": "skills/gomining-miners",
+      "description": "Digital Miners NFTs — mining modes, Miner Wars, upgrades, maintenance, computing power, buying and selling",
+      "tags": ["miners", "mining", "nft", "miner-wars", "hashrate"],
+      "triggers": [
+        "digital miners",
+        "mining mode",
+        "miner wars",
+        "miner purchase",
+        "mining rewards",
+        "maintenance cost",
+        "computing power"
+      ]
+    },
+    {
+      "name": "gomining-avatars",
+      "path": "skills/gomining-avatars",
+      "description": "Avatar collections (Humans/Sentinels/Cryptiles/Luminars), Luminar VIP boost rules, secondary marketplace, merch",
+      "tags": ["avatars", "nft", "marketplace", "luminars", "merch"],
+      "triggers": [
+        "avatars",
+        "avatar collection",
+        "luminars",
+        "luminar vip boost",
+        "nft marketplace",
+        "gomining merch",
+        "avatar races"
+      ]
+    },
+    {
+      "name": "gomining-nft",
+      "path": "skills/gomining-nft",
+      "description": "Digital Miners NFTs, blockchains (ETH/BSC/SOL/TON), rarity attributes, mining rewards, earning modes",
+      "tags": ["nft", "digital miners", "mining", "blockchain", "rewards", "rarity"],
+      "triggers": [
+        "digital miners",
+        "nft mining",
+        "mining rewards",
+        "blockchain networks",
+        "rarity attributes",
+        "miner wars"
+      ]
+    },
+    {
+      "name": "gomining-vip",
+      "path": "skills/gomining-vip",
+      "description": "VIP loyalty program — tiers (Bronze to Elite), hashrate/veGOMINING thresholds, maintenance discounts, Launchpad access, cashback rates",
+      "tags": ["vip", "loyalty", "tiers", "benefits", "discounts", "launchpad"],
+      "triggers": [
+        "vip program",
+        "vip tiers",
+        "vip benefits",
+        "maintenance discount",
+        "launchpad access",
+        "vip level"
+      ]
+    },
+    {
+      "name": "gomining-token",
+      "path": "skills/gomining-token",
+      "description": "GOMINING token utility, use cases (marketplace, maintenance discounts, rewards, game boosts)",
+      "tags": ["token", "gomining", "utility", "marketplace", "discounts", "rewards"],
+      "triggers": [
+        "gomining token",
+        "token use cases",
+        "maintenance discount",
+        "token rewards",
+        "staking"
+      ]
+    },
+    {
+      "name": "gomining-tokenomics",
+      "path": "skills/gomining-tokenomics",
+      "description": "Token economics — locking (veGOMINING), voting systems, burn/mint mechanics, epochs, supply reduction (500M to 100M)",
+      "tags": ["tokenomics", "veGOMINING", "lock", "vote", "burn", "mint", "epochs", "supply"],
+      "triggers": [
+        "tokenomics",
+        "token economics",
+        "veGOMINING",
+        "token lock",
+        "voting",
+        "burn and mint",
+        "token supply",
+        "epochs"
+      ]
+    },
+    {
+      "name": "gomining-wallet",
+      "path": "skills/gomining-wallet",
+      "description": "Crypto wallet — supported assets (BTC/GMT/USDT/USDC/ETH/BNB/SOL/TON), deposits, withdrawals, Fireblocks, limits",
+      "tags": ["wallet", "deposit", "withdrawal", "fireblocks", "assets", "networks"],
+      "triggers": [
+        "wallet",
+        "deposit",
+        "withdrawal",
+        "supported assets",
+        "network fees",
+        "fireblocks",
+        "withdrawal limits"
+      ]
+    },
+    {
+      "name": "gomining-simple-earn",
+      "path": "skills/gomining-simple-earn",
+      "description": "Simple Earn — passive BTC interest on crypto balances, snapshot-based rewards, no lockup, yield sources",
+      "tags": ["simple-earn", "yield", "interest", "passive-income", "staking", "defi"],
+      "triggers": [
+        "simple earn",
+        "earn interest",
+        "passive income",
+        "yield",
+        "staking rewards",
+        "earn BTC"
+      ]
+    },
+    {
+      "name": "gomining-card",
+      "path": "skills/gomining-card",
+      "description": "GoMining Visa debit card — supported crypto (GOMINING/BTC/USDT/USDC), KYC, eligibility, Apple Pay, Google Wallet",
+      "tags": ["card", "payments", "kyc", "crypto", "debit card", "visa"],
+      "triggers": [
+        "gomining card",
+        "crypto card",
+        "kyc requirements",
+        "card eligibility",
+        "crypto payments"
+      ]
+    },
+    {
+      "name": "gomining-payments",
+      "path": "skills/gomining-payments",
+      "description": "Payment infrastructure — Ecommpay, Open Banking (PSD2), MNPL installments, Mercuryo, KYC/AML (Sumsub)",
+      "tags": ["payments", "ecommpay", "open-banking", "mnpl", "installments", "kyc", "aml"],
+      "triggers": [
+        "payment methods",
+        "buy crypto",
+        "open banking",
+        "installments",
+        "mine now pay later",
+        "kyc verification",
+        "sumsub"
+      ]
+    },
+    {
+      "name": "gomining-cashback",
+      "path": "skills/gomining-cashback",
+      "description": "Cashback system — TH/s mining power rewards from Card spending and Travel bookings by VIP tier",
+      "tags": ["cashback", "rewards", "mining-power", "th", "vip"],
+      "triggers": [
+        "cashback",
+        "cashback rates",
+        "mining power reward",
+        "card cashback",
+        "travel cashback"
+      ]
+    },
+    {
+      "name": "gomining-travel",
+      "path": "skills/gomining-travel",
+      "description": "GoMining Travel — hotel booking with GM tokens, TH/s cashback by VIP tier, SolarTrip integration",
+      "tags": ["travel", "hotels", "flights", "cashback", "booking", "solartrip"],
+      "triggers": [
+        "travel",
+        "book hotel",
+        "book flight",
+        "travel cashback",
+        "gomining travel",
+        "solartrip"
+      ]
+    },
+    {
+      "name": "gomining-promos",
+      "path": "skills/gomining-promos",
+      "description": "Promotional system — promo codes (general/individual/referral), GoBoxes, bonus miners, discount and cashback bonuses",
+      "tags": ["promos", "promo-codes", "goboxes", "bonus", "referral", "discounts"],
+      "triggers": [
+        "promo code",
+        "promocode",
+        "gobox",
+        "referral code",
+        "bonus miner",
+        "discount code"
+      ]
+    },
+    {
+      "name": "gomining-academy",
+      "path": "skills/gomining-academy",
+      "description": "Educational platform, courses (GoMining Basics, Bitcoin & Mining), 79+ articles, product guides, certificates",
+      "tags": ["education", "courses", "academy", "learning", "articles", "guides"],
+      "triggers": [
+        "gomining academy",
+        "courses",
+        "learn about mining",
+        "education",
+        "articles",
+        "certificates"
+      ]
+    },
+    {
+      "name": "gomining-investment-guide",
+      "path": "skills/gomining-investment-guide",
+      "description": "Investment guide — budget-tier recommendations ($10–$10K), ROI examples, optimization strategies, VIP progression, risk considerations",
+      "tags": ["investment", "guide", "budget", "strategy", "ROI", "optimization"],
+      "triggers": [
+        "how to invest",
+        "investment guide",
+        "what can I do with",
+        "budget recommendation",
+        "ROI",
+        "passive income",
+        "best strategy",
+        "maximize returns",
+        "where to start"
+      ]
+    }
+  ],
+  "resources": {
+    "main_website": "https://gomining.com/",
+    "alternative_website": "https://gmt.io/en",
+    "academy": "https://academy.gomining.com/",
+    "token_faq": "https://help.token.gomining.com/",
+    "nft_faq": "https://help.nft.gomining.com/",
+    "card_faq": "https://help.cards.gomining.com/",
+    "coinmarketcap": "https://coinmarketcap.com/currencies/gomining-token/holders/"
+  }
+}
