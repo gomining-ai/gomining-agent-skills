@@ -253,3 +253,4 @@ Certain nations' passports are rejected. Belarus and Russian passport holders mu
 - [How-to: Verify a GoMining Representative](references/INSTRUCTION-VERIFY-REP.md) — How to confirm you are speaking with official GoMining support
 - [FAQ: Card Usage](references/FAQ-CARD-USAGE.md) — Where to use the card, ATM withdrawals, order status, email code
 - [FAQ: Exchange Rates Policy](references/FAQ-EXCHANGE-RATES-POLICY.md) — Variable spreads, no fixed fees, top-up restrictions, transaction visibility
+- [FAQ: Cashback Program](references/FAQ-CASHBACK.md) — How TH cashback works, eligible miners, daily crediting schedule

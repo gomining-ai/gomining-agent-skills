@@ -122,43 +122,19 @@ After tokens are minted each cycle, they are distributed according to fixed allo
 
 ### Distribution Breakdown
 
-| Recipient | Share | Description |
-|-----------|-------|-------------|
-| **Service Providers (GoMining)** | 65% | Operational costs, infrastructure, mining operations |
-| **Users with locked tokens** | 20% | Reward for locking GMT and holding VE tokens |
-| **Product redistribution** | 10% | Allocated by community voting (Voting System #1) |
-| **Team** | 5% | Core team allocation |
+Minted tokens are distributed across four categories: platform operations, users with locked tokens, product redistribution (governed by community voting), and core operations. The exact percentages are governed by the tokenomics model and can be viewed in the **Governance** section of the GoMining app.
 
-### Distribution Flow Diagram
+### Product Redistribution
 
-```
-Minted Tokens (100%)
-  |
-  |-- 65% --> Service Providers (GoMining)
-  |
-  |-- 20% --> Locked Token Holders (proportional to VE balance)
-  |
-  |-- 10% --> Product Redistribution (governed by Voting #1)
-  |             |-- 39.8% Game rewards
-  |             |-- 26.8% Solo miners discount
-  |             |-- 18.9% Greedy Machines holders
-  |             |--  7.4% Liquidity leaderboard
-  |             |--  6.9% Bank Bounty
-  |
-  |--  5% --> Team
-```
+The product redistribution share is split across five categories according to the weekly reward distribution vote (Voting System #1):
 
-### Product Redistribution Detail
+- Game rewards
+- Solo miners discount
+- Greedy Machines holders
+- Liquidity leaderboard
+- Bank Bounty
 
-The 10% product redistribution share is further split according to the weekly reward distribution vote:
-
-| Sub-category | Share of 10% | Effective Share of Total Mint |
-|-------------|-------------|------------------------------|
-| Game rewards | 39.8% | 3.98% |
-| Solo miners discount | 26.8% | 2.68% |
-| Greedy Machines holders | 18.9% | 1.89% |
-| Liquidity leaderboard | 7.4% | 0.74% |
-| Bank Bounty | 6.9% | 0.69% |
+The current split for each category is determined by VE token holder votes and is visible in the GoMining app.
 
 ---
 
@@ -217,13 +193,7 @@ Users spend 248,000 GMT on service fees and electricity during the week. All 248
 
 **Step 3: Mint and Distribute**
 
-| Recipient | Share | Tokens Received |
-|-----------|-------|-----------------|
-| Service Providers (GoMining) | 65% | 158,600 |
-| Locked token holders | 20% | 48,800 |
-| Product redistribution | 10% | 24,400 |
-| Team | 5% | 12,200 |
-| **Total minted** | **100%** | **244,000** |
+244,000 tokens are distributed across platform operations, locked token holders, product redistribution, and core operations according to the tokenomics model.
 
 **Step 4: Net Effect**
 ```
@@ -256,7 +226,7 @@ A: VE token holders vote on the coefficient through Voting System #2. The commun
 A: The coefficient can change every weekly cycle based on the ongoing community vote.
 
 **Q: What happens if the coefficient is set to 0?**
-A: All burned tokens would be permanently destroyed with no re-minting. This would maximize the burn rate but eliminate all post-mint distributions to stakers, the team, and service providers.
+A: All burned tokens would be permanently destroyed with no re-minting. This would maximize the burn rate but eliminate all post-mint distributions.
 
 ### Distribution
 

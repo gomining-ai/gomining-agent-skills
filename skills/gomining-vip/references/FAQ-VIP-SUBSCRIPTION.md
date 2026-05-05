@@ -44,7 +44,7 @@ If your VIP level is already higher than Platinum I, activating a Platinum+ Subs
 
 You can pay for the subscription using:
 
-- A bank card (processed through Ecommpay)
+- A bank card
 - GOMINING tokens from your account balance
 
 ---

@@ -22,13 +22,13 @@ Once minted, the miner appears in your wallet on the chosen network while contin
 
 ## 90-Day Selling Restriction
 
-Miners purchased or upgraded via **Apple Pay, Google Pay, or Ecommpay** cannot be sold or withdrawn for **90 days** from the date of the most recent qualifying purchase or upgrade.
+Miners purchased or upgraded via certain payment methods (Apple Pay, Google Pay, or card) cannot be sold or withdrawn for **90 days** from the date of the most recent qualifying purchase or upgrade.
 
 | Scenario | 90-day applies? |
 |----------|----------------|
-| Purchased via Apple/Google/Ecommpay | Yes |
+| Purchased via Apple/Google/card | Yes |
 | Purchased via crypto | No |
-| Upgraded via Apple/Google/Ecommpay | Yes — timer resets |
+| Upgraded via Apple/Google/card | Yes — timer resets |
 | MNPL — final installment paid | Yes — 90 days from final payment |
 
 - All timing is based on UTC.

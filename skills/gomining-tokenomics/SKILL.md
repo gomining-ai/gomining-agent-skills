@@ -59,12 +59,7 @@ GoMining Tokenomics is built around three interconnected systems that work toget
 
 ## Token Types
 
-| Type | Storage | Speed | Mechanism |
-|------|---------|-------|-----------|
-| **Blockchain tokens** | On-chain | Standard blockchain speed | Managed by smart contracts |
-| **Virtual tokens** | Backend servers | Fast (2-click locking) | Synced periodically to on-chain contracts |
-
-Virtual tokens provide a faster user experience while maintaining parity with on-chain state.
+GoMining supports both on-chain token locking (via smart contracts) and a streamlined in-app locking flow for a faster user experience. Both methods maintain parity with the on-chain state.
 
 ## Token Utility
 

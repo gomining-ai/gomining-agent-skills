@@ -101,23 +101,13 @@ When buying a digital miner, you are purchasing a portion of existing ASICs, eac
 
 ### How are the electricity costs calculated?
 
-The electricity costs for each digital miner in the collection are calculated using the following formula:
-
-Electricity = (kWh cost × 24 / 1000 / BTC price (USD)) × energy efficiency × computing power
-
-Where:
-* kWh cost is the electricity cost per kWh per hour in our data center. Our electricity prices range from $0.05 to $0.07
-* BTC course in USD is the current price of BTC in USD
-* Energy efficiency is how many watts per TH the miner is using to operate fully, measured in W/TH
-* Computing power shows the average hashrate of the miner, measured in TH/s
+Electricity costs depend on the energy efficiency of the miner (W/TH), its computing power (TH/s), and the current BTC price. Higher energy efficiency means lower electricity costs.
 
 ---
 
 ### How are the service costs calculated?
 
-Service = ($0.0089 / BTC price (USD)) × computing power
-
-The uptime of our devices is 99.8%. Based on past years' statistics, the service charge for 1 TH per day is $0.0089.
+Service costs are calculated based on the computing power of the miner and the current BTC price. You can see the current maintenance fee for your miners in the GoMining app.
 
 ---
 

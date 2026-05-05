@@ -1,6 +1,6 @@
 ---
 name: gomining-simple-earn
-description: "GoMining Simple Earn — passive earning mechanism for interest on crypto asset balances. Covers one-button activation, auto-compounding at fixed intervals, BTC dividend payouts, snapshot-based daily cycle mechanics (23:59 UTC snapshot, 07:00 UTC reward credit), supported assets (BTC, USDT, USDC), individual APR per asset set by liquidity manager, yield sources (staking, DeFi protocols, internal liquidity management), KYC Level-1 requirement, 10 USD minimum balance, no lockup or penalties, full withdrawal anytime, and restricted jurisdictions (USA, EEA, UK, and others)."
+description: "GoMining Simple Earn — passive earning mechanism for interest on crypto asset balances. Covers one-button activation, BTC rewards every 4 hours, supported assets (non-EEA: BTC, ETH, SOL, BNB, TON, USDT, USDC; EEA: same but no USDT), VIP yield multipliers (Bronze I: none through Elite: x1.46), individual APR per asset, yield sources (staking, DeFi protocols, internal liquidity), KYC Level-1 requirement, no lockup or penalties, full withdrawal anytime. Available globally except the USA."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -60,59 +60,58 @@ Simple Earn is GoMining's passive earning mechanism that lets users earn interes
 
 ## Supported Assets
 
-| Asset | Status | Notes |
-|-------|--------|-------|
-| **BTC** | Available | Initial launch asset |
-| **USDT** | Available | Initial launch asset |
-| **USDC** | Available | Initial launch asset |
-| ETH | Planned | Future addition |
-| BNB | Planned | Future addition |
-| SOL | Planned | Future addition |
-| TON | Planned | Future addition |
-| GOMINING | **Excluded** | Separate mechanics apply |
+Assets available depend on the user's region:
 
-> **Note:** GOMINING token is excluded from Simple Earn and has its own separate earning mechanics.
+| Asset | Non-EEA Users | EEA Users |
+|-------|--------------|-----------|
+| **BTC** | Available | Available |
+| **ETH** | Available | Available |
+| **SOL** | Available | Available |
+| **BNB** | Available | Available |
+| **TON** | Available | Available |
+| **USDT** | Available | Not available |
+| **USDC** | Available | Available |
+| **GOMINING** | Excluded | Excluded |
+
+> **Note:** GOMINING token is excluded from Simple Earn and has its own separate earning mechanics. Specific availability may change due to local regulations.
 
 ---
 
-## Daily Cycle (Snapshot-Based)
+## Reward Cycle (Every 4 Hours)
 
-Simple Earn operates on a snapshot-based daily cycle:
+Simple Earn operates on a 4-hour reward cycle:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                  Simple Earn Daily Cycle                      │
+│                  Simple Earn 4-Hour Cycle                     │
 ├─────────────────────────────────────────────────────────────┤
 │                                                              │
-│  23:59 UTC (Day T)                                           │
+│  Starting 00:00 UTC — cycles repeat every 4 hours:          │
+│  00:00 → 04:00 → 08:00 → 12:00 → 16:00 → 20:00 → 00:00    │
+│                                                              │
+│  Each cycle:                                                 │
 │  ┌──────────────────────────────────────────┐               │
-│  │ SNAPSHOT                                  │               │
-│  │ System captures all balances              │               │
-│  │ Only balances present at this moment      │               │
-│  │ participate in rewards                    │               │
-│  └──────────────────────────────────────────┘               │
-│                         │                                    │
-│                         ▼                                    │
-│  07:00 UTC (Day T+1)                                         │
-│  ┌──────────────────────────────────────────┐               │
-│  │ REWARDS CREDITED                          │               │
-│  │ BTC dividends distributed to users        │               │
-│  │ Based on previous day's snapshot          │               │
+│  │ REWARDS CALCULATED & CREDITED             │               │
+│  │ Based on minimum balance held during      │               │
+│  │ the full 4-hour cycle                     │               │
+│  │ BTC credited directly to wallet           │               │
 │  └──────────────────────────────────────────┘               │
 │                                                              │
 │  IMPORTANT:                                                  │
-│  Deposits made AFTER 23:59 UTC do NOT count                  │
-│  for that day's reward cycle.                                │
+│  Rewards use the LOWEST balance recorded during the cycle.   │
+│  A withdrawal reduces the minimum and affects that cycle.    │
+│  New deposits are counted from the START of the next cycle.  │
 │                                                              │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-| Event | Time (UTC) | Description |
-|-------|------------|-------------|
-| Snapshot | **23:59** | System captures all Simple Earn balances |
-| Reward credit | **07:00 next day** | BTC dividends credited based on snapshot |
-| Participation rule | — | Only balances present at snapshot time participate |
-| Late deposits | — | Deposits after 23:59 UTC do not count for that day |
+| Parameter | Details |
+|-----------|---------|
+| Cycle frequency | **Every 4 hours** (6 times per day) |
+| Cycle start | 00:00 UTC, then every 4 hours |
+| Reward basis | Minimum balance held during the full cycle |
+| Reward currency | **BTC** |
+| New deposit effective | Start of next cycle |
 
 ---
 
@@ -202,7 +201,6 @@ Each asset has an individual APR set by GoMining's liquidity manager. The estima
 | Resource | URL |
 |----------|-----|
 | Main Website | https://gomining.com/ |
-| Help Center | https://help.token.gomining.com/ |
 
 ---
 

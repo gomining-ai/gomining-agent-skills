@@ -6,7 +6,7 @@
 
 | Rule | Description |
 |------|-------------|
-| Wallet type | Custodial (Fireblocks-powered) |
+| Wallet type | Custodial |
 | Address generation | Unique deposit address per asset/network |
 | Minimum deposit | Varies by asset (see table below) |
 | Confirmation | Requires blockchain confirmations before crediting |
@@ -123,12 +123,6 @@ BTC withdrawals have special rules tied to mining and game reward balances.
 
 ---
 
-## Fireblocks Architecture
-
-The GoMining Wallet is built on Fireblocks infrastructure. Private keys are managed by Fireblocks — users do not control keys directly.
-
----
-
 ## Frequently Asked Questions
 
 ### Can I deposit without KYC?
@@ -157,5 +151,5 @@ USDT is supported on five networks: ERC-20 (Ethereum), BEP-20 (BSC), TRC-20 (Tro
 
 ### Is the wallet custodial?
 
-Yes. The GoMining Wallet is a custodial solution powered by Fireblocks. Private keys are managed by Fireblocks infrastructure, not by the user directly.
+Yes. The GoMining Wallet is a custodial solution. Private keys are not held by the user directly.
 

@@ -2,11 +2,11 @@
 
 ## Overview
 
-GoMining supports multiple payment providers for purchasing cryptocurrency and Digital Miners. Each provider has different asset support, currencies, commission rates, and chargeback policies.
+GoMining supports multiple payment methods for purchasing cryptocurrency and Digital Miners. Each method has different asset support, currencies, commission rates, and chargeback policies.
 
-## Provider Details
+## Payment Methods
 
-### Ecommpay Card
+### Card Payment
 
 | Attribute | Detail |
 |-----------|--------|
@@ -17,7 +17,7 @@ GoMining supports multiple payment providers for purchasing cryptocurrency and D
 | Settlement | Instant |
 | Use Case | Direct GMT purchases via debit/credit card |
 
-### Ecommpay On-Ramp
+### On-Ramp
 
 | Attribute | Detail |
 |-----------|--------|
@@ -28,7 +28,7 @@ GoMining supports multiple payment providers for purchasing cryptocurrency and D
 | Settlement | Near-instant |
 | Use Case | Purchasing various cryptocurrencies with fiat |
 
-### Ecommpay Open Banking
+### Open Banking
 
 | Attribute | Detail |
 |-----------|--------|
@@ -40,25 +40,13 @@ GoMining supports multiple payment providers for purchasing cryptocurrency and D
 | Availability | EU only (France, Spain, Estonia, Belgium, Hungary) |
 | Protocol | SEPA / SEPA Instant |
 
-### Mercuryo On-Ramp
+## Method Comparison
 
-| Attribute | Detail |
-|-----------|--------|
-| Type | Third-party crypto on-ramp |
-| Supported Assets | Various cryptocurrencies |
-| Currencies | Fiat currencies |
-| Chargebacks | No |
-| Settlement | Near-instant |
-| Use Case | Alternative on-ramp provider |
-
-## Provider Comparison
-
-| Provider | Best For |
-|----------|----------|
-| Ecommpay Open Banking | EU users seeking low fees |
-| Ecommpay Card | Quick card purchases |
-| Ecommpay On-Ramp | Multi-crypto purchases |
-| Mercuryo On-Ramp | Alternative on-ramp |
+| Method | Best For |
+|--------|----------|
+| Open Banking | EU users seeking low fees |
+| Card Payment | Quick card purchases |
+| On-Ramp | Multi-crypto purchases |
 
 ## MNPL (Mine Now, Pay Later)
 

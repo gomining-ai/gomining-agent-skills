@@ -1,6 +1,6 @@
 ---
 name: gomining-payments
-description: "GoMining payment infrastructure — methods for purchasing crypto and miners. Covers Ecommpay (card, on-ramp, Open Banking), Mercuryo, PSD2 Open Banking in EU, SEPA/SEPA Instant protocols, MNPL (Mine Now Pay Later) 0% APR installment plans, Sumsub KYC/compliance levels, restricted territories, and commission structures."
+description: "GoMining payment infrastructure — methods for purchasing crypto and miners. Covers card payments, on-ramp, Open Banking (PSD2) in EU, SEPA/SEPA Instant protocols, MNPL (Mine Now Pay Later) 0% APR installment plans, KYC/compliance levels, and restricted territories."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -29,18 +29,17 @@ metadata:
 
 ## Overview
 
-GoMining provides multiple payment methods for purchasing cryptocurrency and Digital Miners. Payment options include card payments, on-ramp services, Open Banking (PSD2), and installment plans (MNPL). All transactions are subject to KYC/compliance requirements powered by Sumsub.
+GoMining provides multiple payment methods for purchasing cryptocurrency and Digital Miners. Payment options include card payments, on-ramp services, Open Banking (PSD2), and installment plans (MNPL). All transactions are subject to KYC/compliance requirements.
 
 ---
 
 ## Payment Methods
 
-| Provider | Assets | Currency | Chargebacks |
-|----------|--------|----------|------------|
-| **Ecommpay Card** | GMT | EUR, USD | Yes |
-| **Ecommpay On-Ramp** | BTC, ETH, SOL, etc. | EUR, USD | No |
-| **Ecommpay Open Banking** | BTC, ETH, etc. | EUR, HUF | No |
-| **Mercuryo On-Ramp** | Crypto | Fiat | No |
+| Method | Assets | Currency | Commission | Chargebacks |
+|--------|--------|----------|-----------|------------|
+| **Card payment** | GMT | EUR, USD | Varies | Yes |
+| **On-Ramp** | BTC, ETH, SOL, etc. | EUR, USD | Varies | No |
+| **Open Banking** | BTC, ETH, etc. | EUR, HUF | Lower than card | No |
 
 ### Key Differences
 
@@ -48,7 +47,7 @@ GoMining provides multiple payment methods for purchasing cryptocurrency and Dig
 |---------|-------------|---------|--------------|
 | Speed | Instant | Near-instant | Instant (SEPA Instant) |
 | Chargebacks | Yes | No | No |
-| Fees | Standard | Standard | Lower than card |
+| Fees | Varies | Varies | Lower |
 | Availability | Global | Global | EU only |
 
 ---
@@ -96,7 +95,7 @@ MNPL is an installment plan that allows users to purchase Digital Miners with a 
 |-----------|-------|
 | **APR** | 0% |
 | **Down Payment** | 25% of miner price |
-| **Max Down Payment** | $5,000 |
+| **Max Down Payment** | $5,000 (iteration 1) |
 | **Installments** | Equal monthly payments |
 | **Price Range** | $0 - $20,000 |
 
@@ -118,9 +117,9 @@ MNPL is an installment plan that allows users to purchase Digital Miners with a 
 
 ---
 
-## KYC / Compliance (Sumsub)
+## KYC / Compliance
 
-GoMining uses Sumsub for identity verification, with two levels of KYC depending on the services accessed.
+GoMining requires identity verification, with two levels of KYC depending on the services accessed.
 
 ### Verification Levels
 
@@ -145,12 +144,6 @@ GoMining uses Sumsub for identity verification, with two levels of KYC depending
 
 **Required for:** GoMining Visa card issuance
 
-### KYC Limits
-
-| Limit | Value |
-|-------|-------|
-| Maximum KYC attempts per user | 6 |
-
 ### Blocked Territories
 
 The following countries are fully blocked from all GoMining services:
@@ -170,13 +163,13 @@ The following countries are fully blocked from all GoMining services:
 ## FAQ
 
 ### Which payment method has the lowest fees?
-Open Banking (PSD2) offers the lowest fees compared to card and on-ramp payments. It is available to users in supported EU countries.
+Open Banking (PSD2) offers the lowest fees among available payment methods. It is available to users in supported EU countries.
 
 ### Can I get a chargeback on a crypto purchase?
-Only Ecommpay Card payments support chargebacks. On-ramp, Open Banking, Gimly, and Binance transactions are irreversible.
+Only card payments support chargebacks. On-ramp and Open Banking transactions are irreversible.
 
-### What is the difference between Ecommpay On-Ramp and Mercuryo?
-Both offer similar on-ramp services. The main differences are in supported assets and regional availability.
+### What on-ramp options are available?
+GoMining offers on-ramp services for purchasing crypto with fiat. Availability may depend on your region.
 
 ### How does MNPL work?
 MNPL (Mine Now, Pay Later) lets you buy a miner with 25% down and pay the rest in equal monthly installments at 0% APR. The miner starts operating immediately.
@@ -190,8 +183,8 @@ MNPL supports miners priced from $0 to $20,000 with a maximum down payment of $5
 ### What KYC level do I need?
 Level 1 (POI) is required for withdrawals, minting, and marketplace. Level 2 (EDD) is required for the Visa card.
 
-### What happens after 6 failed KYC attempts?
-After 6 KYC attempts, the user is blocked from further verification attempts. Contact support for assistance.
+### What if my KYC verification fails?
+If your KYC verification is unsuccessful, contact support for assistance.
 
 ### Why is my country blocked?
 GoMining cannot provide services to users in sanctioned territories (North Korea, Myanmar, Iran, Afghanistan, Syria, Yemen, Cuba) due to international compliance regulations.

@@ -120,6 +120,10 @@ Travel cashback is earned on hotel bookings through GoMining Travel. The cashbac
 TH/s Cashback = Booking Amount (USD) x VIP Cashback Rate / Cost per 1 TH/s
 ```
 
+| Parameter | Value |
+|-----------|-------|
+| Cost per 1 TH/s | ~$25 (approximate, subject to change) |
+
 **Example Calculation:**
 
 | Step | Value |
@@ -127,7 +131,7 @@ TH/s Cashback = Booking Amount (USD) x VIP Cashback Rate / Cost per 1 TH/s
 | Booking amount | $500 USD |
 | VIP level | Gold (2.2%) |
 | Cashback value | $500 x 2.2% = $11 |
-| TH/s awarded | $11 ÷ current TH/s price in the app |
+| TH/s awarded | $11 / $25 = **0.44 TH/s** |
 
 ### Travel Cashback Rules
 
@@ -207,7 +211,7 @@ No. Cards and Travel have different cashback rate tables. Travel rates are gener
 
 ### How is cashback calculated for Travel bookings?
 
-Travel cashback uses the formula: Booking Amount (USD) x VIP Cashback Rate / current TH/s price. For example, a $500 booking at Gold VIP (2.2%) yields $11 worth of TH/s mining power.
+Travel cashback uses the formula: Booking Amount (USD) x VIP Cashback Rate / Cost per 1 TH/s (~$25). For example, a $500 booking at Gold VIP (2.2%) yields $11 / $25 = 0.44 TH/s.
 
 ### Can I receive cashback as tokens or fiat?
 

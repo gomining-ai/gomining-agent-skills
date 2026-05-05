@@ -145,19 +145,16 @@ For full details on the Burn & Mint system, see [BURN-AND-MINT.md](BURN-AND-MINT
 
 ---
 
-## Virtual vs Blockchain Locking
+## Locking Methods
 
 GoMining supports two methods of locking tokens:
 
-| Feature | Blockchain Locking | Virtual Locking |
-|---------|-------------------|-----------------|
-| **Storage** | On-chain smart contracts | Backend servers |
+| Feature | Blockchain Locking | In-App Locking |
+|---------|-------------------|----------------|
 | **Speed** | Standard blockchain transaction time | Fast (2 clicks) |
-| **VE issuance** | On-chain VE contract | Backend-tracked, synced to contracts |
 | **User experience** | Requires wallet interaction | Streamlined in-app flow |
-| **Sync** | Native on-chain | Periodically synced to on-chain contracts |
 
-Virtual locking was introduced to lower the barrier to entry. Users can lock tokens quickly through the app interface, and the state is synchronized to on-chain contracts to maintain data integrity.
+In-app locking was introduced to lower the barrier to entry. Both methods maintain full parity with the on-chain state.
 
 ---
 

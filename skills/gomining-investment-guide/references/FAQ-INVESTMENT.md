@@ -26,8 +26,8 @@ It depends on your budget and region:
 
 Several options:
 - **Crypto deposit** — send BTC, ETH, USDT, USDC, GMT, or other supported tokens from any wallet
-- **Card payment** — buy crypto directly via Ecommpay card processing
-- **On-ramp services** — Ecommpay On-Ramp or Mercuryo for fiat-to-crypto conversion
+- **Card payment** — buy crypto directly via card payment
+- **On-ramp services** — fiat-to-crypto conversion
 - **Open Banking (PSD2)** — available in select EU countries (France, Spain, Estonia, Belgium, Hungary) with lowest fees
 
 ---
@@ -95,7 +95,7 @@ VIP level multipliers range from 1.0x (Bronze) to 1.46x (max level). Platinum+ s
 No. Key risks:
 - APR is **variable and not guaranteed** — can be zero in any period
 - Yields come from blockchain staking, DeFi protocols, and internal liquidity management
-- Platform risk — your funds are held in GoMining's custody (Fireblocks-powered)
+- Platform risk — your funds are held in GoMining's custodial wallet
 - Not available in USA, EEA, UK, and sanctioned countries
 
 ---

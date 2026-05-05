@@ -1,6 +1,6 @@
 {
   "name": "gomining-payments",
-  "description": "Payment infrastructure — Ecommpay, Open Banking (PSD2), MNPL installments, Mercuryo, KYC/AML (Sumsub)",
+  "description": "Payment infrastructure — card payments, Open Banking (PSD2), MNPL installments, on-ramp, KYC/AML",
   "triggers": [
     "payment methods",
     "how to pay",
@@ -17,9 +17,6 @@
     "monthly payment",
     "kyc verification",
     "kyc level",
-    "sumsub",
-    "ecommpay",
-    "mercuryo",
     "sepa",
     "bank transfer",
     "payment provider",

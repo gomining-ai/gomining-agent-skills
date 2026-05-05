@@ -12,14 +12,7 @@ Our digital miners, like real ones, use energy when mining. This is because the 
 
 The lower the W/TH of the digital miner, the lower the electricity fee, which is deducted from your rewards. And so the net reward is higher.
 
-The cost of electricity is variable and depends on various factors. For calculations, we always take the average electricity cost for the project over the billing period. It ranges from $0.05 to $0.07 per 1 kW.
-
-Example: if the cost of electricity is $0.05, and your digital miner is 8 TH:
-* (28 W/TH × 8 TH) × $0.05 × 24 / 1000 = $0.2688 — for miner with energy efficiency 28 W/TH
-* (20 W/TH × 8 TH) × $0.05 × 24 / 1000 = $0.192 — for miner with energy efficiency 20 W/TH
-* (15 W/TH × 8 TH) × $0.05 × 24 / 1000 = $0.144 — for miner with energy efficiency 15 W/TH
-
-Since the electricity is paid in USD and accruals from the pool are made in BTC, we recalculate the cost of electricity daily at the BTC rate at the time of payment.
+The cost of electricity is variable and depends on various factors. Since the electricity is paid in USD and accruals from the pool are made in BTC, we recalculate the cost of electricity daily at the BTC rate at the time of payment.
 
 ### Energy Efficiency Upgrade
 

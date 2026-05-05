@@ -2,7 +2,7 @@
 
 ## Overview
 
-GoMining uses Sumsub as its KYC/compliance provider. Users must complete identity verification to access certain platform features. There are two verification levels with different requirements and access permissions.
+GoMining requires identity verification (KYC) to access certain platform features. There are two verification levels with different requirements and access permissions.
 
 ## Verification Levels
 
@@ -39,14 +39,6 @@ GoMining uses Sumsub as its KYC/compliance provider. Users must complete identit
 | All Level 1 services | Enabled |
 | GoMining Visa Card | Enabled |
 
-## Attempt Limits
-
-| Policy | Detail |
-|--------|--------|
-| Maximum KYC attempts | 6 per user |
-| After max attempts | Account blocked for further verification |
-| Resolution | Contact customer support |
-
 ## Blocked Territories
 
 The following countries are fully restricted from all GoMining services due to international sanctions and compliance regulations:
@@ -65,9 +57,7 @@ The following countries are fully restricted from all GoMining services due to i
 
 | Topic | Detail |
 |-------|--------|
-| Provider | Sumsub |
 | Regulation | International AML/KYC standards |
-| Data Storage | Handled by Sumsub per their privacy policy |
 | Document Validity | Documents must be valid and not expired |
 | Language | Documents in Latin script or with certified translation |
 | Processing Time | Typically minutes for automated checks |
