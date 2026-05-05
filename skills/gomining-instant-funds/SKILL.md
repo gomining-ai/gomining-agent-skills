@@ -68,6 +68,22 @@ There is no annual interest (0% APR). A one-time service fee is charged when the
 | Fee calculation | Percentage of the funds amount |
 | Fee dependency | Depends on VIP level — higher VIP = lower fee |
 
+### Service Fee by VIP Tier
+
+| Tier | Fee | Tier | Fee |
+|------|-----|------|-----|
+| Bronze I | 2.5% | Diamond I | 1.88% |
+| Bronze II | 2.43% | Diamond II | 1.85% |
+| Silver I | 2.36% | Diamond III | 1.81% |
+| Silver II | 2.29% | Diamond IV | 1.77% |
+| Silver III | 2.21% | Diamond V | 1.73% |
+| Gold I | 2.14% | Legend I | 1.69% |
+| Gold II | 2.07% | Legend II | 1.65% |
+| Platinum I | 2.0% | Legend III | 1.62% |
+| Platinum II | 1.96% | Legend IV | 1.58% |
+| Platinum III | 1.92% | Legend V | 1.54% |
+| — | — | Elite | 1.5% |
+
 ---
 
 ## Repayment

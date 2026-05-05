@@ -49,7 +49,7 @@ Simple Earn is GoMining's passive earning mechanism that lets users earn interes
 | Principle | Details |
 |-----------|---------|
 | Dividend currency | **BTC** — always paid in BTC regardless of deposited asset |
-| Principal protection | Deposits never lose principal |
+| Principal protection | Capital preservation is **not absolutely guaranteed** — Simple Earn uses DeFi protocols; in rare cases (e.g. smart contract vulnerability) losses may occur. GoMining actively monitors and rebalances to reduce risk. |
 | Interest guarantee | Interest is **NOT** guaranteed; yield can be zero |
 | APR | Each asset has an individual APR set by the liquidity manager |
 | Estimated yield | Weighted average across all deposited assets |
@@ -115,6 +115,38 @@ Simple Earn operates on a 4-hour reward cycle:
 
 ---
 
+## VIP Yield Multipliers
+
+Your VIP level applies a multiplier to the base APR for each asset. Higher tiers earn more.
+
+| Tier | Multiplier |
+|------|------------|
+| Bronze I | x1 (base APR) |
+| Bronze II | x1.08 |
+| Silver I | x1.1 |
+| Silver II | x1.12 |
+| Silver III | x1.14 |
+| Gold I | x1.16 |
+| Gold II | x1.18 |
+| Platinum I | x1.2 |
+| Platinum II | x1.22 |
+| Platinum III | x1.24 |
+| Diamond I | x1.26 |
+| Diamond II | x1.28 |
+| Diamond III | x1.3 |
+| Diamond IV | x1.32 |
+| Diamond V | x1.34 |
+| Legend I | x1.36 |
+| Legend II | x1.38 |
+| Legend III | x1.4 |
+| Legend IV | x1.42 |
+| Legend V | x1.44 |
+| Elite | x1.46 |
+
+> **Note:** The "Maximum APR" shown in the app reflects the Elite VIP rate. Platinum+ subscription grants a x1.2 multiplier (equivalent to Platinum I) without changing your VIP tier.
+
+---
+
 ## Yield Sources
 
 Yield is generated from three primary sources:
@@ -166,17 +198,19 @@ Tap the one-button invest option in the GoMining app, sign the Simple Earn agree
 
 All rewards are paid in **BTC**, regardless of which asset you deposited (BTC, USDT, or USDC).
 
-### Is my principal guaranteed?
+### Are my funds safe?
 
-Yes, deposits never lose principal. However, interest is not guaranteed and yield can be zero in any given period.
+GoMining carefully selects and continuously monitors the protocols used in Simple Earn. Protocols may be rotated if needed to reduce risks — the system is actively managed, not "set and forget."
+
+At the same time, Simple Earn works with DeFi protocols, so risks cannot be fully eliminated. In rare cases, such as a smart contract vulnerability, losses may occur. Simple Earn is not a bank deposit, and capital preservation cannot be absolutely guaranteed. Interest is also not guaranteed and yield can be zero in any given period.
 
 ### When do I receive rewards?
 
-Rewards are credited daily at 07:00 UTC, based on the balance snapshot taken at 23:59 UTC the previous day.
+Rewards are credited every 4 hours (6 times per day), at 00:00, 04:00, 08:00, 12:00, 16:00, and 20:00 UTC. Each reward is calculated based on the minimum balance held during the full 4-hour cycle.
 
-### What if I deposit after the daily snapshot?
+### What if I deposit mid-cycle?
 
-Deposits made after 23:59 UTC will not participate in that day's reward cycle. They will be included starting from the next snapshot.
+New deposits are counted from the start of the next 4-hour cycle. If you withdraw during a cycle, the reward for that cycle is calculated based on the lowest balance held during it.
 
 ### Can I withdraw at any time?
 
@@ -184,7 +218,7 @@ Yes. There are no lockup periods and no penalties. You can withdraw your full ba
 
 ### What assets are supported?
 
-Currently BTC, USDT, and USDC. Future additions include ETH, BNB, SOL, and TON. GOMINING token is excluded and has separate mechanics.
+Non-EEA users: BTC, ETH, SOL, BNB, TON, USDT, and USDC. EEA users: BTC, ETH, SOL, BNB, TON, and USDC (USDT is not available in the EEA). GOMINING token is excluded from Simple Earn and has separate mechanics.
 
 ### Why is Simple Earn not available in my country?
 

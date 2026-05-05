@@ -42,11 +42,15 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 
 ### Minimum Balance by Asset (Approximate)
 
-| Asset | Approximate Minimum* |
-|-------|---------------------|
-| BTC | ~0.0001 BTC |
-| USDT | 10 USDT |
-| USDC | 10 USDC |
+| Asset | Approximate Minimum* | EEA Available |
+|-------|---------------------|---------------|
+| BTC | ~0.0001 BTC | Yes |
+| ETH | ~$10 equivalent | Yes |
+| SOL | ~$10 equivalent | Yes |
+| BNB | ~$10 equivalent | Yes |
+| TON | ~$10 equivalent | Yes |
+| USDT | 10 USDT | No |
+| USDC | 10 USDC | Yes |
 
 *Exact minimums depend on current exchange rates at time of deposit.
 

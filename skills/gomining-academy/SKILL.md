@@ -135,8 +135,8 @@ The Academy hosts **79+ articles** across multiple categories:
 | Feature | Description |
 |---------|-------------|
 | Type | Yield earning product |
-| Supported Assets | BTC, GOMINING, USDT, USDC |
-| Payouts | Daily BTC |
+| Supported Assets | BTC, ETH, SOL, BNB, TON, USDT, USDC (GOMINING excluded; EEA: no USDT) |
+| Payouts | BTC every 4 hours |
 | Lock-up | No lock-up required |
 | Flexibility | Full flexibility to withdraw |
 

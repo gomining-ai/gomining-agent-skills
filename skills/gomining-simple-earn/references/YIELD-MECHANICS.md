@@ -11,11 +11,10 @@ Simple Earn generates yield from multiple sources and distributes it to particip
 | Parameter | Value |
 |-----------|-------|
 | Payout currency | **BTC** |
-| Payout frequency | Daily |
-| Compounding | Auto-compounds at fixed intervals |
-| Guarantee | Interest is **NOT** guaranteed |
-| Minimum yield | Can be zero |
-| Principal loss | Never — deposits are principal-protected |
+| Payout frequency | **Every 4 hours** (6 times per day) |
+| Compounding | Auto-compounds every 4-hour cycle |
+| Guarantee | Interest is **NOT** guaranteed; yield can be zero |
+| Capital safety | Not absolutely guaranteed — DeFi protocol risks apply (smart contract vulnerabilities). GoMining actively monitors and rebalances to reduce risk. |
 
 ---
 
@@ -23,8 +22,9 @@ Simple Earn generates yield from multiple sources and distributes it to particip
 
 | Concept | Description |
 |---------|-------------|
-| Individual APR | Each supported asset (BTC, USDT, USDC) has its own APR |
+| Individual APR | Each supported asset (BTC, ETH, SOL, BNB, TON, USDT, USDC) has its own APR |
 | APR setter | GoMining's liquidity manager sets and adjusts APR per asset |
+| VIP multiplier | Your VIP level applies a multiplier to your APR (Bronze I: base rate; Elite: x1.46) |
 | Estimated yield | Weighted average APR across all assets in user's Simple Earn balance |
 | Variability | APR can change over time based on market conditions and yield sources |
 
@@ -44,36 +44,39 @@ The estimated yield reflects the weighted combination of both positions.
 
 ---
 
-## Snapshot System
+## 4-Hour Reward Cycle
 
-Simple Earn uses a **snapshot-based** daily cycle to determine reward distribution.
+Simple Earn uses a **4-hour cycle** to calculate and distribute rewards. Cycles repeat 6 times per day.
 
-### Daily Timeline
+### Cycle Schedule
 
-| Time (UTC) | Event | Description |
-|------------|-------|-------------|
-| 23:59 | **Snapshot** | System captures all Simple Earn balances |
-| 00:00–06:59 | Processing | Rewards calculated based on snapshot data |
-| 07:00 (T+1) | **Reward Credit** | BTC dividends credited to user balances |
+| Cycle Start (UTC) | Reward Credited |
+|-------------------|----------------|
+| 00:00 | End of 00:00–04:00 cycle |
+| 04:00 | End of 04:00–08:00 cycle |
+| 08:00 | End of 08:00–12:00 cycle |
+| 12:00 | End of 12:00–16:00 cycle |
+| 16:00 | End of 16:00–20:00 cycle |
+| 20:00 | End of 20:00–00:00 cycle |
 
-### Snapshot Rules
+### Cycle Rules
 
 | Rule | Details |
 |------|---------|
-| Participation | Only balances present at snapshot time (23:59 UTC) participate |
-| Late deposits | Deposits made after 23:59 UTC do **not** count for that day |
-| Early withdrawals | Funds withdrawn before 23:59 UTC are excluded from snapshot |
-| Next-day inclusion | New deposits are included starting from the next 23:59 UTC snapshot |
+| Reward basis | **Minimum balance** held during the full 4-hour cycle |
+| New deposits | Counted from the **start of the next cycle** |
+| Withdrawals | Reduce the minimum balance; rewards calculated on the lowest amount held |
+| Reward currency | BTC — credited directly to wallet after each cycle |
 
 ### Timing Examples
 
-| Scenario | Deposit Time | First Eligible Snapshot | First Reward Credit |
-|----------|-------------|------------------------|---------------------|
-| Deposit at 10:00 UTC, Day 1 | 10:00 UTC, Day 1 | 23:59 UTC, Day 1 | 07:00 UTC, Day 2 |
-| Deposit at 23:30 UTC, Day 1 | 23:30 UTC, Day 1 | 23:59 UTC, Day 1 | 07:00 UTC, Day 2 |
-| Deposit at 00:15 UTC, Day 2 | 00:15 UTC, Day 2 | 23:59 UTC, Day 2 | 07:00 UTC, Day 3 |
+| Scenario | Deposit Time | First Eligible Cycle | First Reward |
+|----------|-------------|---------------------|--------------|
+| Deposit at 01:30 UTC | 01:30 UTC | 04:00–08:00 cycle | ~08:00 UTC |
+| Deposit at 07:50 UTC | 07:50 UTC | 08:00–12:00 cycle | ~12:00 UTC |
+| Deposit at 23:45 UTC | 23:45 UTC | 00:00–04:00 cycle (next day) | ~04:00 UTC |
 
-> **Tip:** To maximize earning, deposit well before 23:59 UTC to ensure inclusion in that day's snapshot.
+> **Tip:** Deposits take effect at the start of the next cycle — timing within a cycle does not matter.
 
 ---
 
@@ -112,20 +115,20 @@ Simple Earn yield is generated from three primary sources:
 | Parameter | Details |
 |-----------|---------|
 | Mechanism | Rewards are automatically reinvested |
-| Frequency | Fixed intervals (daily cycle) |
+| Frequency | Every 4-hour cycle |
 | User action required | None — compounding is automatic |
-| Effect | BTC rewards are added to balance, increasing next snapshot amount |
+| Effect | BTC rewards are added to balance, increasing the minimum for subsequent cycles |
 
 ### Compounding Flow
 
 ```
-Day 1 Snapshot → Day 2 Reward Credit (BTC)
+Cycle 1 ends → BTC reward credited
          ↓
-Day 2 Snapshot (original balance + Day 2 rewards)
+Cycle 2 starts (balance now includes Cycle 1 rewards)
          ↓
-Day 3 Reward Credit (based on larger balance)
+Cycle 2 ends → larger BTC reward credited
          ↓
-... continues automatically
+... continues automatically, 6 times per day
 ```
 
 ---
@@ -142,16 +145,16 @@ Each asset has unique staking, DeFi, and liquidity opportunities. GoMining's liq
 
 ### When does my deposit start earning?
 
-Your deposit starts earning from the first snapshot it is included in. If you deposit before 23:59 UTC, it will be captured in that day's snapshot, and you will receive rewards at 07:00 UTC the following day.
+Your deposit is counted from the start of the next 4-hour cycle after it is made. Rewards are credited at the end of that cycle (every 4 hours: 04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC).
 
 ### Is the APR fixed?
 
-No. APR is variable and can change over time as market conditions and yield source performance fluctuate. GoMining's liquidity manager adjusts rates accordingly.
+No. APR is variable and can change over time as market conditions and yield source performance fluctuate. GoMining's liquidity manager adjusts rates accordingly. Your VIP level also affects your effective APR via a multiplier.
 
 ### How does auto-compounding work?
 
-BTC rewards credited at 07:00 UTC are automatically added to your Simple Earn balance. This larger balance is then captured in the next 23:59 UTC snapshot, effectively compounding your returns without any manual action.
+BTC rewards are credited every 4 hours and automatically added to your Simple Earn balance. This larger balance then serves as the basis for the next cycle's reward calculation, compounding your returns without any manual action.
 
 ### What happens to my rewards if I withdraw?
 
-There are no penalties for withdrawal. Any rewards already credited to your balance are yours to keep. Withdrawing before the 23:59 UTC snapshot means that balance will not participate in that day's reward cycle.
+There are no penalties for withdrawal. Any rewards already credited to your balance are yours to keep. If you withdraw during a cycle, the reward for that cycle is calculated based on the lowest balance held — so partial withdrawals mid-cycle reduce that cycle's reward proportionally.
