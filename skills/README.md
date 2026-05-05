@@ -9,9 +9,8 @@ This directory contains agent skills for the GoMining ecosystem. Each skill prov
 | Skill | Description | Use When |
 |-------|-------------|----------|
 | [`gomining-overview`](gomining-overview/SKILL.md) | Platform introduction and ecosystem basics | User asks "What is GoMining?" or needs general orientation |
-| [`gomining-miners`](gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars | User asks about miners, mining rewards, or Miner Wars |
+| [`gomining-miners`](gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars, blockchain networks, rarity | User asks about miners, mining rewards, Miner Wars, blockchain networks, or rarity |
 | [`gomining-avatars`](gomining-avatars/SKILL.md) | Avatar collections, Luminars, marketplace, merch | User asks about avatars, Luminars, or merch |
-| [`gomining-nft`](gomining-nft/SKILL.md) | NFT technical details, blockchains, rarity | User asks about NFT specs, blockchain networks, or rarity |
 | [`gomining-vip`](gomining-vip/SKILL.md) | VIP tiers, thresholds, benefits | User asks about VIP levels, maintenance discounts, or perks |
 
 ### Token & Economics
@@ -56,7 +55,7 @@ User Question                              Recommended Skill
 "What are Miner Wars?"                →   gomining-miners
 "What are avatar collections?"         →   gomining-avatars
 "What are Luminars?"                   →   gomining-avatars
-"What blockchains are supported?"      →   gomining-nft
+"What blockchains are supported?"      →   gomining-miners
 "What are the VIP tiers?"             →   gomining-vip
 "What discounts can I get?"            →   gomining-vip
 "How do I use GOMINING tokens?"        →   gomining-token
@@ -103,7 +102,7 @@ skill-name/
 | Alternative | https://gmt.io/en |
 | Academy | https://academy.gomining.com/ |
 | Token FAQ | https://help.token.gomining.com/ |
-| NFT FAQ | https://help.nft.gomining.com/ |
+| Miners FAQ | https://help.nft.gomining.com/ |
 | Card FAQ | https://help.cards.gomining.com/ |
 
 ### Key Concepts
@@ -111,13 +110,13 @@ skill-name/
 | Term | Definition |
 |------|------------|
 | GOMINING | Native utility token of the ecosystem |
-| Digital Miners | NFTs representing Bitcoin mining power |
-| BMINE | Issuer of Digital Miners NFT collections |
+| Digital Miners | Tokenized assets representing Bitcoin mining power |
+| BMINE | Issuer of Digital Miners collections |
 | veGOMINING | Vote-escrowed governance token (locked GOMINING) |
 | Simple Earn | Yield-generating product for crypto holdings |
 | Miner Wars | Competitive game mode for earning BTC |
 | TH/s | Terahashes per second — unit of mining power |
 | GoBox | Digital loot box with random prizes |
 | MNPL | Mine Now, Pay Later — 0% installment plans for miners |
-| Avatars | Cosmetic NFTs assignable to Digital Miners |
+| Avatars | Cosmetic items assignable to Digital Miners |
 | Luminars | Avatar collection with VIP level boost properties |

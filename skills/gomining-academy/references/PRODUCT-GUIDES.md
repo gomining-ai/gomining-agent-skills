@@ -162,7 +162,7 @@ VeGOMINING is the governance token mechanism that allows GOMINING holders to par
 
 | Product | Type | Rewards | Effort Level |
 |---------|------|---------|--------------|
-| Digital Miners | NFT Mining | Daily BTC | Passive |
+| Digital Miners | Mining | Daily BTC | Passive |
 | Simple Earn | Yield | Daily BTC | Passive |
 | Miner Wars | Game | BTC | Active |
 | GoMining Card | Payments | Cashback | Active |

@@ -2,7 +2,7 @@
 
 ## Overview
 
-GoMining avatars are cosmetic NFTs assigned to Digital Miners. There are four distinct races, each with unique visual aesthetics.
+GoMining avatars are cosmetic items assigned to Digital Miners. There are four distinct races, each with unique visual aesthetics.
 
 ## Collection URLs
 

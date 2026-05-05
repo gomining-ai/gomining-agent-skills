@@ -24,7 +24,7 @@ For real-time data and live sources, see [Live Market Data](../../gomining-overv
 
 | Factor | Description | Impact |
 |--------|-------------|--------|
-| Mining Power | Hash rate allocation per NFT | Higher = More rewards |
+| Mining Power | Hash rate allocation per miner | Higher = More rewards |
 | Energy Efficiency | Power consumption metrics | Better efficiency = More profit |
 | Network Difficulty | Bitcoin mining difficulty | Higher difficulty = Lower rewards |
 | Pool Performance | Data center pool statistics | Better performance = More rewards |

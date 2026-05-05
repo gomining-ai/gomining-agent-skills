@@ -79,7 +79,7 @@
 | Withdrawal of USDT | No |
 | Withdrawal of USDC | No |
 | Withdrawal of BTC (instant) | No |
-| NFT operations | No |
+| Miner operations | No |
 | Marketplace sales | No |
 
 ### Access With KYC Level-1
@@ -88,11 +88,11 @@
 |---------|-----------|
 | All deposits | Yes |
 | All withdrawals | Yes |
-| NFT operations | Yes |
+| Miner operations | Yes |
 | Marketplace sales | Yes |
 | Full platform access | Yes |
 
-> **Important:** Complete KYC Level-1 verification to unlock full wallet functionality including all withdrawal types, NFT operations, and marketplace access.
+> **Important:** Complete KYC Level-1 verification to unlock full wallet functionality including all withdrawal types, Miner operations, and marketplace access.
 
 ---
 

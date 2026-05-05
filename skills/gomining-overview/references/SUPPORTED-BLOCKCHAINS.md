@@ -1,6 +1,6 @@
 # Supported Blockchains
 
-## Digital Miners NFT Networks
+## Digital Miners Networks
 
 | Blockchain | Type | Native Token | NFT Standard |
 |------------|------|--------------|--------------|

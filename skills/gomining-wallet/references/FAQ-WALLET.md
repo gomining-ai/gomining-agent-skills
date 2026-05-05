@@ -107,9 +107,9 @@ The wallet is designed for everyday use in the GoMining ecosystem. With it, you 
 
 ---
 
-### Can I use my GoMining deposit address to receive NFTs (digital miners)?
+### Can I use my GoMining deposit address to receive miners?
 
-No. Standard GoMining deposit addresses (used for BTC, USDT, and other tokens) do not support NFT transfers. Attempting to send digital miners to a deposit address will result in loss of the asset.
+No. Standard GoMining deposit addresses (used for BTC, USDT, and other tokens) do not support miner transfers. Attempting to send digital miners to a deposit address will result in loss of the asset.
 
 ---
 

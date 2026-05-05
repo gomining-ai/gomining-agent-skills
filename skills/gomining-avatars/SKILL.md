@@ -1,6 +1,6 @@
 ---
 name: gomining-avatars
-description: "GoMining avatar collections — cosmetic NFTs assignable to Digital Miners. Covers the four avatar races (Humans, Sentinels, Cryptiles, Luminars), Luminar VIP level boost rules, secondary marketplace for miners and avatars, and branded merchandise."
+description: "GoMining avatar collections — cosmetic avatars assignable to Digital Miners. Covers the four avatar races (Humans, Sentinels, Cryptiles, Luminars), Luminar VIP level boost rules, secondary marketplace for miners and avatars, and branded merchandise."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -25,7 +25,7 @@ metadata:
 
 ## Overview
 
-Avatars are cosmetic NFTs that can be assigned to Digital Miners. There are four avatar races, each with unique visual styles. For information on Digital Miners themselves (blockchains, pricing, earning modes), see the [gomining-miners skill](../gomining-miners/SKILL.md).
+Avatars are cosmetic items that can be assigned to Digital Miners. There are four avatar races, each with unique visual styles. For information on Digital Miners themselves (blockchains, pricing, earning modes), see the [gomining-miners skill](../gomining-miners/SKILL.md).
 
 ---
 
@@ -70,8 +70,8 @@ The GoMining marketplace enables peer-to-peer trading of Digital Miners and avat
 
 | Feature | Description |
 |---------|-------------|
-| **NFT Trading** | Buy and sell Digital Miners |
-| **Avatar Trading** | Buy and sell avatar NFTs |
+| **Miner Trading** | Buy and sell Digital Miners |
+| **Avatar Trading** | Buy and sell avatars |
 | **Listing** | Users set their own prices |
 | **Settlement** | Transactions settled on-chain |
 | **Supported Assets** | Digital Miners, Avatars (all four races) |
@@ -110,6 +110,6 @@ GoMining offers physical branded products that can be purchased through the mark
 
 - [Avatar Collections](references/AVATAR-COLLECTIONS.md) — Race details and collection URLs
 - [Marketplace](references/MARKETPLACE.md) — Trading mechanics for miners and avatars
-- [FAQ: Collections Overview](references/FAQ-COLLECTIONS.md) — Overview of GoMiner NFT collections
-- [FAQ: GoMiners Avatars](references/FAQ-AVATARS.md) — Avatar NFTs, races, and how to use them
+- [FAQ: Collections Overview](references/FAQ-COLLECTIONS.md) — Overview of GoMiner collections
+- [FAQ: GoMiners Avatars](references/FAQ-AVATARS.md) — Avatars, races, and how to use them
 - [FAQ: Main Collections](references/FAQ-MAIN-COLLECTIONS.md) — Details on the main GoMiners collections

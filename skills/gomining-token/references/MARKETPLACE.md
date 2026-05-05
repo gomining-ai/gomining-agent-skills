@@ -8,7 +8,7 @@ The GoMining Marketplace is the primary platform for purchasing ecosystem assets
 
 | Asset Type | Description | Payment Options |
 |------------|-------------|-----------------|
-| Digital Miners | NFTs representing mining power | GOMINING, Crypto |
+| Digital Miners | Miners representing mining power | GOMINING, Crypto |
 | Avatars | Profile customization | GOMINING, Crypto |
 | Merchandise | Physical products | GOMINING, Crypto |
 

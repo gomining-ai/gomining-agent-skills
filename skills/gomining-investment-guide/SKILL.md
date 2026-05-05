@@ -50,7 +50,7 @@ Before diving into budget tiers, here is every product available in the ecosyste
 
 | Product | What It Does | Min Entry | Income Type |
 |---------|-------------|-----------|-------------|
-| **Digital Miners** | NFTs that mine real BTC in GoMining data centers | ~$50 | Daily BTC rewards |
+| **Digital Miners** | Miners that mine real BTC in GoMining data centers | ~$50 | Daily BTC rewards |
 | **Simple Earn** | Earn BTC yield on idle crypto balances | $10 | Daily BTC dividends |
 | **GoMining Card** | Visa debit card — spend crypto, earn TH/s cashback | $100 balance | Cashback as mining power |
 | **GOMINING Token** | Utility token — maintenance discounts, governance, staking | Any amount | veGOMINING rewards + governance |
@@ -278,7 +278,7 @@ What's your budget?
 | **Simple Earn APR variability** | Rates are not guaranteed, can be zero | Diversify income streams; don't rely solely on earn |
 | **Regional restrictions** | Simple Earn blocked in USA, EEA, UK | Use miners + card instead in restricted regions |
 | **MNPL commitment** | Monthly payments required | Budget installments from mining rewards |
-| **Smart contract risk** | NFTs are on-chain assets | Use reputable wallets; secure private keys |
+| **Smart contract risk** | Miners are on-chain assets | Use reputable wallets; secure private keys |
 
 ---
 

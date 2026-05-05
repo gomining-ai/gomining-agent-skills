@@ -8,7 +8,7 @@ The GOMINING token provides four primary utilities within the GoMining ecosystem
 
 | Asset | Description |
 |-------|-------------|
-| Digital Miners | NFTs representing Bitcoin mining power |
+| Digital Miners | Miners representing Bitcoin mining power |
 | Avatars | User profile customization assets |
 | Merchandise | Official GoMining branded products |
 

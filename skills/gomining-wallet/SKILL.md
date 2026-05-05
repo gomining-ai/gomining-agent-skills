@@ -83,8 +83,8 @@ The GoMining Wallet is a custodial cryptocurrency wallet integrated with Fireblo
 
 | KYC Status | Capabilities |
 |------------|-------------|
-| **Without KYC Level-1** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No NFT operations. No marketplace sales. |
-| **With KYC Level-1** | Full access to all wallet features, withdrawals, NFT operations, and marketplace. |
+| **Without KYC Level-1** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No miner operations. No marketplace sales. |
+| **With KYC Level-1** | Full access to all wallet features, withdrawals, miner operations, and marketplace. |
 
 ---
 
@@ -158,7 +158,7 @@ BTC (Bitcoin), GMT/GOMINING (Ethereum, BSC, Solana, TON), USDT (ERC-20, BEP-20, 
 
 ### Do I need KYC to use the wallet?
 
-Basic deposits work without KYC. However, KYC Level-1 is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for NFT operations and marketplace sales.
+Basic deposits work without KYC. However, KYC Level-1 is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for miner operations and marketplace sales.
 
 ### What are the withdrawal limits?
 

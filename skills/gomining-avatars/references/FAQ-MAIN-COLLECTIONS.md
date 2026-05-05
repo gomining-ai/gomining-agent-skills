@@ -4,7 +4,7 @@
 
 The Mine Box is a collection with random trait generation.
 
-You select mining power and mint an NFT miner whose appearance and rarity traits are revealed only after creation.
+You select mining power and mint an miner whose appearance and rarity traits are revealed only after creation.
 
 Trait rarity is determined by chance, and a legendary tier can be generated.
 
@@ -28,7 +28,7 @@ It integrates GoMining's mining infrastructure with Trust Wallet's blockchain ec
 
 ## The GoMining Whales (TON)
 
-A limited NFT miner collection launched on the TON blockchain. It marks the first appearance of GoMining digital miners on this network.
+A limited miner collection launched on the TON blockchain. It marks the first appearance of GoMining digital miners on this network.
 
 * **Smart contract:** https://tonscan.org/collection/EQCrrb8MGFT18munzM6FolUThLb92iY0Gl6Sc2vMw92GASZp
 * **Marketplace:** Getgems
@@ -37,7 +37,7 @@ A limited NFT miner collection launched on the TON blockchain. It marks the firs
 
 ## The Party Box (BSC)
 
-A themed collection of NFT miners tied to global holidays and notable dates.
+A themed collection of miners tied to global holidays and notable dates.
 
 * **Smart contract:** https://bscscan.com/token/0xd143b8364494817c41e6d57c06d801f94991bb80
 
@@ -45,7 +45,7 @@ A themed collection of NFT miners tied to global holidays and notable dates.
 
 ## The Gift Box (BSC)
 
-A collection of NFT miners dedicated to the GoMining community.
+A collection of miners dedicated to the GoMining community.
 
 * **Smart contract:** https://bscscan.com/address/0x8A8255139AE44C9921C090e3eAE7d864F3D0A762
 
@@ -53,7 +53,7 @@ A collection of NFT miners dedicated to the GoMining community.
 
 ## The Golden Box (ETH)
 
-A high-capacity, limited NFT miner collection featuring top-tier mining power and efficiency.
+A high-capacity, limited miner collection featuring top-tier mining power and efficiency.
 
 * **Smart contract:** https://etherscan.io/address/0x0ac3afc7cb62fb5fbf2776d3c6d9d2f4eee801bf
 * **Marketplace:** OpenSea
@@ -62,7 +62,7 @@ A high-capacity, limited NFT miner collection featuring top-tier mining power an
 
 ## The West Collection (BSC)
 
-A themed NFT miner collection inspired by the historical gold rush.
+A themed miner collection inspired by the historical gold rush.
 
 * **Smart contract:** https://bscscan.com/address/0x860eB02859D6E54117b508DE3062270E1082a79d
 
@@ -70,7 +70,7 @@ A themed NFT miner collection inspired by the historical gold rush.
 
 ## The South Collection (BSC)
 
-A themed NFT miner collection with tropical-style designs in metal, wood, or leather.
+A themed miner collection with tropical-style designs in metal, wood, or leather.
 
 * **Smart contract:** https://bscscan.com/address/0x2a3Be36E823B21E98882cb075a66b09A914D10f1
 
@@ -78,7 +78,7 @@ A themed NFT miner collection with tropical-style designs in metal, wood, or lea
 
 ## The North Collection (BSC)
 
-A northern-themed NFT miner collection built for cold-climate efficiency.
+A northern-themed miner collection built for cold-climate efficiency.
 
 * **Smart contract:** https://bscscan.com/address/0xC9a0fe1740dE0C1fFD4111F2737938a5c50E9c83
 
@@ -86,7 +86,7 @@ A northern-themed NFT miner collection built for cold-climate efficiency.
 
 ## The East Collection (BSC)
 
-An East-inspired NFT miner collection that blends traditional cultural motifs with GoMining's standard mining infrastructure.
+An East-inspired miner collection that blends traditional cultural motifs with GoMining's standard mining infrastructure.
 
 * **Smart contract:** https://bscscan.com/address/0xe91CD968e1cc1097b4F9528D02AbbCE2Fd810766
 
@@ -94,7 +94,7 @@ An East-inspired NFT miner collection that blends traditional cultural motifs wi
 
 ## The Khabib Collection (ETH)
 
-A special NFT miner collection honoring Khabib Nurmagomedov.
+A special miner collection honoring Khabib Nurmagomedov.
 
 Each miner was initially issued with a symbolic 29 TH of power, representing his 29 professional victories.
 
@@ -105,7 +105,7 @@ Each miner was initially issued with a symbolic 29 TH of power, representing his
 
 ## The Greedy Machines (ETH)
 
-A community-driven NFT miner collection.
+A community-driven miner collection.
 
 Each miner accrues Bitcoin rewards daily, and its mining power increases weekly based on community voting results.
 
@@ -116,7 +116,7 @@ Each miner accrues Bitcoin rewards daily, and its mining power increases weekly 
 
 ## The Greedy Machines vol. 2
 
-The second edition of the community-driven NFT miner collection.
+The second edition of the community-driven miner collection.
 
 * **Smart contract:** https://etherscan.io/address/0x0e71d89e7921a78569ecb882c044a0b21df8307d
 * **Marketplace:** OpenSea

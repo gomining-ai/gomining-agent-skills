@@ -18,7 +18,7 @@ The absolute minimum is **$10 for Simple Earn** — deposit BTC, USDT, or USDC a
 
 It depends on your budget and region:
 - **Under $50:** Simple Earn is your only option (if available in your region)
-- **$50–100:** An entry-level miner gives you an NFT asset that mines BTC
+- **$50–100:** An entry-level miner that mines BTC
 - **$100+:** Combine both — miner for mining income, Simple Earn for yield on remaining balance
 - **USA, EEA, UK users:** Simple Earn is restricted; focus on miners and the Card
 
@@ -37,7 +37,7 @@ Several options:
 ### Should I buy a miner or use Simple Earn for passive income?
 
 Both generate BTC, but they serve different purposes:
-- **Miner:** You own an NFT asset with mining power (TH/s). Generates daily BTC rewards. Has maintenance costs. The NFT itself can appreciate or be sold. Contributes to your VIP tier via hashrate.
+- **Miner:** You own a miner with mining power (TH/s). Generates daily BTC rewards. Has maintenance costs. The miner itself can appreciate or be sold. Contributes to your VIP tier via hashrate.
 - **Simple Earn:** Simpler — deposit and earn yield. No lockup, no maintenance costs. But you don't own a mining asset, and it's not available in USA/EEA/UK.
 
 For maximum income, use both: miner for mining rewards + Simple Earn on idle balances.
@@ -58,11 +58,11 @@ Use `get_nft_mining_rewards` or `get_mining_income` for a specific miner's actua
 Miners are available on Ethereum, BSC, Solana, and TON. The blockchain affects:
 - **Gas fees:** TON and Solana are cheapest for transactions
 - **Secondary marketplace:** Different marketplaces per chain (OpenSea for ETH/BSC, Magic Eden for Solana, Getgems for TON)
-- **Mining performance:** Identical — the blockchain only affects the NFT wrapper, not mining output
+- **Mining performance:** Identical — the blockchain only affects where the miner is stored, not mining output
 
 ### Can I sell my miner later?
 
-Yes. Miners are NFTs and can be sold on:
+Yes. Miners can be sold on:
 - **GoMining secondary marketplace** (in-platform)
 - **External marketplaces:** OpenSea (ETH/BSC), Magic Eden (Solana), Getgems (TON)
 

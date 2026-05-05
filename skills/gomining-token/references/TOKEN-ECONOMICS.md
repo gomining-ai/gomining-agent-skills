@@ -15,7 +15,7 @@ The GOMINING token provides value across four main categories:
 ### 1. Marketplace (Commerce)
 | Use | Description |
 |-----|-------------|
-| NFT Purchases | Buy Digital Miners |
+| Miner Purchases | Buy Digital Miners |
 | Avatar Purchases | Customize user profile |
 | Merchandise | Official GoMining products |
 

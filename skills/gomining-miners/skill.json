@@ -1,6 +1,6 @@
 {
   "name": "gomining-miners",
-  "description": "Digital Miners NFTs — blockchain distribution (ETH/BSC/SOL/TON), BMINE issuer, BTC rewards, 12 rarity attributes, Mining mode vs Miner Wars, wallet access",
+  "description": "Digital Miners — blockchain distribution (ETH/BSC/SOL/TON), BMINE issuer, BTC rewards, 12 rarity attributes, Mining mode vs Miner Wars, wallet access",
   "triggers": [
     "digital miners",
     "nft miner",

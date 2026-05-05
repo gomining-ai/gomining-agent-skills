@@ -82,7 +82,7 @@ Before that:
 
 ### Where can I sell miners?
 
-You can sell miners in your GoMining personal account in the **Selling** section. They will be listed on our Marketplace. You can also sell the miners on any public NFT marketplace, such as OpenSea.
+You can sell miners in your GoMining personal account in the **Selling** section. They will be listed on our Marketplace. You can also sell the miners on any public marketplace, such as OpenSea.
 
 ### Where can I find my miners?
 

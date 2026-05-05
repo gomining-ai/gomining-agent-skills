@@ -2,16 +2,16 @@
 
 ## Overview
 
-The GoMining secondary marketplace allows users to buy, sell, and trade Digital Miners and avatar NFTs in a peer-to-peer environment.
+The GoMining secondary marketplace allows users to buy, sell, and trade Digital Miners and avatars in a peer-to-peer environment.
 
 ## Tradeable Assets
 
 | Asset Type | Description | Tradeable |
 |-----------|-------------|-----------|
-| **Digital Miners** | NFTs representing data center computing power | Yes |
-| **Human Avatars** | Cosmetic NFTs from Humans collection | Yes |
-| **Sentinel Avatars** | Cosmetic NFTs from Sentinels collection | Yes |
-| **Cryptile Avatars** | Cosmetic NFTs from Cryptiles collection | Yes |
+| **Digital Miners** | Miners representing data center computing power | Yes |
+| **Human Avatars** | Cosmetic avatars from Humans collection | Yes |
+| **Sentinel Avatars** | Cosmetic avatars from Sentinels collection | Yes |
+| **Cryptile Avatars** | Cosmetic avatars from Cryptiles collection | Yes |
 | **Luminar Avatars** | Premium avatars with VIP boost capability | Yes |
 
 ## Marketplace Features
@@ -19,16 +19,16 @@ The GoMining secondary marketplace allows users to buy, sell, and trade Digital 
 | Feature | Description |
 |---------|-------------|
 | **Listing** | Users set their own asking price |
-| **Buying** | Browse and purchase listed NFTs |
+| **Buying** | Browse and purchase listed assets |
 | **Settlement** | On-chain transaction settlement |
 | **Search** | Filter by type, hashrate, price, and attributes |
-| **History** | Transaction history for each NFT |
+| **History** | Transaction history for each asset |
 
 ## Trading Digital Miners
 
 | Consideration | Detail |
 |--------------|--------|
-| Hashrate Transfer | Hashrate transfers with the miner NFT to the new owner |
+| Hashrate Transfer | Hashrate transfers with the miner to the new owner |
 | Mining Rewards | Pending rewards are settled before transfer |
 | Maintenance | New owner assumes maintenance responsibility |
 | Assigned Avatar | Avatar is unassigned upon miner sale |

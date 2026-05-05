@@ -132,7 +132,7 @@ GoMining uses Sumsub for identity verification, with two levels of KYC depending
 | **Selfie** | Liveness verification photo |
 | **Questionnaire** | Basic user questionnaire |
 
-**Required for:** Withdrawals, NFT minting, marketplace access
+**Required for:** Withdrawals, miner minting, marketplace access
 
 #### Level 2 - Enhanced Due Diligence (EDD)
 

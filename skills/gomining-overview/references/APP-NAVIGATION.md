@@ -17,7 +17,7 @@ Use these section names when directing users to specific parts of the GoMining a
 | Section | Path in App | When to Reference |
 |---------|-------------|-------------------|
 | **Marketplace** | Marketplace → Miners | Buying miners from the secondary market |
-| **GoMiners Collection** | Marketplace → GoMiners | Viewing and buying avatar NFTs |
+| **GoMiners Collection** | Marketplace → GoMiners | Viewing and buying avatars |
 | **Merch** | Marketplace → Merch | Purchasing GoMining branded merchandise |
 
 ## GOMINING Token

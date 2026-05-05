@@ -1,6 +1,6 @@
 ---
 name: gomining-miners
-description: "GoMining Digital Miners NFT collections — NFTs representing ownership in Bitcoin mining infrastructure. Covers NFT definition and blockchain distribution (Ethereum, BSC, Solana, TON), BMINE issuer, daily BTC rewards mechanism, 12 rarity attributes, Mining mode vs Miner Wars mode, accessing miners via GoMining account or external wallets (MetaMask, Trust Wallet), and marketplace trading."
+description: "GoMining Digital Miners — tokenized assets representing ownership in Bitcoin mining infrastructure. Covers miner definition and blockchain distribution (Ethereum, BSC, Solana, TON), BMINE issuer, daily BTC rewards mechanism, 12 rarity attributes, Mining mode vs Miner Wars mode, accessing miners via GoMining account or external wallets (MetaMask, Trust Wallet), and marketplace trading."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -26,11 +26,11 @@ metadata:
     - "btc rewards"
 ---
 
-# Digital Miners (NFTs)
+# Digital Miners
 
 ## Overview
 
-Digital Miners are NFT collections representing ownership stakes in actual data center computing power actively engaged in Bitcoin mining. The collections are issued and distributed by **BMINE** across multiple blockchain networks.
+Digital Miners are tokenized assets representing ownership stakes in actual data center computing power actively engaged in Bitcoin mining. The collections are issued and distributed by **BMINE** across multiple blockchain networks.
 
 Holders receive daily BTC rewards calculated from their mining power allocation and energy efficiency metrics. Additionally, these assets function as collectible artwork tradeable on public marketplaces.
 
@@ -57,7 +57,7 @@ Each Digital Miner generates Bitcoin rewards based on:
 
 | Factor | Description |
 |--------|-------------|
-| Mining Power | Hash rate allocation represented by the NFT |
+| Mining Power | Hash rate allocation represented by the miner |
 | Energy Efficiency | Power consumption efficiency metrics |
 | Network Difficulty | Current Bitcoin network mining difficulty |
 | Pool Performance | Data center mining pool statistics |
@@ -69,7 +69,7 @@ Rewards accumulate daily and can be withdrawn to your wallet.
 Digital Miners are unique digital art pieces with:
 - Custom visual designs
 - Rarity-based attributes
-- Tradeable on NFT marketplaces
+- Tradeable on digital marketplaces
 - Collectible value beyond mining utility
 
 ---
@@ -157,7 +157,7 @@ Users can locate and manage their Digital Miners through two methods:
 
 ### External Wallets
 
-Supported wallets for viewing and managing NFTs:
+Supported wallets for viewing and managing miners:
 
 | Wallet | Chains Supported |
 |--------|------------------|

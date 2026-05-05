@@ -1,6 +1,6 @@
 ---
 name: gomining-overview
-description: "GoMining platform overview — start here for ecosystem basics. Covers what GoMining is, the three main products (GOMINING Token, Digital Miners NFTs, GoMining Card), project objectives (democratizing Bitcoin mining), official resources and help sites, and how all products interconnect within the ecosystem."
+description: "GoMining platform overview — start here for ecosystem basics. Covers what GoMining is, the three main products (GOMINING Token, Digital Miners, GoMining Card), project objectives (democratizing Bitcoin mining), official resources and help sites, and how all products interconnect within the ecosystem."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -27,7 +27,7 @@ metadata:
 GoMining is a blockchain-native platform that democratizes Bitcoin mining by removing barriers like expensive hardware and complex setup requirements. The platform enables users to participate in Bitcoin mining through a suite of interconnected products:
 
 - **GOMINING Token** — The native utility token powering the ecosystem, used for marketplace purchases, maintenance discounts, rewards, and game boosts.
-- **Digital Miners (NFTs)** — NFT collections representing ownership stakes in actual data center computing power actively engaged in Bitcoin mining.
+- **Digital Miners** — Tokenized assets representing ownership stakes in actual data center computing power actively engaged in Bitcoin mining.
 - **GoMining Card** — A Visa debit card linked to your crypto wallet with instant crypto-to-fiat conversion.
 
 All services are accessible through the GoMining platform with a unified user experience.
@@ -60,9 +60,9 @@ The native utility token functioning as both a crypto-asset management tool and 
 
 For detailed token information, see the [gomining-token skill](../gomining-token/SKILL.md).
 
-### Digital Miners (NFTs)
+### Digital Miners
 
-NFT collections issued by BMINE representing ownership in data center computing power.
+Tokenized assets issued by BMINE representing ownership in data center computing power.
 
 | Feature | Description |
 |---------|-------------|
@@ -71,7 +71,7 @@ NFT collections issued by BMINE representing ownership in data center computing 
 | Trading | Collectible artwork on public marketplaces |
 | Modes | Mining mode or Miner Wars game mode |
 
-For detailed NFT information, see the [gomining-miners skill](../gomining-miners/SKILL.md).
+For detailed miner information, see the [gomining-miners skill](../gomining-miners/SKILL.md).
 
 ### GoMining Card
 
@@ -95,7 +95,7 @@ For detailed card information, see the [gomining-card skill](../gomining-card/SK
 | Main Website | https://gomining.com/ | Official platform |
 | Alternative | https://gmt.io/en | Alternative domain |
 | Token FAQ | https://help.token.gomining.com/ | Token documentation |
-| NFT FAQ | https://help.nft.gomining.com/ | Digital Miners documentation |
+| Miners FAQ | https://help.nft.gomining.com/ | Digital Miners documentation |
 | Cards FAQ | https://help.cards.gomining.com/ | Card documentation |
 | CoinMarketCap | https://coinmarketcap.com/currencies/gomining-token/holders/ | Token metrics |
 
@@ -113,7 +113,7 @@ All GoMining products work together in a unified ecosystem:
 │   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
 │   │   GOMINING   │    │   Digital    │    │   GoMining   │  │
 │   │    Token     │◄──►│   Miners     │◄──►│    Card      │  │
-│   │              │    │   (NFTs)     │    │              │  │
+│   │              │    │   Miners     │    │              │  │
 │   └──────────────┘    └──────────────┘    └──────────────┘  │
 │          │                   │                    │          │
 │          ▼                   ▼                    ▼          │

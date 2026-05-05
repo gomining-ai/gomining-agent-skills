@@ -5,7 +5,7 @@
 | Product | Help URL | Description |
 |---------|----------|-------------|
 | Token | https://help.token.gomining.com/ | GOMINING Token FAQ and documentation |
-| NFT | https://help.nft.gomining.com/ | Digital Miners FAQ and guides |
+| Miners | https://help.nft.gomining.com/ | Digital Miners FAQ and guides |
 | Card | https://help.cards.gomining.com/ | GoMining Card FAQ and eligibility |
 
 ## Main Websites
@@ -21,7 +21,7 @@
 |----------|-----|
 | CoinMarketCap | https://coinmarketcap.com/currencies/gomining-token/holders/ |
 
-## NFT Marketplaces
+## Marketplaces
 
 | Marketplace | Blockchain | URL |
 |-------------|------------|-----|

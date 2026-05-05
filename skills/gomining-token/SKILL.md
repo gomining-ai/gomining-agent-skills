@@ -41,7 +41,7 @@ Use GOMINING tokens to purchase assets in the GoMining Marketplace:
 
 | Asset Type | Description |
 |------------|-------------|
-| Miners | Digital mining NFTs representing computing power |
+| Miners | Digital Miners representing computing power |
 | Avatars | User profile customization assets |
 | Merchandise | Official GoMining branded products |
 

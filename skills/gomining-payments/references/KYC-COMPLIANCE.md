@@ -19,7 +19,7 @@ GoMining uses Sumsub as its KYC/compliance provider. Users must complete identit
 | Service | Access |
 |---------|--------|
 | Withdrawals | Enabled |
-| NFT Minting | Enabled |
+| Miner Minting | Enabled |
 | Marketplace | Enabled |
 | Visa Card | Not available (requires Level 2) |
 
