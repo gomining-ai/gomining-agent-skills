@@ -12,6 +12,7 @@ This directory contains agent skills for the GoMining ecosystem. Each skill prov
 | [`gomining-miners`](gomining-miners/SKILL.md) | Digital Miners, mining modes, Miner Wars, blockchain networks, rarity | User asks about miners, mining rewards, Miner Wars, blockchain networks, or rarity |
 | [`gomining-avatars`](gomining-avatars/SKILL.md) | Avatar collections, Luminars, marketplace, merch | User asks about avatars, Luminars, or merch |
 | [`gomining-vip`](gomining-vip/SKILL.md) | VIP tiers, thresholds, benefits | User asks about VIP levels, maintenance discounts, or perks |
+| [`gomining-security`](gomining-security/SKILL.md) | Security & compliance — KYC (Level 1 vs 2), AML, taxes, account safety | User asks about identity verification, accepted documents, blocked funds, or taxes |
 
 ### Token & Economics
 
@@ -58,6 +59,11 @@ User Question                              Recommended Skill
 "What blockchains are supported?"      →   gomining-miners
 "What are the VIP tiers?"             →   gomining-vip
 "What discounts can I get?"            →   gomining-vip
+"How do I verify my identity?"         →   gomining-security
+"Can I do KYC without a passport?"     →   gomining-security
+"What documents are accepted for KYC?" →   gomining-security
+"Why were my funds blocked? (AML)"     →   gomining-security
+"Is my activity taxable?"              →   gomining-security
 "How do I use GOMINING tokens?"        →   gomining-token
 "How does token burning work?"         →   gomining-tokenomics
 "What is veGOMINING?"                  →   gomining-tokenomics

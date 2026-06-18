@@ -146,9 +146,6 @@ All GoMining products work together in a unified ecosystem:
 - [FAQ: Infrastructure Overview](references/INFRASTRUCTURE.md) — Overview of GoMining's data center and mining infrastructure
 - [FAQ: Environmental Friendliness](references/INFRASTRUCTURE-ENVIRONMENT.md) — GoMining's approach to energy and the environment
 - [FAQ: Technical Equipment](references/INFRASTRUCTURE-EQUIPMENT.md) — Hardware and technical infrastructure details
-- [FAQ: Security Overview](references/SECURITY.md) — Overview of GoMining's security practices
-- [FAQ: Anti-Money Laundering (AML)](references/SECURITY-AML.md) — AML policies and compliance
-- [FAQ: Security General Questions](references/SECURITY-GENERAL.md) — General security questions and answers
-- [FAQ: Identity Verification (KYC)](references/SECURITY-KYC.md) — KYC process and requirements
-- [FAQ: Taxes and Reporting](references/SECURITY-TAXES.md) — Tax considerations and reporting guidance
 - [App Navigation](references/APP-NAVIGATION.md) — Section names and paths for all main app areas
+
+For security and compliance topics — identity verification (KYC Level 1 vs Level 2), AML, taxes, and account security — see the [gomining-security skill](../gomining-security/SKILL.md).

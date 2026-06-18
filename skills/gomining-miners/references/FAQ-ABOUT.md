@@ -63,6 +63,12 @@ Mode switching happens automatically when you:
 
 ---
 
+### Can I use both Mining Mode and Miner Wars at the same time?
+
+No. You can only be in **one mining mode at a time** per account, and rewards are tied to the selected mode. Modes are **account-wide** — when you switch, **all** miners linked to the account move to the selected mode together. Splitting miners across modes is not allowed, and maintaining separate accounts for Mining Mode and Miner Wars is prohibited.
+
+---
+
 ### How switching modes affects rewards
 
 **What you need to know**

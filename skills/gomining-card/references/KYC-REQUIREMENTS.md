@@ -1,20 +1,22 @@
 # KYC Requirements for GoMining Card
 
-## Verification Levels
+Issuing a **GoMining Card** requires **KYC Level 2** — the platform's full compliance verification.
 
-### Level 1 - Basic Identity
-| Requirement | Description |
-|-------------|-------------|
-| Document | Valid national passport OR ID card |
-| Photo | Clear photo of document |
-| Selfie | Liveness check photo |
+> **Terminology:** "Level 1" and "Level 2" below refer to the platform-wide KYC levels.
+> **KYC Level 1** is the basic identity check (passport, national ID, residence card, or
+> driver's license) used to withdraw tokens, mint/sell miners, and access Launchpad — it does
+> **not** issue a card. The card requires **KYC Level 2**, which adds the compliance checks
+> below. Full level definitions are in the [gomining-security skill](../../gomining-security/references/KYC.md).
 
-### Level 2 - Address Verification
-| Requirement | Description |
-|-------------|-------------|
-| Proof of Address | Document dated within 3 months |
-| Accepted Documents | Utility bill, bank statement, government letter |
-| Verification | Address must match ID document or be separately verified |
+## What KYC Level 2 Covers (required for the card)
+
+| Component | Description |
+|-----------|-------------|
+| Identity | Valid national passport or national ID card + selfie (liveness check) |
+| Proof of address | Document dated within 3 months; address must match the ID document or be separately verified |
+| Additional compliance | Email verification, phone verification, tax information, financial questionnaire |
+
+A **driver's license is not accepted** for KYC Level 2 identity verification.
 
 ## Document Requirements
 

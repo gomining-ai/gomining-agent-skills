@@ -16,6 +16,17 @@ The main wallet and smart contract belong to GoMining. All transactions are veri
 **How can I verify the authenticity of a digital miner?**
 Purchase miners directly in your GoMining personal account. If buying on third-party marketplaces (e.g. GetGems), always verify the network and smart contract address matches GoMining's official contracts.
 
+## Account
+
+**How do I delete my account?**
+You must delete it yourself — customer support cannot delete an account on your behalf. First meet all criteria: the account has **no assets** (no miners, no tokens), **no active subscriptions**, and any **KYC verification is finalized** (or removed). Clear assets by selling/transferring miners and tokens, minting any pending NFTs, and emptying the wallet; small balances below the minimum withdrawal limit can be voluntarily relinquished or donated to GoMining; if miners can't be sold, submit a formal transfer request. Then on **desktop**: Profile (person icon, top-right) → click the arrow next to your User ID → **Delete Account**; on **mobile**: Profile (person icon, bottom-right) → person icon in the top block → **Delete Account**.
+
+**I can't find the Delete Account option — why?**
+Only account owners can delete their account. Make sure you're logged in and that your account has no assets — the option is unavailable while any assets remain.
+
+**Can I reuse my email after deleting my account?**
+No. You cannot register a new account with the same email address, even after the previous account is deleted.
+
 ## GoMining Card
 
 **Why does the ATM show a €0 balance for my GoMining Card?**

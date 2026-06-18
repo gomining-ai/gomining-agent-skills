@@ -1,0 +1,33 @@
+{
+  "name": "gomining-security",
+  "description": "GoMining security & compliance — identity verification (KYC Level 1 vs Level 2), accepted documents, prohibited jurisdictions, AML monitoring, blocked funds, taxes/reporting, and general account security",
+  "triggers": [
+    "kyc",
+    "kyc level 1",
+    "kyc level 2",
+    "identity verification",
+    "verify my identity",
+    "verify identity without passport",
+    "what documents for kyc",
+    "accepted documents",
+    "national id",
+    "residence card",
+    "driver's license kyc",
+    "passport required",
+    "prohibited countries kyc",
+    "kyc not available",
+    "aml",
+    "anti money laundering",
+    "funds blocked",
+    "source of funds",
+    "transaction flagged",
+    "taxes",
+    "tax reporting",
+    "is my activity taxable",
+    "account security",
+    "wallet ownership",
+    "verify miner authenticity"
+  ],
+  "enabled": true,
+  "type": "knowledge"
+}

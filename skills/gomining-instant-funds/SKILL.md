@@ -55,7 +55,7 @@ There is no annual interest (0% APR). A one-time service fee is charged when the
 |-----------|-------|
 | Minimum | **5 USDT or USDC** |
 | Maximum | **10,000 USDT or USDC** per position |
-| Active positions | **1 at a time** |
+| Active positions | **3 at a time** |
 
 ---
 
