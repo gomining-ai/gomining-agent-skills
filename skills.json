@@ -51,17 +51,18 @@
       ]
     },
     {
-      "name": "gomining-nft",
-      "path": "skills/gomining-nft",
-      "description": "Digital Miners NFTs, blockchains (ETH/BSC/SOL/TON), rarity attributes, mining rewards, earning modes",
-      "tags": ["nft", "digital miners", "mining", "blockchain", "rewards", "rarity"],
+      "name": "gomining-instant-funds",
+      "path": "skills/gomining-instant-funds",
+      "description": "Instant Funds — access USDT/USDC by locking BTC as collateral. Covers how it works, one-time service fee, 30-day repayment, auto-renewal, risk level, liquidation, EEA restrictions (KYC + USDC only), min/max amounts, position management.",
+      "tags": ["instant-funds", "btc", "usdt", "usdc", "collateral", "stablecoin"],
       "triggers": [
-        "digital miners",
-        "nft mining",
-        "mining rewards",
-        "blockchain networks",
-        "rarity attributes",
-        "miner wars"
+        "instant funds",
+        "lock btc",
+        "btc collateral",
+        "repayment",
+        "risk level",
+        "liquidation",
+        "service fee"
       ]
     },
     {
