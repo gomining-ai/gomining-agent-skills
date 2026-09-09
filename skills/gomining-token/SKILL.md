@@ -41,7 +41,7 @@ Use GOMINING tokens to purchase assets in the GoMining Marketplace:
 
 | Asset Type | Description |
 |------------|-------------|
-| Miners | Digital Miners representing computing power |
+| Miners | Digital mining NFTs representing computing power |
 | Avatars | User profile customization assets |
 | Merchandise | Official GoMining branded products |
 
@@ -108,7 +108,8 @@ The GOMINING token integrates with all platform products:
 | Token FAQ | https://help.token.gomining.com/ |
 | Main Website | https://gomining.com/ |
 | Alternative Website | https://gmt.io/en |
-| CoinMarketCap | https://coinmarketcap.com/currencies/gomining-token/holders/ |
+| CoinMarketCap (price, market cap, ATH, history) | https://coinmarketcap.com/currencies/gomining-token/ |
+| CoinMarketCap (holders) | https://coinmarketcap.com/currencies/gomining-token/holders/ |
 
 ---
 
@@ -132,7 +133,10 @@ GoMining developed an easy mining method that does not require purchasing expens
 
 ### Where can I track token metrics?
 
-Real-time data on token holders and metrics are maintained on CoinMarketCap's dedicated page: https://coinmarketcap.com/currencies/gomining-token/holders/
+For **price, market cap, all-time high, and price history**, use the main CoinMarketCap page: https://coinmarketcap.com/currencies/gomining-token/
+For **holder counts and distribution**, use the holders subpage: https://coinmarketcap.com/currencies/gomining-token/holders/
+
+> When a user asks about the token's **price, ATH, market cap, or price history**, point them to the **main** CoinMarketCap page (`/currencies/gomining-token/`) — **not** the `/holders/` subpage, which only shows holder counts and has no price chart. Only use the `/holders/` URL when the question is specifically about holder count / distribution.
 
 ---
 
@@ -143,8 +147,8 @@ Real-time data on token holders and metrics are maintained on CoinMarketCap's de
 - [Marketplace Integration](references/MARKETPLACE.md) — Using tokens in the marketplace
 - [FAQ: Token Overview](references/FAQ-OVERVIEW.md) — General overview of the GOMINING Token product section
 - [FAQ: About the GOMINING Token](references/FAQ-ABOUT.md) — What the GOMINING token is and its role in the ecosystem
-- [FAQ: Liquidity Pools](references/FAQ-LIQUIDITY.md) — How liquidity pools work with the GOMINING token
+- [FAQ: Liquidity Pools](references/FAQ-LIQUIDITY.md) — Liquidity pools program (RETIRED as of May 19, 2026 — no longer available; retained for reference)
 - [FAQ: Launchpad](references/FAQ-LAUNCHPAD.md) — GoMining Launchpad for token pre-sales
 - [How-to: Token Instructions Overview](references/INSTRUCTION-OVERVIEW.md) — Overview of token-related how-to guides
-- [How-to: Manage Liquidity](references/INSTRUCTION-LIQUIDITY.md) — How to add or remove liquidity for GOMINING pools
+- [How-to: Manage Liquidity](references/INSTRUCTION-LIQUIDITY.md) — Adding/removing liquidity for GOMINING pools (RETIRED as of May 19, 2026 — no longer applies)
 - [How-to: Vote Using veGOMINING](references/INSTRUCTION-VOTE.md) — How to participate in governance voting with veGOMINING

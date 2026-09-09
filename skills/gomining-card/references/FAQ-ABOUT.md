@@ -6,7 +6,7 @@
 
 You don't need to top up the card externally: all payments are made directly from your GoMining card wallet balance.
 
-Only users who have completed both **KYC Level 1** and **Level 2** can issue and use GoMining Cards.
+Only users who have completed both **KYC Basic** and **KYC Advanced** can issue and use GoMining Cards.
 
 ### What is the GoMining Card?
 
@@ -25,6 +25,8 @@ You can choose which asset your GoMining Card uses for payments:
 
 Conversion occurs instantly for each transaction at the current exchange rate.
 
+> **EEA users:** USDT is being removed for the card in the EEA — it is no longer shown as a spendable card asset. If USDT was your card's payment (priority) asset, it is switched to **USDC or BTC**, and your USDT balance is moved to your main wallet balance. **USDC remains available.**
+
 ### What card options does GoMining offer?
 
 GoMining virtual debit cards:
@@ -36,7 +38,7 @@ GoMining virtual debit cards:
 
 ### Am I eligible?
 
-**GoMining Cards** are available to users who complete **KYC Level 1 and 2**.
+**GoMining Cards** are available to users who complete **KYC Basic and KYC Advanced**.
 
 Eligibility depends on your **country of residence**, determined by the **proof of address (POA)** submitted during verification.
 
@@ -74,6 +76,10 @@ To create your first card, you need at least **$100 in your GoMining wallet**, c
 
 After the first card is issued, additional cards can be created without any balance requirement.
 
+### Is there a minimum top-up amount for the card?
+
+There is no minimum amount to move funds to your card. The card is funded from your GoMining wallet balance, and your funds **stay in your wallet** — the balance is only checked, not charged or locked. The single threshold is the **$100 wallet balance** required to open your **first** card (calculated across all assets); additional cards have no balance requirement at all. So when asked for a "minimum top-up amount," the answer is that there isn't one beyond having the $100 balance to open the first card.
+
 ### How many virtual cards can I have?
 
 You can have **up to 3 virtual GoMining Cards** active at once.
@@ -81,3 +87,7 @@ You can have **up to 3 virtual GoMining Cards** active at once.
 ### Is there a cost to create a card?
 
 No. All GoMining Cards are issued free of charge.
+
+### Who is "Unlimit" / whose terms apply to the card?
+
+Creating a GoMining Card requires agreeing to the **Unlimit Terms of use** — Unlimit is the card's payment partner. If a user asks who Unlimit is, or why "Unlimit" appears in the card terms (or on a related statement), this is expected and legitimate, not a scam. Card payments are still funded only from the user's GoMining wallet balance.

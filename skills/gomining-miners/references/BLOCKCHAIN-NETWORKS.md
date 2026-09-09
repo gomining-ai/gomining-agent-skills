@@ -55,4 +55,4 @@
 
 ## Issuer
 
-All Digital Miners are issued and distributed by **BMINE** across all supported networks.
+All Digital Miners collections are issued and distributed by **BMINE** across all supported networks.

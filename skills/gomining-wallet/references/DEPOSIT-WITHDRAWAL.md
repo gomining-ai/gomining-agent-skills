@@ -57,6 +57,12 @@
 
 > **Note:** If the system daily limit is reached, all user withdrawals for that asset are paused until the next day.
 
+> **Do not quote these numbers to users as fixed limits.** They are internal reference values and change over time. For GOMINING specifically, the public FAQ no longer publishes a per-day maximum: tell the user that a minimum (network-dependent) and a maximum (same across networks) apply, and that the current values appear on the withdrawal screen.
+
+### Security Mode — 12-hour withdrawal hold after a credential change
+
+If a user reports they can't withdraw and see **"Your account is in security mode"** on the withdrawal screen, this is a **12-hour Security Mode hold** applied automatically after the account's **email**, **password**, or **2FA-disable** was changed. Withdrawals and miner sales are paused for 12 hours; everything else (mining, rewards, deposits, Convert, etc.) works normally. The hold lifts automatically at the countdown's end; **support can lift it early** on request after confirming the user's identity — direct them to GoMining support. Full rules in [gomining-security / Security Mode](../../gomining-security/references/SECURITY-MODE.md).
+
 ---
 
 ## Withdrawal Processing Times
@@ -65,12 +71,13 @@
 |---------------|-------------|-----------------|
 | New users | Less than 1 month | 15 minutes |
 | Established users | 1 month or older | 2 minutes |
+| Business accounts | Any | Immediate |
 
 ---
 
 ## KYC Requirements
 
-### Access Without KYC Level-1
+### Access Without KYC Basic
 
 | Feature | Available? |
 |---------|-----------|
@@ -79,20 +86,20 @@
 | Withdrawal of USDT | No |
 | Withdrawal of USDC | No |
 | Withdrawal of BTC (instant) | No |
-| Miner operations | No |
+| NFT operations | No |
 | Marketplace sales | No |
 
-### Access With KYC Level-1
+### Access With KYC Basic
 
 | Feature | Available? |
 |---------|-----------|
 | All deposits | Yes |
 | All withdrawals | Yes |
-| Miner operations | Yes |
+| NFT operations | Yes |
 | Marketplace sales | Yes |
 | Full platform access | Yes |
 
-> **Important:** Complete KYC Level-1 verification to unlock full wallet functionality including all withdrawal types, Miner operations, and marketplace access.
+> **Important:** Complete KYC Basic verification to unlock full wallet functionality including all withdrawal types, NFT operations, and marketplace access.
 
 ---
 
@@ -127,7 +134,7 @@ BTC withdrawals have special rules tied to mining and game reward balances.
 
 ### Can I deposit without KYC?
 
-Yes. Deposits are available without KYC verification. However, you will need KYC Level-1 to withdraw GOMINING, USDT, USDC, and BTC (instant).
+Yes. Deposits are available without KYC verification. However, you will need KYC Basic to withdraw GOMINING, USDT, USDC, and BTC (instant).
 
 ### What happens if I deposit below the minimum?
 
@@ -135,7 +142,7 @@ Deposits below the minimum threshold may not be credited to your account. Always
 
 ### Why is my withdrawal delayed?
 
-Withdrawal processing time depends on your account age. New accounts (less than 1 month old) have a 15-minute delay. Established accounts (1 month or older) have a 2-minute delay.
+Withdrawal processing time depends on your account age. New accounts (less than 1 month old) have a 15-minute delay. Established accounts have a 2-minute delay.
 
 ### Can I withdraw BTC earned from mining?
 

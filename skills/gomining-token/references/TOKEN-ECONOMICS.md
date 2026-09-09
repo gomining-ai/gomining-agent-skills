@@ -15,7 +15,7 @@ The GOMINING token provides value across four main categories:
 ### 1. Marketplace (Commerce)
 | Use | Description |
 |-----|-------------|
-| Miner Purchases | Buy Digital Miners |
+| NFT Purchases | Buy Digital Miners |
 | Avatar Purchases | Customize user profile |
 | Merchandise | Official GoMining products |
 
@@ -42,4 +42,5 @@ The GOMINING token provides value across four main categories:
 ## Token Tracking
 
 Real-time metrics available at:
-- CoinMarketCap: https://coinmarketcap.com/currencies/gomining-token/holders/
+- CoinMarketCap — price, market cap, ATH, price history: https://coinmarketcap.com/currencies/gomining-token/
+- CoinMarketCap — holders: https://coinmarketcap.com/currencies/gomining-token/holders/

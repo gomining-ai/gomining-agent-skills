@@ -4,6 +4,10 @@
 
 The Platinum+ Subscription is a paid subscription service that grants users Platinum I-tier VIP benefits **without requiring them to accumulate TH hashrate or veGOMINING votes**. It provides an alternative path to premium benefits for users who prefer a subscription model over asset accumulation.
 
+**Price:** $29.99 per 30 days (auto-renews each billing period)
+
+**Payment methods:** Bank card or GOMINING tokens from your account balance
+
 **Important:** The Platinum+ Subscription does **not** change your actual VIP status tier. It grants benefits equivalent to Platinum I independently of your tier progression.
 
 ---
@@ -60,9 +64,8 @@ The Platinum+ Subscription is ideal for:
 ## How to Get Platinum+ Free
 
 **Referral Program Bonus:**
-- Refer a new user to GoMining
-- Receive **1 month of Platinum+ subscription free**
-- Bonus must be activated within **30 days** of referral's registration
+- When you refer a friend, the referred **friend** (the new user) receives **1 month of VIP Platinum+ free**
+- The friend can activate this bonus within **30 days** of their own registration
 
 ---
 
@@ -81,4 +84,13 @@ Platinum+ benefits stop immediately. Your actual VIP tier benefits (based on TH/
 Subscription availability follows GoMining's standard regional availability. Check the app for current eligibility.
 
 ### How do I subscribe?
-Platinum+ subscription can be activated through the GoMining app under VIP or Subscription settings.
+Platinum+ subscription can be activated through the GoMining app: go to **Profile → Get Platinum+**, review the benefits, choose a payment method, and click Subscribe.
+
+### What happens if I cancel?
+If you cancel manually, you keep Platinum+ benefits until the end of your current billing period. If a payment fails at renewal, the subscription ends and all benefits are removed. You can reactivate at any time.
+
+### Can I change my payment method?
+Not while the subscription is active. Cancel your current subscription, then resubscribe with the new payment method.
+
+### How much does Platinum+ cost?
+$29.99 per 30 days. There are no hidden fees or interest charges.

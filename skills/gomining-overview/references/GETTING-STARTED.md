@@ -12,8 +12,8 @@ KYC unlocks withdrawals, card issuance, Launchpad access, and higher transaction
 
 | Level | What it unlocks |
 |---|---|
-| **KYC Level 1** | Token withdrawals, minting and selling miners, Launchpad access, higher limits |
-| **KYC Level 2** | GoMining Card issuance |
+| **KYC Basic** | Token withdrawals, minting and selling miners, Launchpad access, higher limits |
+| **KYC Advanced** | GoMining Card issuance |
 
 ## Step 3: Get your first miner
 
@@ -42,7 +42,7 @@ You can switch between modes at any time — joining a Clan moves you to Miner W
 
 ## Step 5: Issue a GoMining Card (optional)
 
-Once KYC Level 1 and Level 2 are complete, you can issue a virtual Visa debit card and spend your crypto directly at any Visa-accepting merchant worldwide.
+Once KYC Basic and KYC Advanced are complete, you can issue a virtual Visa debit card and spend your crypto directly at any Visa-accepting merchant worldwide.
 
 - Instant issuance after approval
 - Compatible with **Apple Pay** and **Google Wallet**

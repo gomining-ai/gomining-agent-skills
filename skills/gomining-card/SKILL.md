@@ -1,6 +1,6 @@
 ---
 name: gomining-card
-description: "GoMining Card — virtual and physical cards for crypto payments. Covers card types and features, supported cryptocurrencies (GOMINING, BTC, USDT, USDC), instant crypto-to-fiat conversion, Apple Pay and Google Wallet compatibility, ATM withdrawals, KYC Level 1+2 requirements, $100 minimum balance, eligibility by region (European/Global), document requirements, passport restrictions (Belarus, Russia), 60+ prohibited jurisdictions, and pricing (no commission, internal exchange rate)."
+description: "GoMining Card — virtual and physical cards for crypto payments. Covers card types and features, supported cryptocurrencies (GOMINING, BTC, USDT, USDC), instant crypto-to-fiat conversion, Apple Pay and Google Wallet compatibility, KYC Basic + KYC Advanced requirements, $100 minimum balance, eligibility by region (European/Global), document requirements, passport restrictions (Belarus, Russia), 60+ prohibited jurisdictions, and pricing (no commission, internal exchange rate)."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -92,8 +92,8 @@ Users can select payment assets from:
 
 | Level | Required | Description |
 |-------|----------|-------------|
-| Level 1 | Yes | Basic identity verification |
-| Level 2 | Yes | Enhanced verification with address proof |
+| KYC Basic | Yes | Identity check only (document + selfie) |
+| KYC Advanced | Yes | Enhanced verification with address proof |
 
 ### Card Limits
 
@@ -204,7 +204,7 @@ Virtual cards are issued immediately upon approval and ready for online purchase
 
 ### What are the requirements for a GoMining Card?
 
-To create a card, you need at least $100 in your GoMining wallet (calculated across all assets). KYC Level 1 and 2 verification is required. Up to 3 virtual cards per user at any time.
+To create a card, you need at least $100 in your GoMining wallet (calculated across all assets). KYC Basic and KYC Advanced verification is required. Up to 3 virtual cards per user at any time.
 
 ### What documents do I need?
 

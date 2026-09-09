@@ -1,5 +1,7 @@
 # Miner Subscription
 
+> **Proactively flag the TH-reinvestment conflict.** A miner with an **active Miner Subscription cannot be selected as the TH-reinvestment target** (subscribed miners are excluded from TH reinvestment). When explaining subscriptions — especially if the user also uses or asks about reinvestment — mention this **upfront** so they aren't surprised later: "while this miner is subscribed, you can't set it as your TH-reinvestment miner." (It also can't be sold, minted, or withdrawn while the subscription is active.)
+
 ### Why Subscribe
 
 * All upgrades you receive stay with your miner permanently, even after cancellation
@@ -18,13 +20,15 @@ Stay subscribed longer to get a bonus with each upgrade. The bonus increases eve
 | 4th payment          | +6% TH   |
 | 5th payment onward   | +8% TH   |
 
+**Does the bonus stack each month?** Yes — it accumulates month over month with each consecutive payment (+2% per month), rising until it **caps at +8% TH from the 5th payment onward** (it does not grow beyond 8%). As long as you stay subscribed it does **not** reset between months, and the level is preserved during payment retries. It only **resets to 0%** if you cancel the subscription — resubscribing starts the bonus from the beginning.
+
 ---
 
 ### Available Subscription Options
 
 #### Create a new miner with a subscription
 
-Your first payment generates a new miner from the Mine Box collection with 20 W/TH energy efficiency. The miner is yours permanently, and its power grows automatically each month.
+Your first payment generates a new miner from the Mine Box collection. The miner is yours permanently, and its power grows automatically each month.
 
 #### Upgrade an existing miner
 
@@ -36,7 +40,7 @@ Your miner must meet all these requirements:
 
 * Located in your GoMining virtual wallet
 * Power below 1000 TH
-* Energy efficiency better than 20 W/TH (e.g., 18 W/TH)
+* Energy efficiency above 12 W/TH
 * Not selected for TH reinvestment
 * Not from the Greedy Machines collection
 
@@ -54,7 +58,12 @@ Each miner can only have one active subscription at a time.
 
 ### Payment and Billing
 
-Only **bank card payments** are accepted. You can pay with a linked card or add a new one when subscribing.
+Subscriptions can be paid either by **bank card** or **cryptocurrency**, depending on the method chosen at the time of subscription setup.
+
+* **Bank card subscriptions:** You can update your payment card at any time. However, the card currently linked to the subscription cannot be removed until the subscription is cancelled.
+* **Crypto subscriptions:** You can switch to any other supported cryptocurrency.
+
+Changing the payment method from card to crypto (or vice versa) is not supported.
 
 Subscriptions with Apple Pay are no longer available.
 

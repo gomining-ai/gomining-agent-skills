@@ -20,7 +20,14 @@
     "token royalty",
     "game boost",
     "miner wars boost",
-    "gomining coin"
+    "gomining coin",
+    "stake gmt",
+    "staking gmt",
+    "token staking",
+    "launchpad",
+    "token supply",
+    "gmt supply",
+    "token distribution"
   ],
   "enabled": true,
   "type": "knowledge"

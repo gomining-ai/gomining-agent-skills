@@ -1,6 +1,6 @@
 ---
 name: gomining-tokenomics
-description: "GoMining Tokenomics skill covering the GMT token ecosystem: token locking (Lock), vote-escrowed tokens (veGOMINING), voting systems for reward distribution and re-minting coefficient, the Burn & Mint deflationary mechanism including epochs, post-mint distribution, token utility, and supply reduction from 500M to 100M tokens."
+description: "GoMining Tokenomics skill covering the GMT token ecosystem: token locking (Lock), vote-escrowed tokens (veGOMINING), voting systems for reward distribution and re-minting coefficient, and the Burn & Mint deflationary mechanism including epochs, post-mint distribution, and token utility."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -47,12 +47,12 @@ GoMining Tokenomics is built around three interconnected systems that work toget
 
 ## Smart Contracts
 
-- **GMT Contract**: Initial supply of 500M tokens, manages token issuance across the ecosystem.
+- **GMT Contract**: Maximum supply of 436,915,240 GOMINING in circulation at the time of the veTokenomics launch, manages token issuance across the ecosystem.
 - **VEGoMining (VE) Contracts**: Issue vote-escrowed tokens when users lock GMT. Voting power is proportional to VE token quantity.
 
 ## Long-term Goals
 
-1. **Reduce total supply** from 500M to 100M tokens over time.
+1. **Reduce total supply** from 436,915,240 GOMINING (the maximum in circulation at the veTokenomics launch) to 100,000,000 tokens over time.
 2. **Two vectors** to achieve this:
    - Gradual token reduction through systematic burns.
    - Increase token utility to drive demand and usage.

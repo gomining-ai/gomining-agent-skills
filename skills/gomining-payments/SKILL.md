@@ -31,6 +31,8 @@ metadata:
 
 GoMining provides multiple payment methods for purchasing cryptocurrency and Digital Miners. Payment options include card payments, on-ramp services, Open Banking (PSD2), and installment plans (MNPL). All transactions are subject to KYC/compliance requirements.
 
+> **EEA users:** **USDT has been removed** as a payment / on-ramp option in the EEA. Use **USDC** or another available method instead — USDC remains fully supported.
+
 ---
 
 ## Payment Methods
@@ -95,7 +97,7 @@ MNPL is an installment plan that allows users to purchase Digital Miners with a 
 |-----------|-------|
 | **APR** | 0% |
 | **Down Payment** | 25% of miner price |
-| **Max Down Payment** | $5,000 (iteration 1) |
+| **Max Down Payment** | $5,000 |
 | **Installments** | Equal monthly payments |
 | **Price Range** | $0 - $20,000 |
 
@@ -117,13 +119,18 @@ MNPL is an installment plan that allows users to purchase Digital Miners with a 
 
 ---
 
+### Number of installments and concurrent plans
+
+- Payments are **fixed monthly installments, charged every 30 days**. The exact number of installments for a given purchase is shown at checkout (it follows from the miner price and the down payment) — do not quote a fixed maximum count, as it is not a single platform-wide value.
+- You **can have multiple active MNPL installment plans at the same time** — there is no requirement to finish one plan before starting another.
+
 ## KYC / Compliance
 
 GoMining requires identity verification, with two levels of KYC depending on the services accessed.
 
 ### Verification Levels
 
-#### Level 1 - Proof of Identity (POI)
+#### KYC Basic - Proof of Identity (POI)
 
 | Requirement | Description |
 |-------------|-------------|
@@ -133,7 +140,7 @@ GoMining requires identity verification, with two levels of KYC depending on the
 
 **Required for:** Withdrawals, miner minting, marketplace access
 
-#### Level 2 - Enhanced Due Diligence (EDD)
+#### KYC Advanced - Enhanced Due Diligence (EDD)
 
 | Requirement | Description |
 |-------------|-------------|
@@ -178,10 +185,10 @@ MNPL (Mine Now, Pay Later) lets you buy a miner with 25% down and pay the rest i
 No. MNPL is not available in India and certain other restricted territories.
 
 ### What is the maximum miner price for MNPL?
-MNPL supports miners priced from $0 to $20,000 with a maximum down payment of $5,000 in the current iteration.
+MNPL supports miners priced from $0 to $20,000 with a maximum down payment of $5,000.
 
 ### What KYC level do I need?
-Level 1 (POI) is required for withdrawals, minting, and marketplace. Level 2 (EDD) is required for the Visa card.
+KYC Basic (POI) is required for withdrawals, minting, and marketplace. KYC Advanced (EDD) is required for the Visa card.
 
 ### What if my KYC verification fails?
 If your KYC verification is unsuccessful, contact support for assistance.

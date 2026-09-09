@@ -1,6 +1,6 @@
 ---
 name: gomining-promos
-description: "GoMining promotional system — promo codes, GoBoxes, and bonus mechanics. Covers general, individual, and referral promo code types, discount and cashback bonuses (tokens or TH mining power), promo code parameters (percent, caps, validity, usage limits, VIP and payment restrictions), promo sources (email campaigns, GoBoxes, Referral codes), GoBox digital loot boxes with weighted prize pools per VIP level, bonus miner task-based completion model, trait selection system, raffles, and bounty program."
+description: "GoMining promotional system — promo codes, GoBoxes, and bonus mechanics. Covers general, individual, and referral promo code types, discount and cashback bonuses (tokens or TH mining power), promo code parameters (percent, caps, validity, usage limits, VIP and payment restrictions), promo sources (email campaigns, GoBoxes, Referral codes), GoBox digital loot boxes with weighted prize pools per VIP level, bonus miner task-based completion model, and trait selection system."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -20,6 +20,8 @@ metadata:
     - "gobox"
     - "bonus miner"
     - "referral code"
+    - "referral activity"
+    - "my friends"
     - "discount code"
     - "promotional"
 ---
@@ -28,7 +30,7 @@ metadata:
 
 ## Overview
 
-The GoMining promotional system provides promo codes, GoBoxes, and bonus mechanics to incentivize user engagement, purchases, and referrals. Promos are distributed via email campaigns, GoBoxes, or generated as referral codes.
+The GoMining promotional system provides promo codes, GoBoxes, and bonus mechanics to incentivize user engagement, purchases, and referrals. Promos are distributed through GoBoxes, referral codes, email campaigns, and in-app notifications.
 
 ---
 
@@ -53,7 +55,8 @@ The GoMining promotional system provides promo codes, GoBoxes, and bonus mechani
 ### Referral Codes
 
 - Each user has a unique referral code.
-- When a new user enters the referral code during their first purchase, they are permanently bound to the referrer.
+- Entering the code as a promo code during the first purchase is **one** of four ways to bind a new user to the referrer — the primary way is entering the code on the new user's **profile page (Account details)**. See [FAQ: Referral and Ambassador Program](references/FAQ-REFERRAL.md) for all four and the eligibility conditions.
+- The binding must exist **before** the new user makes any purchase.
 - Both referrer and referee may receive bonuses depending on campaign configuration.
 
 ---
@@ -72,7 +75,7 @@ The GoMining promotional system provides promo codes, GoBoxes, and bonus mechani
 
 | Parameter | Description | Range / Notes |
 |-----------|-------------|---------------|
-| **Bonus Percent** | Percentage bonus applied to the purchase | 0-100% |
+| **Bonus Percent** | Percentage bonus applied to the purchase | Varies by campaign |
 | **Max Bonus Cap** | Maximum bonus amount regardless of percent | Optional; caps the total bonus value |
 | **Validity Period** | When the code is active | Date range (start-end) or N days from issuance |
 | **Min Purchase Amount** | Minimum spend required to activate the code | Optional; USD threshold |
@@ -81,21 +84,19 @@ The GoMining promotional system provides promo codes, GoBoxes, and bonus mechani
 | **VIP Level Restriction** | Restricts code to specific VIP levels | Optional; e.g., Gold+ only |
 | **Payment Method Restriction** | Limits code to specific payment methods | Fiat only, Crypto only, or both |
 
----
-
 ## Promo Sources
 
 | Source | Description |
 |--------|-------------|
-| **Email Campaigns** | Automated distribution via email/push notifications |
 | **GoBoxes** | Promo codes as prizes inside GoBox loot boxes |
+| **Email / In-app** | Distributed via campaigns and notifications |
 | **Referral Codes** | User-generated referral codes |
 
 ---
 
 ## GoBoxes
 
-GoBoxes are digital loot boxes awarded for achievements and milestones. Each GoBox contains a random prize drawn from a weighted probability pool.
+GoBoxes are digital loot boxes earned mainly by reaching new VIP levels. Each GoBox contains a prize determined transparently via numbered cells using Bitcoin blockchain data, the box's unique number, and the winning number from the previous box. A GoBox must be opened within 7 days of receiving it, or it becomes inactive and cannot be opened.
 
 ### Prize Types
 
@@ -103,13 +104,12 @@ GoBoxes are digital loot boxes awarded for achievements and milestones. Each GoB
 |-------|-------------|
 | **Promo Codes** | Discount or cashback codes |
 | **Avatar Keys** | Unlock cosmetic avatar items |
-| **Bonus Miner Days** | Extra days of miner operation |
 | **GOMINING Tokens** | Direct token rewards |
 | **Gameplay Boosts** | Temporary gameplay enhancements |
 
 ### VIP Collections
 
-Each VIP level has its own GoBox collection with different prize pools and probabilities:
+Each VIP level has its own GoBox collection with different prize pools:
 
 | VIP Level | Collection | Prize Quality |
 |-----------|------------|---------------|
@@ -118,14 +118,15 @@ Each VIP level has its own GoBox collection with different prize pools and proba
 | **Gold** | Gold Collection | Premium prizes |
 | **Platinum** | Platinum Collection | Elite prizes |
 
-### GoBox Limits
+### GoBox Rules
 
 | Rule | Value |
 |------|-------|
-| Maximum keys per week | 1-2 keys |
-| Distribution | Achievement-based |
+| How they are earned | Mainly by reaching new VIP levels |
+| Open window | Must be opened within 7 days, or it becomes inactive |
+| Prize determination | Numbered cells using Bitcoin blockchain data, the box's unique number, and the previous box's winning number |
 
-> **Note:** See [GoBox Mechanics](references/GOBOXES.md) for detailed prize weights and collection breakdowns.
+> **Note:** See [GoBox Mechanics](references/GOBOXES.md) for the full collection breakdowns and prize-determination details.
 
 ---
 
@@ -235,15 +236,15 @@ Yes. Codes can be restricted by VIP level (e.g., Gold and above only) and by pay
 
 ### What is a GoBox?
 
-A GoBox is a digital loot box awarded for achievements. It contains a random prize selected from a weighted probability pool. Prizes include promo codes, avatar keys, bonus miner days, GOMINING tokens, and gameplay boosts.
+A GoBox is a digital loot box earned mainly by reaching new VIP levels. The prize is determined transparently via numbered cells using Bitcoin blockchain data, the box's unique number, and the winning number from the previous box. Prizes include promo codes, avatar keys, GOMINING tokens, and gameplay boosts.
 
-### How many GoBox keys can I earn per week?
+### Do GoBoxes expire?
 
-Users can earn a maximum of 1-2 keys per week, depending on achievements and activity.
+Yes. A GoBox must be opened within 7 days of receiving it. If it is not opened within that window, it becomes inactive and can no longer be opened.
 
 ### Are GoBox prizes the same for all VIP levels?
 
-No. Each VIP level (Bronze, Silver, Gold, Platinum) has its own collection with different prize pools and probabilities. Higher VIP levels have access to better prizes.
+No. Each VIP level (Bronze, Silver, Gold, Platinum) has its own collection with different prize pools. Higher VIP levels have access to better prizes.
 
 ### What is the Bonus Miner?
 
@@ -251,7 +252,7 @@ The Bonus Miner is a task-based reward system. Users complete a set of assigned 
 
 ### How do referral codes work?
 
-Each user has a unique referral code. When a new user enters the referral code during their first purchase, they are permanently bound to the referrer. Both parties may receive bonuses depending on the active campaign configuration.
+Each user has a unique referral code. The new user can be bound to the referrer in four ways — entering the code on their **profile page (Account details)**, which is the most reliable, opening a referral **link**, entering the code as a **promo code** during the first purchase, or activating a qualifying **gift link**. The binding must happen **before** they make any purchase, and only if they registered within the last 30 days, own no miner yet, have no advertising attribution, and aren't already linked to another referrer. Both parties may receive bonuses depending on the active campaign configuration. Full rules: [FAQ: Referral and Ambassador Program](references/FAQ-REFERRAL.md).
 
 ---
 

@@ -6,6 +6,12 @@
 
 ---
 
+### Where can I find the Travel section?
+
+The Travel section is located in the **GoMining app** under **Marketplace → Travel**.
+
+---
+
 ### How do I book a stay?
 
 You can browse and book destinations in the **Marketplace → Travel** section.
@@ -63,11 +69,9 @@ Yes. Every transaction is protected by GoMining's secure internal payment system
 
 ### What should I do if I have an issue with my booking?
 
-If you have questions or encounter issues with a specific booking, use the **Customer Support** button in the **Travel** section. It will connect you with SolarTrip's support team.
+If you have questions or encounter issues with a specific booking, use the **Customer Support** button in the **Travel** section. It will connect you with the travel provider's support team.
 
-> All booking-related support (changes, cancellations, or property details) is provided directly by Solar Trip.
->
-> Our internal support team handles only payment and cashback inquiries. You can contact us via support@gomining.com
+> All booking-related support (changes, cancellations, or property details) is provided directly by the travel booking provider via the **Customer Support** button in the **Travel** section.
 
 ---
 

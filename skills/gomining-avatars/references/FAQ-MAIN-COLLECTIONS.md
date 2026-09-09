@@ -4,7 +4,7 @@
 
 The Mine Box is a collection with random trait generation.
 
-You select mining power and mint an miner whose appearance and rarity traits are revealed only after creation.
+You select mining power and mint a miner whose appearance and rarity traits are revealed only after creation.
 
 Trait rarity is determined by chance, and a legendary tier can be generated.
 
@@ -108,6 +108,8 @@ Each miner was initially issued with a symbolic 29 TH of power, representing his
 A community-driven miner collection.
 
 Each miner accrues Bitcoin rewards daily, and its mining power increases weekly based on community voting results.
+
+**How much does the power increase each week?** There is **no fixed rate or guaranteed average** — the weekly TH increase is **determined by community voting results each week**, so it **varies from week to week**. That variability is by design (it's community-driven), so when asked for an average or exact weekly TH gain, explain that it isn't a fixed number and depends on each week's voting outcome, rather than deflecting with "I don't have verified information." There is no documented per-week percentage or TH figure to quote.
 
 * **Smart contract:** https://etherscan.io/address/0x7b38780b57b31e5dd7c0f709fcef3836d30f1425
 * **Marketplace:** OpenSea

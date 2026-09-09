@@ -26,7 +26,16 @@
     "eth withdrawal",
     "sol withdrawal",
     "ton withdrawal",
-    "custodial wallet"
+    "fireblocks",
+    "daily limit",
+    "withdrawal delay",
+    "how long withdrawal",
+    "withdrawal time",
+    "unlink wallet",
+    "remove wallet",
+    "wallet access",
+    "convert to gomining",
+    "convert tokens"
   ],
   "enabled": true,
   "type": "knowledge"

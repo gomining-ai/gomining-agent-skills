@@ -34,22 +34,28 @@ Card cashback is calculated as a percentage of each successful transaction amoun
 
 Travel cashback is calculated as a percentage of the hotel booking amount in USD, converted to TH/s using the cost-per-TH formula.
 
-| VIP Level | Cashback Rate | Example ($1,000 booking) |
-|-----------|---------------|--------------------------|
-| **Bronze** | 1.0% | $10 worth of TH/s |
-| **Silver** | 1.6% | $16 worth of TH/s |
-| **Gold** | 2.2% | $22 worth of TH/s |
-| **Platinum** | 2.8% | $28 worth of TH/s |
-| **Diamond** | 3.4% | $34 worth of TH/s |
-| **Legend** | 4.0% | $40 worth of TH/s |
+| VIP Level | Cashback Rate | Example ($1,000 booking at ~$25/TH) |
+|-----------|---------------|--------------------------------------|
+| **Bronze** | 1.0% | $10 / $25 = 0.40 TH/s |
+| **Silver** | 1.6% | $16 / $25 = 0.64 TH/s |
+| **Gold** | 2.2% | $22 / $25 = 0.88 TH/s |
+| **Platinum** | 2.8% | $28 / $25 = 1.12 TH/s |
+| **Diamond** | 3.4% | $34 / $25 = 1.36 TH/s |
+| **Legend** | 4.0% | $40 / $25 = 1.60 TH/s |
 
 ### Travel Cashback Formula
 
 ```
-TH/s Cashback = Booking Amount (USD) x VIP Cashback Rate (%) / Current TH/s price
+TH/s Cashback = Booking Amount (USD) x VIP Cashback Rate (%) / Cost per 1 TH/s
 ```
 
-> **Note:** The current TH/s price is displayed in the GoMining app and is subject to change based on market conditions.
+| Variable | Description | Current Value |
+|----------|-------------|---------------|
+| Booking Amount | Total hotel booking cost in USD | Varies |
+| VIP Cashback Rate | Percentage based on VIP level | See table above |
+| Cost per 1 TH/s | Current price of 1 TH/s of mining power | ~$25 (approximate) |
+
+> **Note:** The cost per 1 TH/s (~$25) is approximate and subject to change based on market conditions.
 
 ### Travel Cashback Rules
 
@@ -103,19 +109,17 @@ A miner must meet **all** of the following criteria to be eligible for cashback:
 
 | Criterion | Requirement |
 |-----------|-------------|
-| Ownership | Not purchased via installment plan |
+| Ownership | Not purchased via installment plan (or fully paid off) |
 | Sale status | Not currently listed for sale |
 | Efficiency | At least 20 wt/th |
-| Type | Not a bonus miner |
 
 ### Ineligible Miner Types
 
 | Miner Type | Reason |
 |------------|--------|
-| **Installment miners** | Ownership not fully transferred |
+| **Installment miners** | Not yet fully paid off (Mine Now, Pay Later) |
 | **Miners on sale** | Ownership may change |
 | **Low efficiency (<20 wt/th)** | Below minimum efficiency threshold |
-| **Bonus miners** | Promotional miners excluded from cashback upgrades |
 
 ### Accumulation Limits
 
@@ -158,7 +162,7 @@ The user cannot assign Card cashback to one miner and Travel cashback to another
 | VIP level | Gold |
 | Cashback rate | 1.5% |
 | Cashback value | $200 x 1.5% = $3.00 |
-| TH/s awarded | $3.00 ÷ current TH/s price |
+| TH/s awarded | $3.00 / $25 = **0.12 TH/s** |
 
 ### Example 2: Travel Cashback (Platinum VIP)
 
@@ -168,25 +172,23 @@ The user cannot assign Card cashback to one miner and Travel cashback to another
 | VIP level | Platinum |
 | Cashback rate | 2.8% |
 | Cashback value | $2,000 x 2.8% = $56.00 |
-| TH/s awarded | $56.00 ÷ current TH/s price |
+| TH/s awarded | $56.00 / $25 = **2.24 TH/s** |
 
 ### Example 3: Legend VIP Monthly Summary
 
-| Source | Monthly Spend | Rate | Cashback Value |
-|--------|---------------|------|----------------|
-| Card transactions | $5,000 | 5% | $250 |
-| Hotel bookings | $3,000 | 4% | $120 |
-| **Total** | **$8,000** | — | **$370** |
-
-> TH/s received depends on the current TH/s price in the GoMining app.
+| Source | Monthly Spend | Rate | Cashback Value | TH/s |
+|--------|---------------|------|----------------|------|
+| Card transactions | $5,000 | 5% | $250 | 10.0 TH/s |
+| Hotel bookings | $3,000 | 4% | $120 | 4.8 TH/s |
+| **Total** | **$8,000** | — | **$370** | **14.8 TH/s** |
 
 ---
 
 ## Frequently Asked Questions
 
-### Can the TH/s conversion rate change?
+### Can the cost per 1 TH/s change?
 
-Yes. The current TH/s price is subject to change based on market conditions and GoMining pricing updates. Always check the GoMining app for the current rate.
+Yes. The ~$25 cost per 1 TH/s is approximate and subject to change based on market conditions and GoMining pricing updates.
 
 ### Do both Card and Travel cashback share the same miner?
 
@@ -194,7 +196,7 @@ Yes. A single miner is selected for all cashback sources. You cannot split cashb
 
 ### What if I have no eligible miners?
 
-Cashback cannot be applied until you have at least one eligible miner (not installment, not on sale, at least 20 wt/th, not a bonus miner). Earned cashback may be held pending until an eligible miner is available.
+Cashback cannot be applied until you have at least one eligible miner (not an unpaid installment miner, not on sale, at least 20 wt/th). Earned cashback may be held pending until an eligible miner is available.
 
 ### Is there a minimum transaction for Card cashback?
 

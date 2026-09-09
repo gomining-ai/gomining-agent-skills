@@ -135,8 +135,8 @@ The Academy hosts **79+ articles** across multiple categories:
 | Feature | Description |
 |---------|-------------|
 | Type | Yield earning product |
-| Supported Assets | BTC, ETH, SOL, BNB, TON, USDT, USDC (GOMINING excluded; EEA: no USDT) |
-| Payouts | BTC every 4 hours |
+| Supported Assets | BTC, GOMINING, USDT, USDC |
+| Payouts | Daily BTC |
 | Lock-up | No lock-up required |
 | Flexibility | Full flexibility to withdraw |
 
@@ -155,7 +155,19 @@ Premium subscription tier with enhanced benefits and features within the GoMinin
 
 ---
 
-## Certificates
+## Certificates & Course Rewards
+
+> ### Guardrail — don't claim course rewards from memory
+>
+> When a user asks **"what do I get for completing course X?"** or **"what's the reward for this course?"**, do **not** answer from memory with "a digital certificate" alone and stop. That is incomplete and misleading — completing course **lessons** also unlocks **Bonus Miner tasks** (see ACADEMY-NAVIGATION.md: *"Activate your bonus miner — Unlock the tasks and start earning rewards by completing lessons"*), which is a real, additional reward path beyond the certificate.
+>
+> Give both threads when the user asks about a course's reward:
+> 1. **Certificate** — awarded on passing the course's final quiz (viewable at the Academy Certificates page).
+> 2. **Bonus Miner tasks** — completing lessons unlocks Bonus Miner tasks that carry their own rewards. The exact per-lesson task/reward is **not** documented here — direct the user to the course page's *Activate your bonus miner* option and the Bonus Miner in the app to see what's currently available.
+>
+> The specific reward for a **new / recently added course** (that isn't in the COURSES.md catalog below) is **not** documented here — do not guess it. Acknowledge you can see the course exists but you don't have the reward details, and contact GoMining support if the user needs a definitive answer.
+>
+> Do **not** invent token amounts, XP, GMT rewards, or specific per-course prizes. Only mention what is above.
 
 Upon completing courses with passing quiz scores, users receive:
 
@@ -214,6 +226,7 @@ Certificates are viewable at: https://academy.gomining.com/certificates
 
 ## References
 
+- [Academy Layout & Navigation](references/ACADEMY-NAVIGATION.md) — How to reach the Academy, its nav, home sections, and the course↔Bonus Miner link
 - [Course Details](references/COURSES.md) — Full course curriculum and learning objectives
 - [Article Index](references/ARTICLES.md) — Complete article catalog by category
 - [Product Guides](references/PRODUCT-GUIDES.md) — Simple Earn, Miner Wars, Platinum+ details

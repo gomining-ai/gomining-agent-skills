@@ -16,6 +16,24 @@ What's more, our digital miners are crypto works of art that can be sold on any 
 
 ---
 
+### Can I rename my miner? / Can I change the miner's name?
+
+**No.** A digital miner's name is **fixed** — you cannot rename it. The display name (e.g. "MINEBOX 143208", "Greedy Machine #47", or the collection-specific name) is assigned at creation and cannot be edited in the app. There is no rename field on the miner card, no nickname setting in Profile, and no support workflow to change it.
+
+Answer this question directly when asked — do not deflect to a human agent for a rename. If the user wants a "custom" identifier, the closest available thing is that the app already gives each miner its display name plus its ID; those two together uniquely identify it in **Mining Farm**, **Purchase history**, and **Rewards**.
+
+---
+
+### Can I watch the mining operations live? (live footage / live camera)
+
+Yes — there **is live footage**. GoMining has a **live mining feed**: a **real-time camera / video of the physical data center** where the mining runs. It is available **only in the web version** (app.gomining.com in a browser): open the **Mining farm** tab (My miners → Mining farm) and click the **Watch live mining** banner near the top of the page (it has a live indicator dot). So if a user asks "where is the live footage / live camera", the answer is yes — via **Watch live mining** on the Mining farm page **of the web app**.
+
+### I don't see "Watch live mining" / I closed it — where is it? (mobile vs web)
+
+**The live mining feed is web-only.** It is **not** in the mobile apps — neither the native iOS/Android app nor **GoMining Lite** (a separate lightweight version) has the **Watch live mining** banner. So if a user is on a phone and can't find it or see the red dot, that's expected: tell them to open the **web version** at **app.gomining.com in a browser**, go to **Mining farm**, and the **Watch live mining** banner is at the top there. If they closed it, returning to the Mining farm page on the web brings it back. Do **not** tell a mobile-app user to look for it in their app — direct them to the web.
+
+---
+
 ### What are the rarity values for digital miners?
 
 The rarity of each digital miner is determined by 11 parameters, each with different variants. They are:
@@ -63,6 +81,12 @@ Mode switching happens automatically when you:
 
 ---
 
+### Can I use both Mining Mode and Miner Wars at the same time?
+
+No. You can only be in **one mining mode at a time** per account, and rewards are tied to the selected mode. Modes are **account-wide** — when you switch, **all** miners linked to the account move to the selected mode together. Splitting miners across modes is not allowed, and maintaining separate accounts for Mining Mode and Miner Wars is prohibited.
+
+---
+
 ### How switching modes affects rewards
 
 **What you need to know**
@@ -101,7 +125,7 @@ When buying a digital miner, you are purchasing a portion of existing ASICs, eac
 
 ### How are the electricity costs calculated?
 
-Electricity costs depend on the energy efficiency of the miner (W/TH), its computing power (TH/s), and the current BTC price. Higher energy efficiency means lower electricity costs.
+Electricity costs for each digital miner depend on the energy efficiency of the miner (W/TH), its computing power (TH/s), and the current BTC price. Higher energy efficiency means lower electricity costs.
 
 ---
 

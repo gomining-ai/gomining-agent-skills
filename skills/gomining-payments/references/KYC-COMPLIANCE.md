@@ -6,7 +6,7 @@ GoMining requires identity verification (KYC) to access certain platform feature
 
 ## Verification Levels
 
-### Level 1 - Proof of Identity (POI)
+### KYC Basic - Proof of Identity (POI)
 
 | Requirement | Description |
 |-------------|-------------|
@@ -14,16 +14,16 @@ GoMining requires identity verification (KYC) to access certain platform feature
 | Selfie | Live selfie for facial recognition / liveness check |
 | Questionnaire | Basic user information questionnaire |
 
-**Services Unlocked with Level 1:**
+**Services Unlocked with KYC Basic:**
 
 | Service | Access |
 |---------|--------|
 | Withdrawals | Enabled |
 | Miner Minting | Enabled |
 | Marketplace | Enabled |
-| Visa Card | Not available (requires Level 2) |
+| Visa Card | Not available (requires KYC Advanced) |
 
-### Level 2 - Enhanced Due Diligence (EDD)
+### KYC Advanced - Enhanced Due Diligence (EDD)
 
 | Requirement | Description |
 |-------------|-------------|
@@ -32,11 +32,11 @@ GoMining requires identity verification (KYC) to access certain platform feature
 | Proof of Address | Utility bill, bank statement, or government document (recent) |
 | Phone Verification | Verified phone number linked to account |
 
-**Services Unlocked with Level 2:**
+**Services Unlocked with KYC Advanced:**
 
 | Service | Access |
 |---------|--------|
-| All Level 1 services | Enabled |
+| All KYC Basic services | Enabled |
 | GoMining Visa Card | Enabled |
 
 ## Blocked Territories
@@ -45,13 +45,18 @@ The following countries are fully restricted from all GoMining services due to i
 
 | Country | Region |
 |---------|--------|
-| North Korea | East Asia |
-| Myanmar | Southeast Asia |
-| Iran | Middle East |
 | Afghanistan | Central/South Asia |
-| Syria | Middle East |
-| Yemen | Middle East |
+| Belarus | Eastern Europe |
 | Cuba | Caribbean |
+| Iran | Middle East |
+| Myanmar | Southeast Asia |
+| North Korea | East Asia |
+| Russia | Eastern Europe |
+| Somalia | East Africa |
+| South Sudan | East Africa |
+| Syria | Middle East |
+| Venezuela | South America |
+| Yemen | Middle East |
 
 ## Compliance Notes
 

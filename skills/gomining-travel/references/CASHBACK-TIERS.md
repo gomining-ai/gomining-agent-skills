@@ -4,27 +4,27 @@
 
 GoMining Travel rewards hotel bookings with cashback in the form of TH/s mining power upgrades. The cashback rate depends on the user's VIP level within the GoMining ecosystem.
 
-> **Important:** Cashback applies only to hotel bookings. Flight bookings do not earn cashback in Phase 1.
+> **Important:** Cashback applies to hotel bookings.
 
 ---
 
 ## VIP Cashback Rates
 
-| VIP Level | Cashback Rate | Cashback on $650 Booking (TH/s) |
-|-----------|---------------|----------------------------------|
-| Bronze | 1.0% | 0.260 TH/s |
-| Silver | 1.6% | 0.416 TH/s |
-| Gold | 2.2% | 0.572 TH/s |
-| Platinum | 2.8% | 0.728 TH/s |
-| Diamond | 3.4% | 0.884 TH/s |
-| Legend | 4.0% | 1.040 TH/s |
+| VIP Level | Cashback Rate |
+|-----------|---------------|
+| Bronze | 1.0% |
+| Silver | 1.6% |
+| Gold | 2.2% |
+| Platinum | 2.8% |
+| Diamond | 3.4% |
+| Legend | 4.0% |
 
 ---
 
 ## Cashback Formula
 
 ```
-Cashback (TH/s) = Booking Amount (USD) x VIP Cashback Rate (%) / Cost per 1 TH/s (current TH/s price)
+Cashback (TH/s) = Booking Amount (USD) × VIP Cashback Rate (%) / Current TH Price
 ```
 
 ### Calculation Examples
@@ -38,7 +38,7 @@ Cashback (TH/s) = Booking Amount (USD) x VIP Cashback Rate (%) / Cost per 1 TH/s
 | Diamond | $650 | 3.4% | $22.10 worth of TH/s |
 | Legend | $3,000 | 4.0% | $120.00 worth of TH/s |
 
-> **Note:** The TH/s conversion price is displayed in the GoMining app and may be adjusted over time.
+> **Note:** The TH price used in the formula reflects the current market rate and changes over time. The actual TH/s credited will vary based on the TH price at the time of cashback finalization.
 
 ---
 
@@ -83,10 +83,9 @@ The following miner types **cannot** be selected as cashback targets:
 
 | Restricted Miner Type | Reason |
 |------------------------|--------|
-| **Installment miners** | Miners purchased on installment plans |
-| **Sale miners** | Miners acquired through promotional sales |
+| **Installment miners** | Miners on installment plans (Mine Now, Pay Later) not yet fully paid off |
+| **Sale miners** | Miners currently listed for sale |
 | **Low-efficiency miners** | Miners below 20 wt/th efficiency threshold |
-| **Bonus miners** | Miners received as bonuses or rewards |
 
 ---
 
@@ -100,9 +99,9 @@ Instead of receiving cash or token refunds, GoMining Travel converts your hotel 
 
 Your cashback rate is tied to your GoMining VIP level. Higher VIP tiers earn higher cashback percentages, ranging from 1% (Bronze) to 4% (Legend).
 
-### Do flights earn cashback?
+### Do all bookings earn cashback?
 
-No. In the current Phase 1 rollout, cashback applies only to hotel bookings. Flight cashback may be introduced in future phases.
+Yes. Cashback is awarded on hotel bookings based on your VIP tier.
 
 ### What happens if I do not own a miner?
 
@@ -110,7 +109,7 @@ Your cashback TH/s is saved in your account. When you purchase your first eligib
 
 ### Can I choose which miner gets the cashback?
 
-Yes, you can select any eligible miner. However, installment miners, sale miners, miners below 20 wt/th, and bonus miners cannot be selected. If you do not choose, the system auto-selects your strongest miner.
+Yes, you can select any eligible miner. However, unpaid installment miners, miners listed for sale, and miners below 20 wt/th cannot be selected. If you do not choose, the system auto-selects your strongest miner.
 
 ### What is the maximum TH/s a miner can accumulate from cashback?
 
@@ -120,6 +119,6 @@ A single miner can accumulate cashback up to a maximum of 5000 TH. Once this lim
 
 Cashback accrues upon booking confirmation but is only finalized after the guest checks out of the hotel. If the booking is cancelled before check-in, no cashback is awarded.
 
-### What TH/s price is used in the formula?
+### What is the TH price used in the formula?
 
-The current TH/s price is displayed in the GoMining app and may be adjusted over time based on market conditions.
+The TH price used in the cashback formula reflects the current market rate for 1 TH/s on GoMining. It changes over time — check the GoMining app or calculator for the current value.

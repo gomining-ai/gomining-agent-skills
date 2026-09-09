@@ -170,10 +170,9 @@ The following miners **cannot** be selected for cashback:
 
 | Restriction | Description |
 |-------------|-------------|
-| **Installment miners** | Miners purchased via installment plan |
+| **Installment miners** | Miners purchased via installment plan (Mine Now, Pay Later) not yet fully paid off |
 | **Miners on sale** | Miners currently listed for sale |
 | **Low efficiency miners** | Miners with less than 20 wt/th |
-| **Bonus miners** | Miners received as promotional bonuses |
 
 ### Accumulation Limits
 
@@ -223,7 +222,7 @@ The system auto-selects your previously used miner or your strongest eligible mi
 
 ### Why can't I select a specific miner?
 
-Certain miners are ineligible: installment miners, miners listed for sale, miners with less than 20 wt/th efficiency, and bonus miners. Ensure your chosen miner meets all eligibility criteria.
+Certain miners are ineligible: installment miners not yet fully paid off, miners listed for sale, and miners with less than 20 wt/th efficiency. Ensure your chosen miner meets all eligibility criteria.
 
 ### What happens when my miner reaches 5,000 TH?
 

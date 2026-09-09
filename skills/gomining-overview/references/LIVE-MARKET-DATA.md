@@ -32,9 +32,13 @@ The purchase price for 1 TH of mining power on GoMining.
 | Aspect | Details |
 |--------|---------|
 | **What it is** | One-time cost to acquire 1 TH of digital miner hashrate |
-| **Factors** | Energy efficiency (W/TH), current demand, promotions |
-| **Range** | Varies significantly based on miner efficiency class |
+| **Factors** | Energy efficiency (W/TH), current demand, purchase volume, promotions |
+| **Range** | Varies significantly based on miner efficiency class and purchase size |
 | **Where to check** | GoMining app marketplace or calculator |
+
+**Primary vs secondary pricing:**
+- **Primary marketplace (GoMining):** Price per TH decreases with larger purchases — the more TH you buy at once, the lower your cost per TH.
+- **Secondary marketplace (other users):** Price is set by the individual seller. Each listing may differ from primary pricing.
 
 **Why it matters:** Lower TH price = faster ROI. More efficient miners (lower W/TH) typically cost more upfront but have lower maintenance costs.
 
@@ -205,10 +209,10 @@ Example for Silver I (100 veGOMINING):
 ROI Days = TH Purchase Price / (Daily Net Profit × TH)
 ```
 
-Example (at current market rates from the GoMining app):
-- Purchase: see current TH/s price in the GoMining app
-- Daily Net Profit: $0.02/TH (example, varies with BTC price and difficulty)
-- **ROI:** depends on purchase price and network conditions
+Example (for illustration only — use current TH price from the app):
+- Purchase: $20–30 for 1 TH (varies by miner efficiency)
+- Daily Net Profit: $0.02/TH
+- **ROI: ~1,000–1,500 days** (assuming constant conditions)
 
 **Note:** ROI calculations are estimates. Actual returns depend on BTC price, difficulty changes, and maintenance costs over time.
 

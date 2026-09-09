@@ -24,6 +24,18 @@ All rewards are credited in GOMINING tokens and sent to your **GoMining virtual 
 
 ---
 
+### How many total votes are in the system?
+
+The live **system-wide total votes** figure isn't something the assistant can pull with a tool, and it changes continuously — so don't quote or estimate a number. It **is shown in-app on the veGOMINING voting page**, which is the accurate, current source. You can see **your own** votes in **My Locks**; for your share, compare your votes against the total shown on the voting page. Point the user to the voting page for the exact current total rather than deflecting or guessing.
+
+---
+
+### Can you compare this voting cycle to the previous one (e.g. how voting changed the mining-mode/solo discount vs last cycle)?
+
+No — **cycle-by-cycle voting history isn't available to the assistant.** There is no tool or archived per-cycle record of voting results or of how the **Mining Mode discount** was set in a given cycle versus the one before, and these values change every Burn & Mint cycle, so don't quote, estimate, or reconstruct a comparison from memory. Explain what *is* documented — the Mining Mode discount is determined by the Burn & Mint cycle and veGOMINING voting results (see the Mining Mode Discount section in the maintenance FAQ) — and point the user to the in-app sources for the actual figures: the **veGOMINING voting page** for current voting/results, and their **Maintenance discounts page** for the current Mining Mode discount applied to them. Don't dead-end on "I don't have that" alone — give the mechanism plus where the live numbers live.
+
+---
+
 ### How to get veGOMINING votes?
 
 To get votes, you need to lock GOMINING tokens for 1 week to 4 years. The longer the lock, the more votes you receive.
@@ -63,6 +75,18 @@ From the beginning to the end of your lock, the amount of your veGOMINING votes 
 
 ---
 
+### Why did my daily GOMINING (veGOMINING) rewards drop?
+
+Weekly veGOMINING rewards scale with your **share of votes**, so a drop usually means your votes fell. Check in this order:
+
+1. **Lock nearing its end (most common).** Your veGOMINING votes **decrease steadily from the start to the end of the lock** (see above). As the lock approaches expiry your votes — and therefore your reward share — keep shrinking, reaching zero at expiry. A gradual decline (e.g. ~6/day down to <1/day) most often points here, so check the lock's end date first.
+2. **Your veGOMINING balance changed.** If a lock ended, or you didn't extend or add tokens, your total votes dropped.
+3. **Governance allocation shifted.** Weekly emissions are split by vote; if the community reallocated, or total votes in the pool grew, your relative share — and reward — can fall.
+
+To restore votes, lock more tokens or extend your lock period.
+
+---
+
 ### How to upgrade my lock and get more votes?
 
 You can increase your votes anytime by locking more tokens or extending the lock period.
@@ -70,6 +94,10 @@ You can increase your votes anytime by locking more tokens or extending the lock
 To upgrade, go to My lock and click on the "+" icon. You can upgrade your lock unlimited times.
 
 Maximum period: 4 years from today.
+
+### Why is there a 4-year option / what does "Max" mean on the lock screen?
+
+You can lock GOMINING tokens for any period from **1 week to 4 years**, and the longer you lock, the more votes you receive. **4 years is the maximum** lock duration, so choosing "Max" simply sets the lock to that full 4-year period — the option that gives the most votes for a given token amount. It is the top of the allowed range, not a separate feature.
 
 ---
 

@@ -20,7 +20,7 @@ Some collections are limited. GoBoxes from limited collections are available onl
 
 ### What prizes can I win?
 
-Depending on the collection — promo codes, bonus miner days, miners, GOMINING tokens, GoMiners keys, and more.
+Depending on the collection — promo codes, miners, GOMINING tokens, GoMiners keys, and more.
 
 ### How long do I have to open a GoBox?
 

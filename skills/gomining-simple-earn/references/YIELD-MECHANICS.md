@@ -2,7 +2,7 @@
 
 ## Overview
 
-Simple Earn generates yield from multiple sources and distributes it to participants via a snapshot-based daily cycle. All rewards are paid in BTC, regardless of the deposited asset. Interest is not guaranteed and may be zero in any given period.
+Simple Earn generates yield from multiple sources and distributes it to participants on a 4-hour reward cycle. All rewards are paid in BTC, regardless of the deposited asset. Interest is not guaranteed and may be zero in any given period.
 
 ---
 
@@ -11,10 +11,11 @@ Simple Earn generates yield from multiple sources and distributes it to particip
 | Parameter | Value |
 |-----------|-------|
 | Payout currency | **BTC** |
-| Payout frequency | **Every 4 hours** (6 times per day) |
-| Compounding | Auto-compounds every 4-hour cycle |
-| Guarantee | Interest is **NOT** guaranteed; yield can be zero |
-| Capital safety | Not absolutely guaranteed — DeFi protocol risks apply (smart contract vulnerabilities). GoMining actively monitors and rebalances to reduce risk. |
+| Payout frequency | Every 4 hours (6 cycles per day) |
+| Compounding | Auto-compounds each cycle |
+| Guarantee | Interest is **NOT** guaranteed |
+| Minimum yield | Can be zero |
+| Principal loss | Possible in rare cases (e.g. a smart-contract vulnerability) - Simple Earn is not a bank deposit, so capital preservation cannot be guaranteed |
 
 ---
 
@@ -22,9 +23,8 @@ Simple Earn generates yield from multiple sources and distributes it to particip
 
 | Concept | Description |
 |---------|-------------|
-| Individual APR | Each supported asset (BTC, ETH, SOL, BNB, TON, USDT, USDC) has its own APR |
+| Individual APR | Each supported asset has its own APR |
 | APR setter | GoMining's liquidity manager sets and adjusts APR per asset |
-| VIP multiplier | Your VIP level applies a multiplier to your APR (Bronze I: base rate; Elite: x1.46) |
 | Estimated yield | Weighted average APR across all assets in user's Simple Earn balance |
 | Variability | APR can change over time based on market conditions and yield sources |
 
@@ -44,9 +44,9 @@ The estimated yield reflects the weighted combination of both positions.
 
 ---
 
-## 4-Hour Reward Cycle
+## Reward Cycle (Every 4 Hours)
 
-Simple Earn uses a **4-hour cycle** to calculate and distribute rewards. Cycles repeat 6 times per day.
+Simple Earn distributes rewards on a **4-hour cycle**. Cycles start at 00:00 UTC and repeat every 4 hours (00:00 → 04:00 → 08:00 → 12:00 → 16:00 → 20:00), giving 6 cycles per day.
 
 ### Cycle Schedule
 
@@ -59,24 +59,25 @@ Simple Earn uses a **4-hour cycle** to calculate and distribute rewards. Cycles 
 | 16:00 | End of 16:00–20:00 cycle |
 | 20:00 | End of 20:00–00:00 cycle |
 
-### Cycle Rules
+### How a Cycle Works
 
-| Rule | Details |
-|------|---------|
-| Reward basis | **Minimum balance** held during the full 4-hour cycle |
-| New deposits | Counted from the **start of the next cycle** |
-| Withdrawals | Reduce the minimum balance; rewards calculated on the lowest amount held |
-| Reward currency | BTC — credited directly to wallet after each cycle |
+| Aspect | Details |
+|--------|---------|
+| Cycle length | 4 hours |
+| Reward basis | The **minimum balance** held during the full 4-hour cycle |
+| Payout | BTC, calculated and credited for every full cycle you've participated in |
+| Balance decreases | A withdrawal, purchase, or other operation that lowers your balance mid-cycle means rewards use the lowest amount held during that cycle |
+| New deposits | Counted from the **start of the next** 4-hour cycle |
 
 ### Timing Examples
 
-| Scenario | Deposit Time | First Eligible Cycle | First Reward |
-|----------|-------------|---------------------|--------------|
-| Deposit at 01:30 UTC | 01:30 UTC | 04:00–08:00 cycle | ~08:00 UTC |
-| Deposit at 07:50 UTC | 07:50 UTC | 08:00–12:00 cycle | ~12:00 UTC |
-| Deposit at 23:45 UTC | 23:45 UTC | 00:00–04:00 cycle (next day) | ~04:00 UTC |
+| Scenario | Deposit Time | First Full Cycle Counted |
+|----------|-------------|--------------------------|
+| Deposit at 10:00 UTC | 10:00 UTC | 12:00–16:00 UTC cycle |
+| Deposit at 03:30 UTC | 03:30 UTC | 04:00–08:00 UTC cycle |
+| Deposit at 16:10 UTC | 16:10 UTC | 20:00–00:00 UTC cycle |
 
-> **Tip:** Deposits take effect at the start of the next cycle — timing within a cycle does not matter.
+> **Note:** To earn for a given cycle, your balance must be held for the full 4-hour cycle. Funds deposited mid-cycle start earning from the next cycle.
 
 ---
 
@@ -115,20 +116,20 @@ Simple Earn yield is generated from three primary sources:
 | Parameter | Details |
 |-----------|---------|
 | Mechanism | Rewards are automatically reinvested |
-| Frequency | Every 4-hour cycle |
+| Frequency | Each 4-hour cycle |
 | User action required | None — compounding is automatic |
-| Effect | BTC rewards are added to balance, increasing the minimum for subsequent cycles |
+| Effect | BTC rewards are added to balance, increasing the amount earning in the next cycle |
 
 ### Compounding Flow
 
 ```
-Cycle 1 ends → BTC reward credited
+Cycle 1 → BTC reward credited
          ↓
-Cycle 2 starts (balance now includes Cycle 1 rewards)
+Cycle 2 earns on (original balance + Cycle 1 rewards)
          ↓
-Cycle 2 ends → larger BTC reward credited
+Cycle 3 earns on the larger balance
          ↓
-... continues automatically, 6 times per day
+... continues automatically every 4 hours
 ```
 
 ---
@@ -137,7 +138,7 @@ Cycle 2 ends → larger BTC reward credited
 
 ### Why is my yield zero?
 
-Interest is not guaranteed. Yield can be zero in any given period depending on market conditions and yield source performance. Your principal is always protected.
+Interest is not guaranteed. Yield can be zero in any given period depending on market conditions and yield source performance. Simple Earn works with DeFi protocols and is not a bank deposit, so capital preservation cannot be guaranteed; in rare cases (for example a smart-contract vulnerability) losses may occur. GoMining reduces this risk by selecting, monitoring, and rotating protocols, but risk cannot be fully eliminated.
 
 ### Why does APR differ between assets?
 
@@ -145,16 +146,16 @@ Each asset has unique staking, DeFi, and liquidity opportunities. GoMining's liq
 
 ### When does my deposit start earning?
 
-Your deposit is counted from the start of the next 4-hour cycle after it is made. Rewards are credited at the end of that cycle (every 4 hours: 04:00, 08:00, 12:00, 16:00, 20:00, 00:00 UTC).
+Your deposit starts earning from the next full 4-hour cycle after it lands. To earn for a cycle, the balance must be held for the entire 4-hour cycle.
 
 ### Is the APR fixed?
 
-No. APR is variable and can change over time as market conditions and yield source performance fluctuate. GoMining's liquidity manager adjusts rates accordingly. Your VIP level also affects your effective APR via a multiplier.
+No. APR is variable and can change over time as market conditions and yield source performance fluctuate. GoMining's liquidity manager adjusts rates accordingly.
 
 ### How does auto-compounding work?
 
-BTC rewards are credited every 4 hours and automatically added to your Simple Earn balance. This larger balance then serves as the basis for the next cycle's reward calculation, compounding your returns without any manual action.
+BTC rewards credited at the end of each 4-hour cycle are automatically added to your Simple Earn balance. The larger balance then earns in the next cycle, effectively compounding your returns without any manual action.
 
 ### What happens to my rewards if I withdraw?
 
-There are no penalties for withdrawal. Any rewards already credited to your balance are yours to keep. If you withdraw during a cycle, the reward for that cycle is calculated based on the lowest balance held — so partial withdrawals mid-cycle reduce that cycle's reward proportionally.
+There are no penalties for withdrawal. Any rewards already credited to your balance are yours to keep. Because rewards use the minimum balance held during a cycle, withdrawing mid-cycle lowers that cycle's reward.

@@ -1,6 +1,6 @@
 ---
 name: gomining-travel
-description: "GoMining Travel — integrated hotel booking platform using GM tokens with cashback in mining power (TH/s). Covers hotel booking via GM tokens, VIP-tiered cashback rates (Bronze 1% to Legend 4%), cashback-to-TH/s conversion formula, miner selection rules, booking lifecycle (Pending, Success, Cancelled), supported payment methods (GM, BTC, USDT), and refund and cancellation policies."
+description: "GoMining Travel — integrated hotel booking platform paid from internal virtual wallets, with cashback in mining power (TH/s). Covers hotel booking paid in GOMINING token (GMT), BTC, or USDT, VIP-tiered cashback rates (Bronze 1% to Legend 4%), cashback-to-TH/s conversion formula, miner selection rules, booking lifecycle (Pending, Success, Cancelled), supported payment methods (GMT, BTC, USDT), and refund and cancellation policies."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -12,13 +12,13 @@ metadata:
     - booking
     - cashback
     - mining-power
-    - gm-tokens
+    - gmt
   triggers:
     - "gomining travel"
     - "travel booking"
     - "hotel booking"
     - "travel cashback"
-    - "booking with gm tokens"
+    - "booking payment options"
     - "travel mining power"
 ---
 
@@ -26,7 +26,7 @@ metadata:
 
 ## Overview
 
-GoMining Travel is an integrated hotel booking platform embedded within the GoMining app. Users book hotels using GM tokens and receive cashback in the form of TH/s mining power upgrades applied to their miners.
+GoMining Travel is an integrated hotel booking platform embedded within the GoMining app. Users book hotels by paying from their internal virtual wallets in GOMINING token (GMT), BTC, or USDT, and receive cashback in the form of TH/s mining power upgrades applied to their miners.
 
 **Launch Date:** February 20, 2026
 
@@ -37,7 +37,7 @@ GoMining Travel is an integrated hotel booking platform embedded within the GoMi
 | Feature | Description |
 |---------|-------------|
 | **Embedded Booking** | Travel booking directly inside the GoMining app |
-| **GM Token Payments** | Primary payment method for all bookings |
+| **Virtual Wallet Payments** | Pay in GOMINING token (GMT), BTC, or USDT |
 | **TH/s Cashback** | Cashback awarded as mining power upgrades |
 | **VIP Tiers** | Cashback rates scale with VIP level (1%--4%) |
 | **Hotel Search** | Full hotel search and booking engine |
@@ -46,13 +46,15 @@ GoMining Travel is an integrated hotel booking platform embedded within the GoMi
 
 ## Payment Methods
 
-| Method | Type | Notes |
-|--------|------|-------|
-| **GM** | Primary | Native GoMining token, default payment |
-| **BTC** | Alternative | Converted to GM at transaction time |
-| **USDT** | Alternative | Converted to GM at transaction time |
+Bookings are paid from your internal virtual wallets. Three currencies are supported as equal options:
 
-> **Note:** BTC and USDT payments are converted to GM tokens before the booking is processed.
+| Method | Notes |
+|--------|-------|
+| **GMT** | GOMINING token |
+| **BTC** | Bitcoin |
+| **USDT** | Tether |
+
+> **Note:** At launch, the platform supports payments from internal virtual wallets in these three currencies.
 
 ---
 
@@ -103,7 +105,7 @@ See [Cashback Tiers](references/CASHBACK-TIERS.md) for full details on miner sel
 │                       ▼                                 │
 │  2. BOOK & PAY                                          │
 │     ┌─────────────────────────────────────┐             │
-│     │ Pay with GM tokens (or BTC/USDT)    │             │
+│     │ Pay in GMT, BTC, or USDT            │             │
 │     │ Status: PENDING                     │             │
 │     └─────────────────────────────────────┘             │
 │                       │                                 │
@@ -134,7 +136,7 @@ See [Booking Flow](references/BOOKING-FLOW.md) for full lifecycle details, refun
 
 | Phase | Scope | Status |
 |-------|-------|--------|
-| Phase 1 | Hotel bookings with GM token payments | Launched (Feb 20, 2026) |
+| Phase 1 | Hotel bookings paid in GMT, BTC, or USDT | Launched (Feb 20, 2026) |
 
 ---
 
@@ -142,11 +144,11 @@ See [Booking Flow](references/BOOKING-FLOW.md) for full lifecycle details, refun
 
 ### What is GoMining Travel?
 
-GoMining Travel is an integrated hotel booking platform embedded within the GoMining app. It lets users book hotels using GM tokens and earn cashback as TH/s mining power.
+GoMining Travel is an integrated hotel booking platform embedded within the GoMining app. It lets users book hotels paying from their virtual wallets and earn cashback as TH/s mining power.
 
 ### How do I pay for bookings?
 
-The primary payment method is GM tokens. You can also pay with BTC or USDT, which are converted to GM at transaction time.
+You pay from your internal virtual wallet in one of three currencies: GOMINING token (GMT), BTC, or USDT.
 
 ### How does the cashback work?
 

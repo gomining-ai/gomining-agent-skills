@@ -1,6 +1,6 @@
 {
   "name": "gomining-avatars",
-  "description": "Avatar collections (Humans/Sentinels/Cryptiles/Luminars), Luminar VIP boost rules, secondary marketplace for miners and avatars, merch",
+  "description": "Avatar collections (Humans/Sentinels/Cryptiles/Luminars/Magmars), each race's unique ability, Luminar VIP boost rules, secondary marketplace for miners and avatars, merch",
   "triggers": [
     "avatars",
     "avatar collection",
@@ -21,7 +21,16 @@
     "merchandise",
     "merch",
     "cosmetic nft",
-    "vip boost avatar"
+    "vip boost avatar",
+    "goclub",
+    "go club",
+    "welcome pack",
+    "avatar pack",
+    "human avatars",
+    "humans collection",
+    "multiple avatars",
+    "avatar benefits",
+    "avatar perks"
   ],
   "enabled": true,
   "type": "knowledge"

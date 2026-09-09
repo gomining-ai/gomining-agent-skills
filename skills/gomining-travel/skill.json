@@ -1,12 +1,10 @@
 {
   "name": "gomining-travel",
-  "description": "GoMining Travel — hotel/flight booking with GOMINING tokens, TH/s cashback by VIP tier, SolarTrip integration",
+  "description": "GoMining Travel — hotel booking with GOMINING tokens, TH/s cashback by VIP tier",
   "triggers": [
     "travel",
     "book hotel",
     "hotel booking",
-    "book flight",
-    "flight booking",
     "travel booking",
     "book with tokens",
     "travel cashback",
@@ -18,6 +16,11 @@
     "cancel booking",
     "refund booking",
     "booking refund",
+    "cancel my booking",
+    "cancel reservation",
+    "change booking",
+    "change my booking",
+    "modify booking",
     "travel phase"
   ],
   "enabled": true,

@@ -1,5 +1,7 @@
 # Manage Liquidity
 
+> **Retired as of May 19, 2026 — no longer available.** The Liquidity Pools program has been discontinued, so the how-to steps below no longer apply. This article is retained for reference only.
+
 ### How to Create Liquidity?
 
 1. Go to the **Liquidity** section within the GoMining platform

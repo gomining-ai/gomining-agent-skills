@@ -22,7 +22,7 @@ Stay subscribed longer to get a bonus with each upgrade. The bonus increases eve
 
 #### Create a new miner with a subscription
 
-Your first payment generates a new miner from the Mine Box collection with 20 W/TH energy efficiency. The miner is yours permanently, and its power grows automatically each month.
+Your first payment generates a new miner from the Mine Box collection. The miner is yours permanently, and its power grows automatically each month.
 
 #### Upgrade an existing miner
 
@@ -34,7 +34,7 @@ Your miner must meet all these requirements:
 
 * Located in your GoMining virtual wallet
 * Power below 1000 TH
-* Energy efficiency better than 20 W/TH (e.g., 18 W/TH)
+* Energy efficiency above 12 W/TH
 * Not selected for TH reinvestment
 * Not from the Greedy Machines collection
 
@@ -50,7 +50,12 @@ Each miner can only have one active subscription at a time.
 
 ### Payment and Billing
 
-Only **bank card payments** are accepted for subscription. You can pay with a linked card or add a new one when subscribing.
+Subscriptions can be paid either by **bank card** or **cryptocurrency**, depending on the method chosen at the time of subscription setup.
+
+* **Bank card subscriptions:** You can update your payment card at any time. However, the card currently linked to the subscription cannot be removed until the subscription is cancelled.
+* **Crypto subscriptions:** You can switch to any other supported cryptocurrency.
+
+Changing the payment method from card to crypto (or vice versa) is not supported.
 
 Subscriptions with Apple Pay are no longer available.
 

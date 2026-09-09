@@ -1,6 +1,6 @@
 # Wallet Overview
 
-The GoMining wallet is your built-in account for managing crypto assets on the platform. Assets are stored off-chain, meaning they are not tied to any specific blockchain after deposit. This lets you, for example, deposit on one network and withdraw on another.
+The GoMining wallet is your built-in account for managing crypto assets on the platform. It supports multiple networks per asset, so you can deposit through one supported network and later withdraw through another.
 
 **With your wallet, you can:**
 

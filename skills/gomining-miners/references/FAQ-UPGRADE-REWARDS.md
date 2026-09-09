@@ -12,7 +12,7 @@ Upgraded rewards do not apply immediately. The timeline depends on the mode:
 
 ### Miner Wars Mode (weekly cycle)
 
-- Rewards are calculated at **12:00 UTC every Tuesday** based on blocks mined by the clan.
+- Rewards are calculated at **00:00 UTC every Tuesday** based on blocks mined by the clan.
 - If you switch to Miner Wars mode during a week, daily BTC rewards stop for those days. Miner Wars rewards for that week are still paid out.
 
 ---

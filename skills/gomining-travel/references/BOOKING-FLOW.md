@@ -2,7 +2,7 @@
 
 ## Overview
 
-GoMining Travel is accessible directly within the GoMining app. Currently hotel bookings are available. Users search for hotels, pay with GM tokens, and receive cashback as TH/s mining power. Flight bookings are planned for a future phase.
+GoMining Travel provides a hotel booking experience within the GoMining app. Users search for hotels, pay from their virtual wallet in GMT, BTC, or USDT, and receive cashback as TH/s mining power. Flight bookings are planned for a future phase.
 
 ---
 
@@ -45,20 +45,20 @@ GoMining Travel is accessible directly within the GoMining app. Currently hotel 
 |------|--------|---------|
 | 1 | **Search** | User searches hotels in the GoMining app Travel section |
 | 2 | **Select** | User chooses a hotel from results |
-| 3 | **Review** | Booking details displayed including price in GM tokens |
-| 4 | **Pay** | User confirms payment in GM tokens (or BTC/USDT) |
+| 3 | **Review** | Booking details and price displayed |
+| 4 | **Pay** | User confirms payment from their virtual wallet in GMT, BTC, or USDT |
 | 5 | **Confirm** | Booking moves to Pending, then Success upon provider confirmation |
 | 6 | **Cashback** | For hotels: cashback accrues and finalizes after check-out |
 
 ### Supported Payment Methods
 
-| Payment Method | Role | Processing |
-|----------------|------|------------|
-| **GM tokens** | Primary | Direct payment |
-| **BTC** | Alternative | Converted to GM at transaction time |
-| **USDT** | Alternative | Converted to GM at transaction time |
+| Payment Method | Processing |
+|----------------|------------|
+| **GMT** (GOMINING token) | Paid from virtual wallet |
+| **BTC** | Paid from virtual wallet |
+| **USDT** | Paid from virtual wallet |
 
-> **Note:** Regardless of the payment asset chosen, the booking is ultimately processed in GM tokens. BTC and USDT are converted at the current exchange rate.
+> **Note:** Bookings are paid from your internal virtual wallets in one of these three supported currencies.
 
 ---
 
@@ -90,7 +90,7 @@ GoMining Travel is accessible directly within the GoMining app. Currently hotel 
 | Aspect | Details |
 |--------|---------|
 | Availability | Phase 1 (launched Feb 20, 2026) |
-| Payment | GM tokens (primary), BTC, USDT |
+| Payment | GMT, BTC, or USDT (from virtual wallet) |
 | Cashback | Yes, based on VIP tier (1%--4%) |
 | Cancellation | Allowed up to provider-specified deadline |
 | Cashback timing | Accrues at confirmation, finalizes after check-out |
@@ -102,7 +102,7 @@ GoMining Travel is accessible directly within the GoMining app. Currently hotel 
 | Aspect | Details |
 |--------|---------|
 | Availability | Phase 2 (planned) |
-| Payment | GM tokens (primary), BTC, USDT |
+| Payment | GMT, BTC, or USDT (from virtual wallet) |
 | Cashback | Not available initially |
 | Cancellation | Subject to airline policy |
 
@@ -164,7 +164,11 @@ You receive a full refund. No cashback is awarded for provider-cancelled booking
 
 Flight bookings are not yet available. They are planned for a future phase — no launch date has been announced.
 
+### Will flights earn cashback?
+
+Flight cashback is not available in the initial launch. It may be introduced in a later phase.
+
 ### What currencies can I pay with?
 
-The primary payment method is GM tokens. You can also pay with BTC or USDT, which are automatically converted to GM at the current exchange rate.
+You can pay from your internal virtual wallet in GOMINING token (GMT), BTC, or USDT. These are three equal payment options.
 
