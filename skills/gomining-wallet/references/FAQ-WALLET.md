@@ -21,7 +21,7 @@ Currently supported assets and networks:
 | SOL            | Solana                                                       |
 | TON            | TON                                                          |
 
-Once deposited, assets are stored off-chain in your wallet and are not tied to any blockchain. This lets you deposit through one network and withdraw through another. For example, deposit GOMINING on BSC, withdraw on Ethereum.
+After deposit, your balance is available for withdrawal through any of the supported networks for that asset. This lets you deposit through one network and withdraw through another. For example, deposit GOMINING on BSC, withdraw on Ethereum.
 
 > **Minimum Deposit Amounts**
 >
@@ -107,9 +107,64 @@ The wallet is designed for everyday use in the GoMining ecosystem. With it, you 
 
 ---
 
-### Can I use my GoMining deposit address to receive miners?
+### How can I convert assets? Where is the Convert button?
 
-No. Standard GoMining deposit addresses (used for BTC, USDT, and other tokens) do not support miner transfers. Attempting to send digital miners to a deposit address will result in loss of the asset.
+The **Convert** option lets you exchange one cryptocurrency for another directly inside your GoMining wallet. Conversions are processed in real time, so you receive the new asset instantly without leaving the app.
+
+You can convert any combination of **BTC, ETH, USDT, USDC, BNB, SOL, TON, and GOMINING tokens**. Conversions **from the GOMINING token** to other assets are limited to **30,000 GOMINING per day**.
+
+**How to convert (step by step):**
+
+1. Go to the **Wallet** section.
+2. Click **More (three dots) → Convert**. In the **mobile app**, **Convert** is one of the four buttons right on the Wallet screen (**Top up**, **Convert**, **Instant Funds**, **Withdraw**) — no "more" menu needed.
+3. Choose the cryptocurrency you want to give and the one you want to receive.
+4. Enter the amount you want to swap.
+5. Check the exchange rate, conversion fee, and the final amount you'll receive. If the price changes before you confirm, you'll see a slippage warning.
+6. Click **Confirm** — when the progress finishes, your balances update right away.
+
+---
+
+### Is there a fee for converting assets in my wallet?
+
+Yes. In-wallet conversions carry a **2% fee**, and it is **already included in the quote** — the "You receive" amount shown on the Convert screen is the net amount after the fee (the screen labels it "2% fee (Incl.)"). There is no separate charge added on top, and this is distinct from network/withdrawal fees. The exact fee and final amount are always shown on the Convert screen before you confirm, so you can review them there.
+
+---
+
+### Can I export my Wallet transaction history (for taxes, accounting, records)?
+
+**There is no built-in export for Wallet transaction history in the GoMining app.** Deposits, withdrawals, conversions, and other Virtual Wallet movements are visible in-app via **Wallet → Recent transactions → "All transactions"** (with filters), but there is **no CSV / PDF / XLSX export button** on that view. Do not tell users to look for one — it doesn't exist.
+
+This is a hard gap between products: **mining rewards** have a documented CSV export (**Rewards → Export CSV**, emailed to the profile address, max 365 days per report). **Wallet transactions do not.** If a user asks for a Wallet export for taxes / accounting / records, contact GoMining support so support can arrange the data or advise a workaround — do not send them to look for an export button that isn't there, and don't invent a path.
+
+For the user's own visibility, in the meantime, they can view (but not export) each transaction row inside the app: Wallet → All transactions, apply the Type / Direction / Asset / Date filters they need. If tax reporting is the goal, the assistant should proactively escalate on the export gap rather than only pointing to the in-app viewer.
+
+---
+
+### Can I set up automatic conversion — e.g. auto-convert BTC to USDC on receipt?
+
+**In-wallet Convert is manual only.** There is no scheduled, recurring, or on-receipt auto-conversion in the wallet — every Convert has to be confirmed on the Convert screen each time. So a rule like "any BTC that arrives → convert to USDC" doesn't exist as a wallet setting.
+
+The **one auto-conversion path GoMining does have** is **Reinvestment** (in **Mining Farm → Settings → Reinvestment**): it automatically converts your **BTC mining rewards** into either **GOMINING tokens (GMT)** or **TH (mining power)** on receipt. It is limited to those two destinations — Reinvestment cannot auto-convert to USDC, USDT, or any other asset. So if the user's underlying goal is "turn mining rewards into a stablecoin automatically", the honest answer is that this isn't supported today; the closest available option is either (a) Reinvestment → GMT, then manual Convert to USDC when they want to, or (b) manual Convert on the Wallet screen each time a reward arrives.
+
+Do **not** invent a scheduled-convert setting, do **not** point users to third-party bots for it, and do **not** claim it is "on the roadmap" — no such feature or timeline is documented. State the situation and the closest available option, and if the user wants to raise a feature request, offer to connect them with GoMining support.
+
+---
+
+### USDT in the EEA
+
+For users in the **EEA**, **USDT is being removed** — **USDC remains fully available**. If you're in the EEA:
+
+- You can **no longer deposit or buy USDT**.
+- If you still hold a USDT balance, you can **withdraw it**, and you can **convert it to other assets** — including a **1:1 Convert to USDC**. You **cannot convert *into* USDT** (conversions work only *from* USDT).
+- **USDC** works as normal for deposits, purchases, and conversions.
+
+This applies to EEA users only; outside the EEA, USDT is unchanged.
+
+---
+
+### Can I use my GoMining deposit address to receive NFTs (digital miners)?
+
+No. Standard GoMining deposit addresses (used for BTC, USDT, and other tokens) do not support NFT transfers. Attempting to send digital miners to a deposit address will result in loss of the asset.
 
 ---
 

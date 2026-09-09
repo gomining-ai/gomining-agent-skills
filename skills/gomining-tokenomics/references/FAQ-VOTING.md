@@ -32,8 +32,6 @@ veGOMINING voters also decide how weekly GOMINING rewards are allocated between 
 * **Extra Mining mode discount** — additional discount on maintenance fees for all Mining mode users
 * **Miner Wars prize fund** — extra GOMINING rewards for personal victories in the Odyssey league players
 * **The Greedy Machines power increase** — TH upgrades for all miners from The Greedy Machines collection
-* **Liquidity provider bonus** — weekly GOMINING rewards for liquidity providers
-* **Bounty cycle rewards** — weekly prize pool for Bounty program participants
 
 ---
 

@@ -13,7 +13,20 @@
     "about gomining",
     "tell me about gomining",
     "new to gomining",
-    "start with gomining"
+    "start with gomining",
+    "change currency",
+    "change the currency",
+    "set currency",
+    "display currency",
+    "account currency",
+    "switch currency",
+    "change to gbp",
+    "currency to gbp",
+    "currency to eur",
+    "show in gbp",
+    "show in eur",
+    "gbp",
+    "different currency"
   ],
   "enabled": true,
   "type": "knowledge"

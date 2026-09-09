@@ -29,6 +29,34 @@ Beyond fundraising, projects benefit from marketing support, community engagemen
 
 ---
 
+### What allocation does each VIP tier get? (Launchpad tiers)
+
+Your Launchpad allocation size is set by your **VIP tier** — higher tiers receive a larger allocation, expressed as a relative multiplier (Tier 1 = baseline ×1). You qualify for a VIP tier by reaching its **TH (hashrate)** *or* **veGOMINING votes** requirement (either one is enough).
+
+| VIP Tier | Requirement (TH or veGOMINING votes) | Launchpad Tier | Allocation multiplier |
+|----------|--------------------------------------|----------------|-----------------------|
+| Bronze I | 0 / 0 | — | No allocation |
+| Bronze II | 5 TH or 50 votes | — | No allocation |
+| Silver I | 10 or 100 | Tier 1 | ×1 |
+| Silver II | 25 or 250 | Tier 2 | ×2.5 |
+| Silver III | 50 or 500 | Tier 3 | ×5.3 |
+| Gold I | 100 or 1,000 | Tier 4 | ×11 |
+| Gold II | 200 or 2,000 | Tier 5 | ×23 |
+| Platinum I | 500 or 5,000 | Tier 6 | ×60 |
+| Platinum II | 1,000 or 10,000 | Tier 7 | ×125 |
+| Platinum III | 2,500 or 25,000 | Tier 8 | ×330 |
+| Diamond I–V | 5,000+ or 50,000+ | Tier 9 | ×700 |
+| Legend I–V | 50,000+ or 500,000+ | Tier 9 | ×700 |
+| Elite | 1,000,000 or 10,000,000 | Tier 9 | ×700 |
+
+Key points:
+
+* **Launchpad allocation starts at Silver I** — Bronze I and II get no allocation.
+* The multiplier **caps at Tier 9 (×700)** from Diamond I upward (Diamond, Legend, and Elite all share Tier 9).
+* The multiplier is a **relative** allocation weight, not a USDT amount. The exact allocation for a given project is shown on that project's sale page, and per-tier benefits can be reviewed on the **VIP program** levels page.
+
+---
+
 ### How to Participate?
 
 For more details, visit our Academy: https://academy.gomining.com/articles/gomining-launchpad-step-by-step-guide

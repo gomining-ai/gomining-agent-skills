@@ -1,10 +1,12 @@
 # Liquidity Pools
 
+> **Retired as of May 19, 2026 — no longer available.** The Liquidity Pools program has been discontinued. The information below is retained for reference only and no longer reflects available functionality.
+
 ## What are Liquidity and Liquidity Pools?
 
 Liquidity in decentralized exchanges (DEXs) refers to the ease with which an asset can be bought or sold without significantly impacting its price. Liquidity pools are mechanisms on DEXs that provide this liquidity. These pools consist of funds (typically pairs of tokens) locked by users, enabling seamless trading between tokens. Users who provide liquidity (known as liquidity providers) earn a share of the trading fees generated from trades within the pool.
 
-GoMining offers an opportunity to add liquidity to existing liquidity pools directly from the GoMining website. In the GoMining ecosystem, liquidity pools are powered by PancakeSwap.
+GoMining previously offered an opportunity to add liquidity to existing liquidity pools directly from the GoMining website. In the GoMining ecosystem, liquidity pools were powered by PancakeSwap. This program has been retired as of May 19, 2026.
 
 ---
 

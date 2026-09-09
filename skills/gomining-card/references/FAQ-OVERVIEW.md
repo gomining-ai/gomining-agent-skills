@@ -9,7 +9,7 @@ The GoMining Card is a virtual Visa debit card that lets you spend your crypto a
 * Earn TH cashback on every transaction, automatically credited to your chosen miner
 * Receive a Gift Miner when you issue your first card
 
-Both **KYC Level 1** and **Level 2** must be completed before you can issue or use a GoMining Card.
+Both **KYC Basic** and **KYC Advanced** must be completed before you can issue or use a GoMining Card.
 
 ---
 

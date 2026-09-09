@@ -6,19 +6,19 @@ KYC is an identity verification process that protects your account and transacti
 
 GoMining has two KYC levels:
 
-#### KYC Level 1
+#### KYC Basic
 
 * Checks only your identity via document submission and selfie
 * You can use: Valid national passport, ID, Residence card, Driver's license
 * Required to: withdraw GOMINING token, unlock more BTC withdrawal options, mint/withdraw/sell miners, or access all GoMining Launchpad projects.
 * Available in all countries except prohibited jurisdictions like North Korea, Myanmar, Iran, Afghanistan, Syrian Arab Republic, Yemen, and Cuba.
 
-#### KYC Level 2
+#### KYC Advanced
 
 * Checks your identity and collects additional compliance details (email, phone number, tax information, proof of address, and a financial questionnaire).
 * Required to issue a GoMining Visa card.
 
-### How to Pass KYC Level 1
+### How to Pass KYC Basic
 
 1. Go to **Profile** → **Security**
 2. Select the **KYC** option
@@ -32,13 +32,13 @@ GoMining has two KYC levels:
 
 The document should be reviewed within 3-5 minutes, but in some cases can take up to 48 hours. The verification status will be updated automatically, and we'll notify you via email.
 
-### How to Pass KYC Level 2
+### How to Pass KYC Advanced
 
-KYC Level 2 is available only if you're eligible.
+KYC Advanced is available only if you're eligible.
 
 1. Go to **Profile** → **Security**
 2. Select the **KYC** option
-3. Under the **Level 2** section, click the **Pass KYC** button
+3. Under the **Advanced** section, click the **Pass KYC** button
 4. Click the **Start verification** button
 5. Enter your email address to receive and submit a unique verification code
 6. Select your country of tax residence

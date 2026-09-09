@@ -10,7 +10,7 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 
 | Requirement | Details |
 |-------------|---------|
-| KYC Level | **Level-1** verification required |
+| KYC Level | **KYC Basic** verification required |
 | Jurisdiction | Must be in a non-restricted country |
 | Minimum balance | **10 USD** equivalent |
 | Wallet transfer | Funds transferred from main wallet to Simple Earn balance |
@@ -20,7 +20,7 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 
 ## KYC Verification
 
-### Level-1 Requirements
+### KYC Basic Requirements
 
 | Requirement | Description |
 |-------------|-------------|
@@ -28,7 +28,7 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 | Selfie / liveness | Photo verification for identity confirmation |
 | Processing | Typically completed within minutes |
 
-> **Note:** Simple Earn requires only KYC Level-1, unlike the GoMining Card which requires both Level-1 and Level-2. No proof of address is needed for Simple Earn.
+> **Note:** Simple Earn requires only KYC Basic, unlike the GoMining Card which requires both KYC Basic and KYC Advanced. No proof of address is needed for Simple Earn.
 
 ---
 
@@ -42,15 +42,15 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 
 ### Minimum Balance by Asset (Approximate)
 
-| Asset | Approximate Minimum* | EEA Available |
-|-------|---------------------|---------------|
-| BTC | ~0.0001 BTC | Yes |
-| ETH | ~$10 equivalent | Yes |
-| SOL | ~$10 equivalent | Yes |
-| BNB | ~$10 equivalent | Yes |
-| TON | ~$10 equivalent | Yes |
-| USDT | 10 USDT | No |
-| USDC | 10 USDC | Yes |
+| Asset | Approximate Minimum* |
+|-------|---------------------|
+| BTC | ~0.0001 BTC |
+| ETH | ~$10 equivalent |
+| SOL | ~$10 equivalent |
+| BNB | ~$10 equivalent |
+| TON | ~$10 equivalent |
+| USDT | 10 USDT |
+| USDC | 10 USDC |
 
 *Exact minimums depend on current exchange rates at time of deposit.
 
@@ -65,6 +65,25 @@ Simple Earn has specific eligibility requirements including KYC verification, ju
 | Transfer | Internal transfer within the GoMining platform |
 | Speed | Instant |
 | Fee | No transfer fee |
+
+---
+
+## Supported Assets by Region
+
+Simple Earn asset availability differs between EEA and non-EEA users:
+
+| Asset | Non-EEA Users | EEA Users |
+|-------|--------------|-----------|
+| BTC | Available | Available |
+| ETH | Available | Available |
+| SOL | Available | Available |
+| BNB | Available | Available |
+| TON | Available | Available |
+| USDT | Available | **Not available** |
+| USDC | Available | Available |
+| GOMINING | Excluded | Excluded |
+
+> **Note:** USDT is not available for EEA users due to MiCA regulatory requirements. All other supported assets are available to EEA users.
 
 ---
 
@@ -96,40 +115,47 @@ The following countries are explicitly blocked from using Simple Earn:
 
 | Aspect | Details |
 |--------|---------|
-| Status | **Blocked** |
-| Reason | SEC requires Broker-Dealer license for interest-bearing crypto products |
-| Regulatory body | Securities and Exchange Commission (SEC) |
-| Impact | All US residents and citizens are ineligible |
+| Status | **Not available** |
+| Details | GoMining does not offer Simple Earn in the USA — all US residents and citizens are ineligible |
 
 ### European Economic Area (EEA)
 
 | Aspect | Details |
 |--------|---------|
-| Status | **Limited** |
-| Reason | Markets in Crypto-Assets (MiCA) regulation requires CASP authorization |
-| Regulatory body | National competent authorities under MiCA framework |
-| Impact | Availability may vary by specific EEA member state |
+| Status | **Available** |
+| Note | USDT is not supported for EEA users; all other assets are available |
 
 ### United Kingdom (UK)
 
 | Aspect | Details |
 |--------|---------|
-| Status | **Restricted** |
-| Reason | Financial Conduct Authority (FCA) license needed for crypto interest products |
-| Regulatory body | Financial Conduct Authority (FCA) |
-| Impact | UK residents may not have access to Simple Earn |
+| Status | **Available** |
+| Supported assets | All Simple Earn assets — BTC, ETH, SOL, BNB, TON, USDT, USDC (same list as non-EEA global users) |
+| KYC | KYC Basic required |
+
+<a id="uk-onboarding-notes"></a>
+
+#### UK onboarding notes — how to actually get started
+
+The Simple Earn product itself is available in the UK, but the **funding path** for UK users is where confusion arises. Give the user this map in one clean pass rather than reconstructing it turn-by-turn:
+
+1. **You cannot fund the GoMining wallet with a GBP bank transfer.** GoMining does not accept GBP bank deposits. Do not tell UK users to "top up in GBP" — that isn't an option.
+2. **Buying GOMINING tokens directly in-app may be restricted in the UK.** This is handled by the "Buying / topping up GOMINING is blocked or restricted in my region" rule in the system prompt — for a definitive answer on token purchase availability for their specific case, contact GoMining support. **Simple Earn does NOT require GMT** — this restriction does not block Simple Earn.
+3. **The practical funding path is to deposit crypto from an external source**, then either Simple-Earn that asset directly or use in-wallet **Convert** to move it to another supported asset. Supported deposit assets: **BTC, ETH, USDT, USDC, BNB, SOL, TON, GMT** (deposit only — buying GMT in-app is a separate question, see point 2).
+4. **Do not name specific external exchanges.** These skills do not recommend or endorse any third-party exchange (Coinbase, Kraken, Binance, etc.) — do not suggest one to a UK user. If the user asks *where* to buy the crypto they'll deposit, tell them to use any exchange available to them in the UK; you cannot recommend a specific one. This is a firm rule (see system-prompt "external services" line).
+5. **Once funded, activating Simple Earn is the same as anywhere else.** Wallet → find the Simple Earn option → sign the agreement → deposit ≥ $10 USD-equivalent of a supported asset → done. KYC Basic must be completed first.
+
+Give the user this map in a single response when they're asking "how do I get started with GoMining from the UK" — do not stretch it over 5+ turns.
 
 ### Regulatory Summary
 
-| Region | Status | License Required | Regulatory Framework |
-|--------|--------|-----------------|---------------------|
-| USA | Blocked | Broker-Dealer (SEC) | Securities regulation |
-| EEA | Limited | CASP (MiCA) | Crypto-asset regulation |
-| UK | Restricted | FCA license | Financial services regulation |
-| Sanctioned countries | Blocked | N/A | International sanctions |
-| Other countries | Available* | N/A | Local regulations apply |
-
-*Subject to platform availability and local regulations.
+| Region | Status | Notes |
+|--------|--------|-------|
+| USA | **Blocked** | Only region where Simple Earn is unavailable |
+| EEA | Available | USDT not supported; BTC, ETH, SOL, BNB, TON, USDC available |
+| UK | Available | All supported assets available |
+| Sanctioned countries | Blocked | International sanctions (Belarus, Cuba, Iran, Iraq, North Korea, Syria, Venezuela, Zimbabwe) |
+| Other countries | Available | Subject to platform availability and local regulations |
 
 ---
 
@@ -139,7 +165,7 @@ Use this checklist to verify eligibility before activating Simple Earn:
 
 | # | Requirement | Check |
 |---|-------------|-------|
-| 1 | KYC Level-1 verification completed | Required |
+| 1 | KYC Basic verification completed | Required |
 | 2 | Country of residence is not restricted | Required |
 | 3 | Minimum 10 USD equivalent balance available | Required |
 | 4 | Funds transferred to Simple Earn balance | Required |
@@ -151,19 +177,19 @@ Use this checklist to verify eligibility before activating Simple Earn:
 
 ### What KYC level do I need for Simple Earn?
 
-KYC Level-1 is sufficient for Simple Earn. This includes basic identity verification with a valid passport or ID card and a liveness check. You do not need Level-2 (address verification).
+KYC Basic is sufficient for Simple Earn. This includes basic identity verification with a valid passport or ID card and a liveness check. You do not need KYC Advanced (address verification).
 
-### Why is Simple Earn not available in the USA?
+### Is Simple Earn available in the USA?
 
-The SEC classifies interest-bearing crypto products under securities regulation, requiring a Broker-Dealer license. GoMining does not currently hold this license, so Simple Earn is unavailable to US residents and citizens.
+No. GoMining does not offer Simple Earn in the USA, so US residents and citizens are not eligible. For updates on availability, follow the official GoMining blog and newsletter.
 
 ### I live in the EEA. Can I use Simple Earn?
 
-Simple Earn availability in the EEA is limited due to MiCA (Markets in Crypto-Assets) regulation, which requires Crypto-Asset Service Provider (CASP) authorization. Availability may vary by specific EEA country. Check the GoMining platform for your country's status.
+Yes. Simple Earn is available in the EEA. The only difference is that USDT is not supported for EEA users — you can earn on BTC, ETH, SOL, BNB, TON, and USDC.
 
 ### I live in the UK. Can I use Simple Earn?
 
-Simple Earn is restricted in the UK because the FCA requires specific licensing for crypto interest products. UK residents may not have access.
+Yes. Simple Earn is available in the UK.
 
 ### What is the minimum balance for Simple Earn?
 
@@ -175,7 +201,7 @@ No. GOMINING token is excluded from Simple Earn and has its own separate earning
 
 ### What if my country becomes restricted after I activate Simple Earn?
 
-If your jurisdiction becomes restricted due to regulatory changes, GoMining may require you to withdraw your funds. Your principal is always protected, and any earned rewards up to that point remain yours.
+If your jurisdiction becomes restricted due to regulatory changes, GoMining may require you to withdraw your funds. Any earned rewards up to that point remain yours. Note that Simple Earn works with DeFi protocols and is not a bank deposit, so capital preservation cannot be guaranteed; in rare cases (for example a smart-contract vulnerability) losses may occur, though GoMining reduces this risk by selecting, monitoring, and rotating protocols.
 
 ### Do I need to transfer funds from my main wallet?
 

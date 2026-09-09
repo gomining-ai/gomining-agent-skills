@@ -1,6 +1,6 @@
 ---
 name: gomining-wallet
-description: "GoMining Wallet — custodial cryptocurrency wallet. Covers supported assets and networks (BTC, GMT/GOMINING, USDT, USDC, ETH, BNB, SOL, TON), deposit and withdrawal parameters (minimum amounts, network fees, daily limits), KYC Level-1 requirements for full access, withdrawal processing times (new users 15 min, established 2 min), and BTC withdrawal rules tied to mining rewards."
+description: "GoMining Wallet — custodial cryptocurrency wallet. Covers supported assets and networks (BTC, GMT/GOMINING, USDT, USDC, ETH, BNB, SOL, TON), deposit and withdrawal parameters (minimum amounts, network fees, daily limits), KYC Basic requirements for full access, withdrawal processing times (new users 15 min, established 2 min), and BTC withdrawal rules tied to mining rewards."
 license: Apache-2.0
 compatibility: "Compatible with Claude Code, Codex, and all Agent Skills spec tools."
 metadata:
@@ -82,8 +82,8 @@ The GoMining Wallet is a custodial cryptocurrency wallet available to all regist
 
 | KYC Status | Capabilities |
 |------------|-------------|
-| **Without KYC Level-1** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No miner operations. No marketplace sales. |
-| **With KYC Level-1** | Full access to all wallet features, withdrawals, miner operations, and marketplace. |
+| **Without KYC Basic** | Basic deposits only. No withdrawal of GOMINING, USDT, USDC, BTC (instant). No NFT operations. No marketplace sales. |
+| **With KYC Basic** | Full access to all wallet features, withdrawals, NFT operations, and marketplace. |
 
 ---
 
@@ -115,7 +115,7 @@ The GoMining Wallet is a custodial cryptocurrency wallet available to all regist
 │  1. REGISTER & VERIFY                                       │
 │     ┌──────────────────────────────────────────┐            │
 │     │ Create GoMining account                  │            │
-│     │ Complete KYC Level-1 for full access      │            │
+│     │ Complete KYC Basic for full access      │            │
 │     └──────────────────────────────────────────┘            │
 │                         │                                   │
 │                         ▼                                   │
@@ -151,7 +151,7 @@ BTC (Bitcoin), GMT/GOMINING (Ethereum, BSC, Solana, TON), USDT (ERC-20, BEP-20, 
 
 ### Do I need KYC to use the wallet?
 
-Basic deposits work without KYC. However, KYC Level-1 is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for miner operations and marketplace sales.
+Basic deposits work without KYC. However, KYC Basic is required for withdrawing GOMINING, USDT, USDC, and BTC (instant), as well as for NFT operations and marketplace sales.
 
 ### What are the withdrawal limits?
 
@@ -159,7 +159,7 @@ Each asset has both a per-user daily limit and a system-wide daily limit. For ex
 
 ### How long do withdrawals take?
 
-New users (account under 1 month) experience a 15-minute delay. Established users (1 month or older) have a 2-minute delay.
+New users (account under 1 month) experience a 15-minute delay. Established users have a 2-minute delay.
 
 ### Can I withdraw BTC earned from mining?
 
@@ -168,10 +168,6 @@ Before making any BTC deposit, you cannot withdraw mining or game rewards — th
 ### What fees apply?
 
 Network fees vary by asset and blockchain. There are no additional GoMining service fees on top of network fees for standard wallet operations.
-
-### Is the wallet custodial?
-
-Yes. The GoMining Wallet is a custodial solution. Private keys are not held by the user directly.
 
 ---
 
@@ -186,6 +182,7 @@ Yes. The GoMining Wallet is a custodial solution. Private keys are not held by t
 
 ## References
 
+- [Wallet Screen Layout](references/WALLET-SCREEN.md) — Where each control lives on the mobile Wallet screen
 - [Supported Assets](references/SUPPORTED-ASSETS.md) — All assets, networks, fees, and limits
 - [Deposit & Withdrawal](references/DEPOSIT-WITHDRAWAL.md) — Deposit/withdrawal rules, processing times, KYC requirements
 - [FAQ: Wallet Overview](references/FAQ-OVERVIEW.md) — Overview of the GoMining wallet and its features

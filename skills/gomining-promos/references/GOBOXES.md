@@ -2,7 +2,7 @@
 
 ## Overview
 
-GoBoxes are digital loot boxes awarded to users for completing achievements and reaching milestones within the GoMining ecosystem. Each GoBox contains a randomly selected prize based on weighted probabilities.
+GoBoxes are digital loot boxes awarded to users within the GoMining ecosystem, earned mainly by reaching new VIP levels. Each GoBox contains a prize determined by a transparent, blockchain-based method rather than hidden weighted odds.
 
 ---
 
@@ -13,24 +13,24 @@ GoBoxes are digital loot boxes awarded to users for completing achievements and 
 │                     GoBox Flow                              │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  1. EARN KEY                                                │
+│  1. RECEIVE GOBOX                                          │
 │     ┌──────────────────────────────────────────┐           │
-│     │ Complete achievements or milestones      │           │
-│     │ Max 1-2 keys per week                    │           │
+│     │ Earned mainly by reaching new VIP levels │           │
 │     └──────────────────────────────────────────┘           │
 │                         │                                   │
 │                         ▼                                   │
-│  2. OPEN GOBOX                                              │
+│  2. OPEN WITHIN 7 DAYS                                     │
 │     ┌──────────────────────────────────────────┐           │
-│     │ Use key to open a GoBox                  │           │
-│     │ Box from your VIP level collection       │           │
+│     │ A GoBox must be opened within 7 days of  │           │
+│     │ receiving it, or it becomes inactive      │           │
 │     └──────────────────────────────────────────┘           │
 │                         │                                   │
 │                         ▼                                   │
 │  3. RECEIVE PRIZE                                           │
 │     ┌──────────────────────────────────────────┐           │
-│     │ Random prize selected by weighted odds   │           │
-│     │ Prize added to your account instantly    │           │
+│     │ Prize determined via numbered cells using│           │
+│     │ Bitcoin blockchain data, the box's unique │           │
+│     │ number, and the previous box's number     │           │
 │     └──────────────────────────────────────────┘           │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
@@ -44,35 +44,26 @@ GoBoxes are digital loot boxes awarded to users for completing achievements and 
 |-------|-------------|--------------|
 | **Promo Codes** | Discount or cashback promo codes | Redeemable at checkout; standard promo code rules apply |
 | **Avatar Keys** | Cosmetic avatar unlocks | Unlock unique avatar items for user profile |
-| **Bonus Miner Days** | Extra operational days for miners | Added to an existing miner, extending its active period |
 | **GOMINING Tokens** | Direct token rewards | Credited to user's wallet balance |
 | **Gameplay Boosts** | Temporary gameplay enhancements | Time-limited boosts to mining efficiency or rewards |
 
 ---
 
-## Prize Probability
+## How the Prize Is Determined
 
-Prizes are selected using a weighted random system:
+The prize inside a GoBox is determined transparently, not by hidden weighted odds. A GoBox is laid out as a set of **numbered cells**, each mapped to a prize. The winning cell is calculated from:
 
-- Each prize in the pool has a configured weight (probability).
-- Higher-value prizes have lower weights (rarer).
-- Lower-value prizes have higher weights (more common).
-- The exact weights are configured per collection and may change between campaigns.
+- **Bitcoin blockchain data**
+- the **box's own unique number**
+- the **winning number from the previous box**
 
-### Probability Tiers
-
-| Tier | Likelihood | Typical Prizes |
-|------|------------|----------------|
-| **Common** | High probability | Small token amounts, minor gameplay boosts |
-| **Uncommon** | Medium probability | Promo codes, avatar keys |
-| **Rare** | Low probability | Bonus miner days, larger token amounts |
-| **Epic** | Very low probability | Premium promo codes, significant token rewards |
+Because the result comes from public blockchain data combined with the box numbers, each outcome is verifiable and does not rely on manual probability weighting.
 
 ---
 
 ## VIP Collections
 
-Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock collections with better prize pools and improved probability distributions.
+Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock collections with better prize pools.
 
 ### Bronze Collection
 
@@ -81,7 +72,6 @@ Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock 
 | **VIP Level** | Bronze |
 | **Prize Pool** | Standard prizes |
 | **Top Prizes** | Small token rewards, basic promo codes |
-| **Probability Skew** | Heavily weighted toward common prizes |
 
 ### Silver Collection
 
@@ -90,7 +80,6 @@ Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock 
 | **VIP Level** | Silver |
 | **Prize Pool** | Improved prizes over Bronze |
 | **Top Prizes** | Better promo codes, avatar keys |
-| **Probability Skew** | Slightly better odds for uncommon prizes |
 
 ### Gold Collection
 
@@ -98,8 +87,7 @@ Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock 
 |--------|---------|
 | **VIP Level** | Gold |
 | **Prize Pool** | Premium prizes |
-| **Top Prizes** | Bonus miner days, meaningful token amounts |
-| **Probability Skew** | Improved rare prize odds |
+| **Top Prizes** | Meaningful token amounts, premium promo codes |
 
 ### Platinum Collection
 
@@ -107,53 +95,51 @@ Each VIP level has its own dedicated GoBox collection. Higher VIP levels unlock 
 |--------|---------|
 | **VIP Level** | Platinum |
 | **Prize Pool** | Elite prizes |
-| **Top Prizes** | Large token rewards, premium promo codes, extended bonus miner days |
-| **Probability Skew** | Best odds for rare and epic prizes |
+| **Top Prizes** | Large token rewards, premium promo codes |
 
 ### Collection Comparison
 
 | Feature | Bronze | Silver | Gold | Platinum |
 |---------|--------|--------|------|----------|
 | Prize quality | Standard | Improved | Premium | Elite |
-| Common drop rate | Highest | High | Medium | Lower |
-| Rare drop rate | Lowest | Low | Medium | Higher |
 | Max token reward | Low | Medium | High | Highest |
 | Exclusive prizes | No | No | Some | Yes |
 
 ---
 
-## Key Limits and Rules
+## Key Rules
 
 | Rule | Value |
 |------|-------|
-| **Max keys per week** | 1-2 keys |
-| **Key source** | Achievements and milestones |
-| **Key expiry** | Keys do not expire (subject to campaign rules) |
-| **Collection assigned by** | User's current VIP level at time of opening |
+| **How GoBoxes are earned** | Mainly by reaching new VIP levels |
+| **Open window** | Must be opened within 7 days of receiving it |
+| **If not opened in time** | The GoBox becomes inactive and can no longer be opened |
+| **Collection assigned by** | User's VIP level |
+| **Prize determination** | Numbered cells using Bitcoin blockchain data, the box's unique number, and the winning number from the previous box |
 | **Prize delivery** | Instant upon opening |
 
 ### Important Notes
 
-1. **VIP Level Determines Collection** — The GoBox collection is determined by the user's VIP level at the time of opening, not at the time the key was earned.
-2. **Weighted Randomness** — Prize selection is random but weighted. There is no guarantee of receiving any specific prize.
-3. **Campaign Variability** — Prize pools and weights may change between promotional campaigns.
-4. **Key Earning Cap** — The weekly cap of 1-2 keys prevents excessive accumulation and maintains prize value.
+1. **VIP Level Determines Collection** - The GoBox collection is determined by the user's VIP level.
+2. **Open Within 7 Days** - A GoBox must be opened within 7 days of receiving it. After that, any unopened GoBox becomes inactive and cannot be opened.
+3. **Transparent Determination** - The prize is set by numbered cells derived from Bitcoin blockchain data, the box's unique number, and the previous box's winning number, so the outcome is verifiable.
+4. **Campaign Variability** - Prize pools may change between promotional campaigns.
 
 ---
 
 ## Frequently Asked Questions
 
-### How do I get GoBox keys?
+### How do I get GoBoxes?
 
-Keys are earned by completing achievements and milestones within the GoMining platform. The specific achievements vary by campaign.
+GoBoxes are earned mainly by reaching new VIP levels in the GoMining ecosystem. Additional GoBoxes may be offered through specific campaigns; check the **GoBoxes / Promos** section in the app for what is available right now.
 
-### Can I save keys for later?
+### Do GoBoxes expire?
 
-Yes, keys can be saved and used later. However, the prize pool is determined by your VIP level at the time of opening, so upgrading your VIP level before opening may give access to better prizes.
+Yes. A GoBox must be opened within **7 days** of receiving it. If it is not opened within that window, it becomes **inactive** and can no longer be opened.
 
-### Why did I get a common prize?
+### How is the prize decided?
 
-Prize selection is random and weighted. Common prizes have the highest probability of being drawn. Higher VIP levels improve the odds of receiving rarer prizes but do not guarantee them.
+The prize is determined transparently using numbered cells. The winning cell is calculated from Bitcoin blockchain data, the box's own unique number, and the winning number from the previous box, so the result is verifiable rather than based on hidden odds.
 
 ### Can I trade GoBox prizes?
 
@@ -161,4 +147,4 @@ Prize transferability depends on the prize type. Promo codes are typically non-t
 
 ### Do GoBox contents change?
 
-Yes. Prize pools and probability weights may be updated between campaigns and promotions. The core prize types remain the same, but specific items and amounts can change.
+Yes. Prize pools may be updated between campaigns and promotions. The core prize types remain the same, but specific items and amounts can change.

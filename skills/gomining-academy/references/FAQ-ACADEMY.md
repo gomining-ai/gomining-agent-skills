@@ -6,6 +6,12 @@ GoMining Academy is an educational platform designed to help you understand Bitc
 
 ---
 
+### Are there video guides / tutorials?
+
+Yes. **GoMining Academy** courses include **educational videos** (alongside lessons, tutorials, and articles). If a user asks whether there's a video showing how to do something, point them to the **GoMining Academy** courses — that's where the video learning content lives. Don't claim a specific video title you can't confirm; just direct them to browse the Academy courses.
+
+---
+
 ### Who is GoMining Academy for?
 
 GoMining Academy is ideal for:

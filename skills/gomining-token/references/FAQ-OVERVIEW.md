@@ -24,4 +24,6 @@ The GOMINING tokenomics is a deflationary system built on four interconnected me
 
 #### Liquidity Pools
 
-Providing liquidity to the GOMINING/USDT pool on PancakeSwap allows you to earn a share of trading fees.
+> **Retired as of May 19, 2026 — no longer available.** The Liquidity Pools program has been discontinued.
+
+Previously, providing liquidity to the GOMINING/USDT pool on PancakeSwap allowed you to earn a share of trading fees.

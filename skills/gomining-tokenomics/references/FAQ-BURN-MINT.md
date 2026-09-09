@@ -6,6 +6,14 @@ This is a 1-week cycle, at the end of which we burn all GOMINING tokens spent on
 
 ---
 
+### How long until all GOMINING tokens are distributed? When does emission end?
+
+There is **no fixed distribution schedule or end date** — GOMINING is not a token that gets "fully distributed" by some deadline. It works as a perpetual **Burn & Mint** model: every weekly cycle burns the tokens spent on maintenance and mints new ones, and because each cycle mints **less** than it burns, the total supply gradually **decreases** rather than running out.
+
+The direction is supply *reduction*, from **436,915,240 GOMINING** (the maximum in circulation at the veTokenomics launch) toward a long-term target of **100,000,000 tokens**. There is no fixed completion date — the pace depends on how much is burned each cycle and on the mint-to-burn coefficient set by Epochs and governance Voting. So the accurate answer is that emission is ongoing and indefinite, with supply trending down over time, not toward a one-time full distribution.
+
+---
+
 ### How are GOMINING tokens burned and minted?
 
 All miner holders pay for maintenance, and some do so in GOMINING tokens from their virtual wallets.
@@ -42,7 +50,5 @@ The 10% share of weekly emissions (GOMINING rewards) fuels key initiatives:
 * **Extra Mining mode discount** — additional discount on maintenance fees for all Mining mode users
 * **Miner Wars prize fund** — extra GOMINING rewards for personal victories in the Odyssey league players
 * **The Greedy Machines power increase** — TH upgrades for all miners from The Greedy Machines collection
-* **Liquidity provider bonus** — weekly GOMINING rewards for liquidity providers
-* **Bounty cycle rewards** — weekly prize pool for Bounty program participants
 
 veGOMINING vote holders decide how the GoMining rewards are split between these categories.

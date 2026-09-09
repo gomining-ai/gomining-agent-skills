@@ -20,12 +20,13 @@ No. You automatically start at Bronze I VIP status when you register — even wi
 
 ### How do I increase my VIP status?
 
-You can level up your VIP status in two ways:
+You can level up your VIP status in three ways:
 
 * Increase your mining farm's power (TH) by purchasing or upgrading digital miners
 * Stake GOMINING tokens to receive veGOMINING votes
+* Build up referral activity (the USD volume from your referrals over their last 180 days)
 
-Your VIP status is based on whichever is higher: your mining power (TH) or your veGOMINING votes.
+Your VIP status is based on whichever single path is highest — the VIP status screen lists all three under "Reach it by any one of these". See [VIP Level Thresholds](VIP-LEVEL-THRESHOLDS.md) for the per-level numbers.
 
 ---
 

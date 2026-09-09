@@ -57,7 +57,7 @@ When the raffle ends, we:
 * If a duplicate winning ticket is selected (for raffles with multiple prizes)
 * If another prize needs to be awarded (for raffles with multiple prizes)
 
-Then the draw is repeated: we use the hash of the previous Bitcoin block and divide it by `N - 1`, `N - 2`, and so on — until a valid winner is found.
+Then the draw is repeated: we take the hash of the previous Bitcoin block and divide it by the total number of tickets `N`. The divisor always stays constant at `N` - it is the block index that changes with each repeat (the previous block, the one before that, and so on), not the divisor - until a valid winner is found.
 
 > Prizes are awarded to winning tickets. If you have multiple winning tickets, you get a prize for each one.
 
@@ -65,7 +65,7 @@ Then the draw is repeated: we use the hash of the previous Bitcoin block and div
 
 ### How do I claim my prize?
 
-All prizes must be claimed manually by tapping the **Claim Prize** button on the raffle screen. Some prizes will be credited to your account automatically right after you tap the button. Others may require contacting our support team — in that case, you'll see clear instructions in the app.
+Some prizes are delivered automatically (auto-claim) - they are credited to your account without any action from you. Other prizes require manual claiming: tap the **Claim Prize** button on the raffle screen. Prizes that require manual claiming must be claimed within the deadline shown on the raffle screen (usually 30 days, but it varies by raffle). If such a prize is not claimed by its deadline, it expires. After tapping Claim Prize, some prizes are credited instantly, while others may require contacting our support team - in that case, you'll see clear instructions in the app.
 
 > GoMining will never contact you via Telegram, WhatsApp, or other messengers to say you've won. If someone does — it's a scam. Never share your personal information with anyone.
 

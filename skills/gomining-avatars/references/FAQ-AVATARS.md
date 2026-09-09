@@ -17,7 +17,7 @@ Every avatar gives its owner several benefits:
 * Early **access to presales** for new miner collections
 * A **Welcome pack** with official GoMining merch (for your first claimed avatar)
 
-In addition to these core benefits, each avatar series has its own **unique ability**. For example, Sentinels give a 20% discount on spells in Miner Wars, while Cryptiles improve your mining farm's efficiency by 1 W/TH (but not below 20 W/TH).
+In addition to these core benefits, each avatar series has its own **unique ability**. For example, Humans apply the 3% maintenance discount automatically (Automated Service), Sentinels give a 20% discount on spells in Miner Wars, Cryptiles improve your mining farm's efficiency by 1 W/TH (but not below 20 W/TH), Luminars raise your VIP level by 1, and Magmars apply a ×1.4 multiplier to base Simple Earn yield.
 
 ---
 
@@ -25,7 +25,11 @@ In addition to these core benefits, each avatar series has its own **unique abil
 
 You have two options:
 
-**Claim for free with a key**
+**Claim for free with a key (also called an "access key")**
+
+An **access key** is this avatar key — it lets you **claim any available avatar from the GoMiners collection**, unlocking that avatar's exclusive rewards and privileges. This is an **avatars / GoMiners** feature, **not** a Miner Wars mechanic — if a user asks about an "access key" or "Get key" in their profile, it's about claiming a GoMiners avatar.
+
+> **There is no separate "access key" to claim a specific digital *miner*.** The documented "access key" is this **GoMiners avatar** claim key. If a user says they have an access key "to get a specific miner", there is no such known/documented feature — it's most likely the avatar key (or a promo code). Don't invent a miner-access-key flow; clarify it's the avatar key, and if the user is certain it's something else, direct them to GoMining support rather than confirming an unverified feature.
 
 Keys can be found inside GoBoxes — mystery boxes earned via VIP program, raffles, and other promotions. When you win a key, it appears automatically in your profile.
 

@@ -49,6 +49,16 @@ Rarity Score of a trait = 1 / (% rarity of trait)
 
 For example, if a specific trait has a rarity of 2.5%, its Rarity Score would be: 1 / 2.5% = 40
 
+### How do rarity attributes affect a miner's value?
+
+Rarity attributes affect a miner's **collectible value** — they do not affect its mining performance. Specifically:
+
+* **Mining power and BTC earnings are not affected.** Rewards depend on the miner's hashrate (TH/s) and efficiency, not on how rare its traits are.
+* **Rarer traits raise the miner's Rarity Score and Rarity Rating**, which feeds into its position on the Miner Uniqueness Leaderboard.
+* **Resale price is not set directly by rarity.** A miner's leaderboard position does not directly affect its price.
+
+In short: rarity makes a miner more collectible and unique within its collection, but it does not change how much Bitcoin it mines.
+
 ---
 
 ## Miner Achievements

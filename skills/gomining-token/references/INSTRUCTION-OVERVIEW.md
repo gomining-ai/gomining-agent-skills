@@ -1,6 +1,6 @@
 # GOMINING Token Instructions
 
-This section contains step-by-step instructions for participating in GOMINING token activities — providing liquidity on decentralized exchanges and casting governance votes using veGOMINING.
+This section contains step-by-step instructions for participating in GOMINING token activities — casting governance votes using veGOMINING. (The Liquidity Pools program was retired as of May 19, 2026 and is no longer available.)
 
 ---
 
@@ -8,7 +8,9 @@ This section contains step-by-step instructions for participating in GOMINING to
 
 #### Manage Liquidity
 
-How to create, grow, and exit a liquidity position in the GOMINING/USDT pool.
+> **Retired as of May 19, 2026 — no longer available.** The Liquidity Pools program has been discontinued.
+
+Previously covered how to create, grow, and exit a liquidity position in the GOMINING/USDT pool.
 
 #### Vote Using veGOMINING Votes
 

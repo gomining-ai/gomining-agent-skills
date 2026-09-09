@@ -36,12 +36,12 @@ User locks GMT  -->  Receives VE tokens  -->  VE grants voting power
 | **Output** | VE (vote-escrowed) tokens |
 | **VE quantity depends on** | Lock amount and lock duration |
 | **VE behavior over time** | Decreases linearly as the lock period approaches expiry |
-| **Current locked supply** | ~140M tokens (~34% of total supply) |
+| **Current locked supply** | Check **Governance** section in the GoMining app |
 | **Primary benefit** | Voting power, token bonuses, and price stability |
 
 ### Why Locking Matters
 
-- **Price stability**: With ~34% of tokens locked, a significant portion of the supply is removed from circulation, reducing sell pressure.
+- **Price stability**: A significant portion of tokens is locked, reducing effective circulating supply and sell pressure.
 - **Governance participation**: Only VE token holders can participate in voting.
 - **Bonus rewards**: Locked-token holders receive a share of post-mint distribution (20% of all newly minted tokens).
 - **Alignment of incentives**: Longer lock periods yield more VE tokens, aligning holder interests with long-term protocol health.
@@ -89,15 +89,17 @@ As the lock period progresses toward expiry, VE tokens decrease linearly. At the
 
 VE token holders vote on how weekly rewards are distributed across different product categories in the GoMining ecosystem.
 
-### Current Distribution
+### Reward Categories
 
-| Category | Allocation | Description |
-|----------|-----------|-------------|
-| **Game rewards** | 39.8% | Rewards for game participation |
-| **Solo miners discount** | 26.8% | Discount for solo mining operations |
-| **Greedy Machines holders** | 18.9% | Rewards for Greedy Machines NFT holders |
-| **Liquidity leaderboard** | 7.4% | Incentives for liquidity providers |
-| **Bank Bounty** | 6.9% | Bank Bounty pool rewards |
+The GOMINING rewards (the 10% product redistribution share) are split across three categories:
+
+| Category | Description |
+|----------|-------------|
+| **Extra Mining mode discount** | Additional discount on maintenance fees for all Mining mode users |
+| **Miner Wars prize fund** | Extra GOMINING rewards for personal victories in the Odyssey league |
+| **The Greedy Machines power increase** | TH upgrades for all miners from The Greedy Machines collection |
+
+The current split for each category is determined by VE token holder votes and is visible in the GoMining app.
 
 ### How Voting Works
 
@@ -163,7 +165,7 @@ In-app locking was introduced to lower the barrier to entry. Both methods mainta
 ### General
 
 **Q: What happens to my GMT when I lock them?**
-A: Your GMT tokens are held in the VEGoMining smart contract (or tracked on the backend for virtual locks). You receive VE tokens in return. When the lock period ends, your VE balance reaches zero and you can withdraw your original GMT.
+A: Your GMT tokens are locked and you receive VE tokens in return. When the lock period ends, your VE balance reaches zero and you can withdraw your original GMT.
 
 **Q: Can I unlock my GMT early?**
 A: Lock periods are fixed. Tokens remain locked until the chosen duration expires. Plan your lock duration carefully.
@@ -188,7 +190,7 @@ A: Yes. VE holders can participate in both the weekly reward distribution vote a
 A: Longer locks yield more VE tokens and therefore more voting power and locked-token bonuses. However, your GMT is inaccessible for the full duration. Consider your liquidity needs.
 
 **Q: What percentage of GMT supply is currently locked?**
-A: Approximately 140M tokens, representing about 34% of the total supply.
+A: This changes continuously. Check the **Governance** section in the GoMining app for the current locked supply figure.
 
 **Q: Does locking earn me direct token rewards?**
 A: Yes. 20% of all post-mint tokens are distributed to users with locked tokens. Additionally, VE holders benefit from governance influence and potential bonus mechanisms.

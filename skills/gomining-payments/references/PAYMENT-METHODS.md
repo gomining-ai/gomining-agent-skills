@@ -59,3 +59,8 @@ GoMining supports multiple payment methods for purchasing cryptocurrency and Dig
 | Price Range | $0 - $20,000 |
 | Restricted | India and other territories |
 | Miner Activation | Immediate upon purchase |
+
+### MNPL re-eligibility after a default
+
+If a previous miner was confiscated because of an MNPL default, the user can open a **new** MNPL plan only once **more than 180 days** have passed since their **last default**. If fewer than 180 days have passed since the last default, a new MNPL plan is not available yet.
+

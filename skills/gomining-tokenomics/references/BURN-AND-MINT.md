@@ -19,7 +19,7 @@ This document covers the GMT Burn & Mint deflationary mechanism, epoch structure
 
 ## Overview
 
-The Burn & Mint system is the core deflationary mechanism of the GoMining tokenomics model. Tokens are burned daily from user spending (service fees and electricity costs), then a portion is re-minted based on a community-governed coefficient. The difference between burned and minted tokens represents permanent supply reduction.
+The Burn & Mint system is the core deflationary mechanism of the GoMining tokenomics model. GOMINING tokens spent on digital miner maintenance accumulate during each weekly cycle and are burned once at the end of the cycle (on Tuesday), then a portion is re-minted based on a community-governed coefficient. The difference between burned and minted tokens represents permanent supply reduction.
 
 ### Key Principle
 
@@ -27,7 +27,7 @@ The Burn & Mint system is the core deflationary mechanism of the GoMining tokeno
 Tokens Burned  -  Tokens Minted  =  Tokens Permanently Destroyed
 ```
 
-This system works toward the long-term goal of reducing total GMT supply from 500M to 100M tokens.
+This system works toward the long-term goal of reducing the maximum GOMINING supply in circulation from 436,915,240 (at the time of the veTokenomics launch) to 100,000,000 tokens.
 
 ---
 
@@ -37,8 +37,8 @@ This system works toward the long-term goal of reducing total GMT supply from 50
 
 | Step | Action | Description |
 |------|--------|-------------|
-| 1 | **User spending** | Users pay service fees and electricity costs in GMT |
-| 2 | **Daily burn** | Spent tokens are burned (removed from circulation) |
+| 1 | **User spending** | Users pay for digital miner maintenance in GMT |
+| 2 | **Cycle-end burn** | Spent tokens accumulate during the cycle and are burned once at the end of the cycle, on Tuesday (removed from circulation) |
 | 3 | **Apply coefficient** | Burned amount is multiplied by the re-minting coefficient |
 | 4 | **Mint new tokens** | Result from step 3 is minted as new tokens |
 | 5 | **Distribute** | Minted tokens are distributed according to post-mint rules |
@@ -46,14 +46,13 @@ This system works toward the long-term goal of reducing total GMT supply from 50
 
 ### Sources of Burned Tokens
 
-Tokens enter the burn pool from two primary sources:
+Burned tokens are those GOMINING spent on digital miner maintenance:
 
 | Source | Description |
 |--------|-------------|
-| **Service fees** | Fees paid by users for platform services |
-| **Electricity costs** | Mining electricity expenses paid in GMT |
+| **Digital miner maintenance** | GOMINING tokens paid by miner holders for maintenance of their digital miners |
 
-All user spending in GMT contributes to the daily burn, creating a direct link between platform usage and the deflationary mechanism.
+Maintenance payments made in GOMINING accumulate during the cycle and are burned at the end of the cycle, creating a direct link between platform usage and the deflationary mechanism.
 
 ---
 
@@ -65,9 +64,11 @@ The Burn & Mint system operates in epochs, each consisting of weekly cycles.
 
 | Parameter | Value |
 |-----------|-------|
-| **Current epoch** | Epoch 5 |
+| **Current epoch** | Check the **Governance** section in the GoMining app for the current epoch and coefficient |
 | **Cycle duration** | 1 week |
 | **Cycle boundaries** | Tuesday to Tuesday |
+
+> **Note:** The current epoch advances over time. Always check the **Governance** section in the GoMining app for live epoch and coefficient data.
 
 ### Epoch Structure
 
@@ -78,9 +79,9 @@ Each epoch defines the operating parameters for the Burn & Mint system over a se
 | Day | Activity |
 |-----|----------|
 | **Tuesday** | New cycle begins; previous cycle's mint is distributed |
-| **Tuesday - Monday** | Daily burns accumulate throughout the week |
+| **Tuesday - Monday** | Maintenance payments accumulate in the Burn & Mint contract throughout the week |
 | **Monday** | Cycle closes; total burn calculated |
-| **Tuesday** | Re-minting coefficient applied; new tokens minted and distributed |
+| **Tuesday** | Accumulated tokens are burned; re-minting coefficient applied; new tokens minted and distributed |
 
 ---
 
@@ -126,13 +127,11 @@ Minted tokens are distributed across four categories: platform operations, users
 
 ### Product Redistribution
 
-The product redistribution share is split across five categories according to the weekly reward distribution vote (Voting System #1):
+The product redistribution share (GOMINING rewards) is split across three categories according to the weekly reward distribution vote (Voting System #1):
 
-- Game rewards
-- Solo miners discount
-- Greedy Machines holders
-- Liquidity leaderboard
-- Bank Bounty
+- Extra Mining mode discount — additional discount on maintenance fees for all Mining mode users
+- Miner Wars prize fund — extra GOMINING rewards for personal victories in the Odyssey league
+- The Greedy Machines power increase — TH upgrades for all miners from The Greedy Machines collection
 
 The current split for each category is determined by VE token holder votes and is visible in the GoMining app.
 
@@ -144,13 +143,13 @@ The current split for each category is determined by VE token holder votes and i
 
 | Metric | Value |
 |--------|-------|
-| **Initial supply** | 500,000,000 GMT |
-| **Target supply** | 100,000,000 GMT |
-| **Reduction target** | 400,000,000 GMT (80% reduction) |
+| **Baseline supply** | 436,915,240 GOMINING (max in circulation at the veTokenomics launch) |
+| **Target supply** | 100,000,000 GOMINING |
+| **Reduction target** | 336,915,240 GOMINING |
 
 ### Two-Vector Approach
 
-The strategy uses two parallel vectors to achieve the 100M target:
+The strategy uses two parallel vectors to achieve the 100,000,000 target:
 
 **Vector 1 - Gradual Token Reduction**
 - Systematic burns through the Burn & Mint mechanism.
@@ -164,7 +163,7 @@ The strategy uses two parallel vectors to achieve the 100M target:
 
 ### Current Locked Supply Impact
 
-With approximately 140M tokens (34%) locked, the effective circulating supply is already significantly reduced. Combined with ongoing burns, the path to 100M total supply is supported by both demand-side (locking) and supply-side (burning) mechanisms.
+A significant portion of tokens is locked via veGOMINING at any given time, reducing effective circulating supply. Combined with ongoing burns, the path to 100,000,000 total supply is supported by both demand-side (locking) and supply-side (burning) mechanisms. Check the **Governance** section in the app for the current locked supply figure.
 
 ---
 
@@ -184,7 +183,7 @@ The following example illustrates a single weekly cycle using real-world approxi
 ### Step-by-Step Calculation
 
 **Step 1: Burn**
-Users spend 248,000 GMT on service fees and electricity during the week. All 248,000 tokens are burned.
+Users spend 248,000 GMT on digital miner maintenance during the week. The tokens accumulate and all 248,000 are burned at the end of the cycle on Tuesday.
 
 **Step 2: Apply Coefficient**
 ```
@@ -200,7 +199,7 @@ Users spend 248,000 GMT on service fees and electricity during the week. All 248
 248,000 burned  -  244,000 minted  =  4,000 GMT permanently destroyed
 ```
 
-This 4,000 GMT is removed from the total supply forever, contributing to the long-term 500M to 100M reduction goal.
+This 4,000 GMT is removed from the total supply forever, contributing to the long-term reduction goal from 436,915,240 toward 100,000,000.
 
 ---
 
@@ -209,10 +208,10 @@ This 4,000 GMT is removed from the total supply forever, contributing to the lon
 ### Burn Mechanics
 
 **Q: Where do the burned tokens come from?**
-A: Burned tokens come from user spending within the GoMining platform, specifically service fees and electricity costs paid in GMT.
+A: Burned tokens are those GOMINING spent on digital miner maintenance, paid by miner holders from their virtual wallets.
 
 **Q: Are tokens burned immediately when spent?**
-A: Tokens are burned on a daily basis. User spending accumulates and is processed in daily burn batches.
+A: No. Tokens accumulate in the Burn & Mint smart contract during the weekly cycle and are burned once at the end of the cycle, on Tuesday.
 
 **Q: Can burned tokens ever be recovered?**
 A: The net destroyed tokens (burned minus minted) are permanently removed from the total supply and cannot be recovered.
@@ -234,12 +233,12 @@ A: All burned tokens would be permanently destroyed with no re-minting. This wou
 A: You need to lock GMT tokens to receive VE tokens. Locked token holders receive 20% of all minted tokens, distributed proportionally to VE balances.
 
 **Q: What is the product redistribution share used for?**
-A: The 10% product redistribution is split across five categories (game rewards, solo miners discount, Greedy Machines holders, liquidity leaderboard, Bank Bounty) based on the weekly reward distribution vote.
+A: The 10% product redistribution (GOMINING rewards) is split across three categories (Extra Mining mode discount, Miner Wars prize fund, and The Greedy Machines power increase) based on the weekly reward distribution vote.
 
 ### Epochs
 
 **Q: What is the current epoch?**
-A: The system is currently in Epoch 5.
+A: The epoch advances automatically as burns accumulate. Check the **Governance** section in the GoMining app for the current epoch and re-minting coefficient.
 
 **Q: When do weekly cycles start and end?**
 A: Each cycle runs from Tuesday to Tuesday.

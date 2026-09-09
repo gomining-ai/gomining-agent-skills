@@ -41,7 +41,6 @@ You can choose almost any miner, except for these categories:
 
 * Miners purchased via installments (Mine Now, Pay Later) that are not yet fully paid off
 * Miners listed for sale
-* Bonus miners
 * Miners with efficiency less than 20 W/TH
 
 ### How can I get a miner?
